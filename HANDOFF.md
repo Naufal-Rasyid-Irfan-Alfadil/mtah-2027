@@ -4,6 +4,7 @@ The available submission candidate is frozen V2/R, adapter revision 1.
 
 ## Start here
 
+- `KONTEKS_PERCAKAPAN.md`: Indonesian conversation context, latest decisions, restrictions and V3 status.
 - `penjelasan_file.md`: project file explanations.
 - `docs/perbandingan_v1_v2_eksternal.md`: external A/R comparison and limitations.
 - `docs/audit_adapter_half_bounds.md`: timeline and period adapter audit.

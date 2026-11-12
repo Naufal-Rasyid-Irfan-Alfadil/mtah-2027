@@ -136,6 +136,7 @@
     "tests/test_observation_router.py": "bf35b3305b4d9caf963b983fdb73c7366969e4b0fe904fe52fd2726f44da95f8",
     "tests/test_sample_review.py": "8a2cc9e2535185176b2ada469b3b2f6582b3a994ac27587c0f47960b8a90746b",
     "tests/test_v2.py": "3c40fbd2c079979f4d50e35a1baf53d0863a4e2a357483b6baf4a97a1b76860a",
-    "HANDOFF.md": "86f61263735bd5c5217732b447525ee69026ba45615b14554f91c78c47041ce0"
+    "HANDOFF.md": "17c9a9fa4a2ae54acf2522b1d9762b06baccaffa70c4c043413ea4df38529d49",
+    "KONTEKS_PERCAKAPAN.md": "f79c971d4b6248a182a435383f22ae3807ffba362529beb5ced7c7e434ad1236"
   }
 }
