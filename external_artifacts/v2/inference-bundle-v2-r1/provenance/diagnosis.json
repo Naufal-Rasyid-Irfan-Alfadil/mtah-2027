@@ -1,0 +1,61 @@
+{
+  "coverage": {
+    "half1:ball_drop_burst2s": {
+      "frames": 69204,
+      "route_C": 58918
+    },
+    "half1:ball_drop_iid20": {
+      "frames": 69204,
+      "route_C": 223
+    },
+    "half1:ball_x_missing_iid20": {
+      "frames": 69204,
+      "route_C": 223
+    },
+    "half1:clean": {
+      "frames": 69204,
+      "route_C": 69204
+    },
+    "half1:frame_gap1s_every60s": {
+      "frames": 68029,
+      "route_C": 68029
+    },
+    "half1:player_drop_iid20": {
+      "frames": 69204,
+      "route_C": 510
+    },
+    "half1:position_jitter_025m": {
+      "frames": 69204,
+      "route_C": 69204
+    },
+    "half2:ball_drop_burst2s": {
+      "frames": 73141,
+      "route_C": 17118
+    },
+    "half2:ball_drop_iid20": {
+      "frames": 73141,
+      "route_C": 66
+    },
+    "half2:ball_x_missing_iid20": {
+      "frames": 73141,
+      "route_C": 66
+    },
+    "half2:clean": {
+      "frames": 73141,
+      "route_C": 20152
+    },
+    "half2:frame_gap1s_every60s": {
+      "frames": 71916,
+      "route_C": 19802
+    },
+    "half2:player_drop_iid20": {
+      "frames": 73141,
+      "route_C": 145
+    },
+    "half2:position_jitter_025m": {
+      "frames": 73141,
+      "route_C": 20152
+    }
+  },
+  "origin": "one fixed router from external diagnosis"
+}

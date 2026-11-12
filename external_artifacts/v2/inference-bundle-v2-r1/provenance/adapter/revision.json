@@ -1,0 +1,31 @@
+{
+  "classifier_retrained": false,
+  "conversion": "raw_id=video_frame+1; never apply IdFrame offsets to raw IDs",
+  "decoder_parameters_changed": false,
+  "default_period_source": "provider",
+  "features_changed": false,
+  "full_recording_fallback": false,
+  "kind": "metadata_adapter_only",
+  "model_changed": false,
+  "official_data_read": false,
+  "official_inference_run": false,
+  "parent_bundle_manifest_sha256": "c95d6c7e2952795eb6638653a241fa079cb0f1b2044a844c2ac848f5ab418dcf",
+  "patched_source_sha256": {
+    "atd_inference.py": "c77a2677fcc9d9f6b85ed8cf0e6c40325341a2b75190c54a484bf9c98a82a4f7",
+    "atd_periods.py": "36f5fe7c9a85958aeada7e65cb6f819f67ce546a262091e0636849a2b7f52cb9",
+    "inference_bundle.py": "0cd6fc5785e585d562d485f37dbfaf8a04ab06eb56bde1046b748692e7ae66e9"
+  },
+  "period_sources": [
+    "provider",
+    "organizer-public"
+  ],
+  "public_documentation_sha256": "b235acf4cbdb45cfa5c9ed11cbfe5cd3e8f4a5a2005c4eaa6efad1a5ae8924b2",
+  "public_games_source_sha256": "473bf0502a28d93ff49fe5c20be4e546e30a9d8fa4112ab50b1ecdaf44233064",
+  "public_source_origin": "repository games.py:half_video_blocks and DATA.md:Frame alignment / Which frames are graded",
+  "raw_atd_convention": "1-based inclusive",
+  "reason": "explicit public per-half source when provider fields do not describe two halves",
+  "revision": 1,
+  "router_thresholds_changed": false,
+  "source_scope": "published per-half evaluation blocks, not possession labels or inferred kickoffs",
+  "video_convention": "0-based inclusive"
+}

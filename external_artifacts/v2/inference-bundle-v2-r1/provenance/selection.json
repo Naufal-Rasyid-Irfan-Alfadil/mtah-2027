@@ -1,0 +1,8 @@
+{
+  "historical_assessment_used": false,
+  "independent_generalization": false,
+  "selected": "R",
+  "violations": {
+    "R": []
+  }
+}

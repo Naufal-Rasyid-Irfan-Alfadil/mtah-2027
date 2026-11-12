@@ -1,0 +1,155 @@
+{
+  "keterangan": "Ringkasan untuk dibaca manusia. Bukan pengganti model.joblib; mengedit JSON ini tidak mengubah model.",
+  "sumber_model": "external_artifacts/inference-bundle-v1/model/model.joblib",
+  "sha256_model": "d1f4fdd7e9d7ea1a18b42e505dd9bef741379ff4bf81a039530f69afcc6a6f10",
+  "jenis_model": "HistGradientBoostingClassifier",
+  "jumlah_fitur": 14,
+  "jumlah_iterasi_terlatih": 100,
+  "early_stopping_dipakai": false,
+  "kelas_internal_model": [
+    "A",
+    "D",
+    "H"
+  ],
+  "arti_kelas": {
+    "H": "Home menguasai bola saat permainan hidup",
+    "A": "Away menguasai bola saat permainan hidup",
+    "D": "Bola mati/permainan berhenti"
+  },
+  "catatan_X": "Bukan kelas classifier; adapter tactical menulis X di luar scope metadata.",
+  "urutan_probabilitas_pipeline": [
+    "H",
+    "A",
+    "D"
+  ],
+  "fitur_dipakai": [
+    {
+      "urutan": 1,
+      "nama": "ball_record_present",
+      "arti": "Ada record bola, walaupun koordinatnya bisa tidak tersedia."
+    },
+    {
+      "urutan": 2,
+      "nama": "ball_x_observed",
+      "arti": "Koordinat x bola tersedia."
+    },
+    {
+      "urutan": 3,
+      "nama": "ball_y_observed",
+      "arti": "Koordinat y bola tersedia."
+    },
+    {
+      "urutan": 4,
+      "nama": "ball_xy_observed",
+      "arti": "Kedua koordinat bola tersedia."
+    },
+    {
+      "urutan": 5,
+      "nama": "ball_speed_mps",
+      "arti": "Kecepatan bola dari dua observasi kontigu, dalam meter per detik."
+    },
+    {
+      "urutan": 6,
+      "nama": "home_records",
+      "arti": "Jumlah record pemain Home yang teramati."
+    },
+    {
+      "urutan": 7,
+      "nama": "home_xy_observed",
+      "arti": "Jumlah pemain Home dengan koordinat lengkap."
+    },
+    {
+      "urutan": 8,
+      "nama": "away_records",
+      "arti": "Jumlah record pemain Away yang teramati."
+    },
+    {
+      "urutan": 9,
+      "nama": "away_xy_observed",
+      "arti": "Jumlah pemain Away dengan koordinat lengkap."
+    },
+    {
+      "urutan": 10,
+      "nama": "nearest_home_m",
+      "arti": "Jarak bola ke pemain Home terdekat, dalam meter."
+    },
+    {
+      "urutan": 11,
+      "nama": "nearest_away_m",
+      "arti": "Jarak bola ke pemain Away terdekat, dalam meter."
+    },
+    {
+      "urutan": 12,
+      "nama": "ball_longitudinal_margin_m",
+      "arti": "Margin bola terhadap garis batas panjang lapangan; negatif jika di luar."
+    },
+    {
+      "urutan": 13,
+      "nama": "ball_lateral_margin_m",
+      "arti": "Margin bola terhadap garis batas lebar lapangan; negatif jika di luar."
+    },
+    {
+      "urutan": 14,
+      "nama": "ball_inside_pitch",
+      "arti": "Bola berada di dalam atau tepat pada batas lapangan, jika koordinat lengkap."
+    }
+  ],
+  "parameter_model": {
+    "categorical_features": null,
+    "class_weight": null,
+    "early_stopping": false,
+    "interaction_cst": null,
+    "l2_regularization": 0.0,
+    "learning_rate": 0.1,
+    "loss": "log_loss",
+    "max_bins": 255,
+    "max_depth": null,
+    "max_features": 1.0,
+    "max_iter": 100,
+    "max_leaf_nodes": 31,
+    "min_samples_leaf": 20,
+    "monotonic_cst": null,
+    "n_iter_no_change": 10,
+    "random_state": 0,
+    "scoring": "loss",
+    "tol": 1e-07,
+    "validation_fraction": null,
+    "verbose": 0,
+    "warm_start": false
+  },
+  "decoder": {
+    "jenis": "Markov/Viterbi offline dengan prior-correction",
+    "sumber": "external_artifacts/inference-bundle-v1/model/decoder_parameters.json",
+    "sha256": "2aa5b5f1c777fe9c2c71b7bdb894082b22b967dae5b67664be9b5c7871bafa74",
+    "urutan_kelas": [
+      "H",
+      "A",
+      "D"
+    ],
+    "fps": 25,
+    "prior_kelas": [
+      0.3186664690856232,
+      0.22258915844588395,
+      0.45874437246849287
+    ],
+    "matriks_transisi": [
+      [
+        0.9953831334905504,
+        0.0034764894099932465,
+        0.0011403770994563834
+      ],
+      [
+        0.004961166587414805,
+        0.9935013472816612,
+        0.0015374861309240767
+      ],
+      [
+        0.0007845007268168498,
+        0.0007306624416431445,
+        0.99848483683154
+      ]
+    ],
+    "bobot_emisi": 1.0,
+    "bobot_transisi": 1.0
+  }
+}

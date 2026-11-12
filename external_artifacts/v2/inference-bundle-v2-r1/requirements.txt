@@ -1,0 +1,6 @@
+# Verified on Linux / Python 3.11.17 for the whole-match development experiment.
+-r requirements-external-training.txt
+
+# Pin transitive dependencies observed in this run as well.
+python-dateutil==4.0.0
+tzdata==2026.6
