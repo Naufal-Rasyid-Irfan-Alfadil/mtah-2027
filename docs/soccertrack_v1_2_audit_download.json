@@ -1,0 +1,95 @@
+{
+  "dataset": "atomscott/soccertrack-v2",
+  "release": "v1.2",
+  "revision": "325bd4c57ee8e135ab652f3921d274526ada496b",
+  "license": "CC BY 4.0",
+  "purpose": "external schema/calibration feasibility only; no possession quality claim",
+  "local_root": "data/external_soccertrack_v2/v1.2",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 3843,
+      "url": "https://huggingface.co/datasets/atomscott/soccertrack-v2/resolve/325bd4c57ee8e135ab652f3921d274526ada496b/README.md",
+      "git_oid": "64e1d3302313cb07643dd9986b33d2e9e4cc8888",
+      "lfs": false,
+      "git_oid_is_payload_checksum": true
+    },
+    {
+      "path": "CHANGES_v1_2.md",
+      "bytes": 8959,
+      "url": "https://huggingface.co/datasets/atomscott/soccertrack-v2/resolve/325bd4c57ee8e135ab652f3921d274526ada496b/CHANGES_v1_2.md",
+      "git_oid": "0ff52a461a9d258ce796c1cbf6ac1a206b820ac6",
+      "lfs": false,
+      "git_oid_is_payload_checksum": true
+    },
+    {
+      "path": "raw/117092/117092_keypoints.json",
+      "bytes": 3624,
+      "url": "https://huggingface.co/datasets/atomscott/soccertrack-v2/resolve/325bd4c57ee8e135ab652f3921d274526ada496b/raw/117092/117092_keypoints.json",
+      "git_oid": "c06e26f6ea67b5b3b92716f696f0cdead832181c",
+      "lfs": false,
+      "git_oid_is_payload_checksum": true
+    },
+    {
+      "path": "raw/117092/117092_camera_intrinsics.npz",
+      "bytes": 1996,
+      "url": "https://huggingface.co/datasets/atomscott/soccertrack-v2/resolve/325bd4c57ee8e135ab652f3921d274526ada496b/raw/117092/117092_camera_intrinsics.npz",
+      "git_oid": "7b04c557bb2526ef239c6bcbbe46295843296a8b",
+      "lfs": true,
+      "git_oid_is_payload_checksum": false,
+      "payload_sha256": "4f6db409ac8f5b36b62898ac279247add16cc1ff905583440ac71f45c6a167fb",
+      "payload_sha256_evidence": {
+        "method": "operator_transcription_of_Hugging_Face_Git_LFS_Details",
+        "reported_date": "2026-11-12",
+        "page_url": "https://huggingface.co/datasets/atomscott/soccertrack-v2/blob/325bd4c57ee8e135ab652f3921d274526ada496b/raw/117092/117092_camera_intrinsics.npz",
+        "independently_fetched_by_agent": false
+      }
+    },
+    {
+      "path": "raw/117092/117092_homography.npy",
+      "bytes": 200,
+      "url": "https://huggingface.co/datasets/atomscott/soccertrack-v2/resolve/325bd4c57ee8e135ab652f3921d274526ada496b/raw/117092/117092_homography.npy",
+      "git_oid": "379ec51ebe76701f3462f96095d931c92d9c923e",
+      "lfs": true,
+      "git_oid_is_payload_checksum": false,
+      "payload_sha256": "26dcb723a362e9be1acad852313e9f55565d49260a2a68f6e39481e4e0bf2cc3",
+      "payload_sha256_evidence": {
+        "method": "operator_transcription_of_Hugging_Face_Git_LFS_Details",
+        "reported_date": "2026-11-12",
+        "page_url": "https://huggingface.co/datasets/atomscott/soccertrack-v2/blob/325bd4c57ee8e135ab652f3921d274526ada496b/raw/117092/117092_homography.npy",
+        "independently_fetched_by_agent": false
+      }
+    },
+    {
+      "path": "raw/117092/117092_padding_info.csv",
+      "bytes": 153,
+      "url": "https://huggingface.co/datasets/atomscott/soccertrack-v2/resolve/325bd4c57ee8e135ab652f3921d274526ada496b/raw/117092/117092_padding_info.csv",
+      "git_oid": "fbfa760f40dc5d8b71cdb1bf15e205f308235c16",
+      "lfs": false,
+      "git_oid_is_payload_checksum": true
+    },
+    {
+      "path": "raw/117092/117092_tracker_box_metadata.xml",
+      "bytes": 25330,
+      "url": "https://huggingface.co/datasets/atomscott/soccertrack-v2/resolve/325bd4c57ee8e135ab652f3921d274526ada496b/raw/117092/117092_tracker_box_metadata.xml",
+      "git_oid": "38c8618ac52fd6bf48d69102a00c0bebb851afeb",
+      "lfs": false,
+      "git_oid_is_payload_checksum": true
+    },
+    {
+      "path": "bas/117092/117092_12_class_events.json",
+      "bytes": 443655,
+      "url": "https://huggingface.co/datasets/atomscott/soccertrack-v2/resolve/325bd4c57ee8e135ab652f3921d274526ada496b/bas/117092/117092_12_class_events.json",
+      "git_oid": "82e53e1f81ce2c677643ef55ddf25be5e20b0f6d",
+      "lfs": false,
+      "git_oid_is_payload_checksum": true
+    }
+  ],
+  "total_bytes": 487760,
+  "access": "User accepts gated dataset conditions in own Hugging Face account",
+  "notes": [
+    "Git OID for LFS entries identifies pointer, not payload. Do not treat it as data checksum.",
+    "BAS is not automatic Smart Tagging or dense H/A/D ground truth.",
+    "No full video, GSR, tracking or distortion maps required for initial schema check."
+  ]
+}

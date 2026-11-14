@@ -1,0 +1,28 @@
+{
+  "dataset": "atomscott/soccertrack-v2",
+  "release": "v1.2",
+  "revision": "325bd4c57ee8e135ab652f3921d274526ada496b",
+  "license": "CC BY 4.0",
+  "purpose": "external video stream and geometry diagnostics; no dense possession target",
+  "local_root": "Soccertrack V2",
+  "files": [
+    {
+      "path": "videos/117092/117092_panorama_1st_half.mp4",
+      "bytes": 6687957167,
+      "url": "https://huggingface.co/datasets/atomscott/soccertrack-v2/resolve/325bd4c57ee8e135ab652f3921d274526ada496b/videos/117092/117092_panorama_1st_half.mp4",
+      "lfs": true,
+      "payload_sha256": "9fabe074b0c6fc5812a602dd4119f3e6cb724e2f06b8a3a1eb9358b9734c036e",
+      "payload_sha256_evidence": {
+        "method": "operator_transcription_of_Hugging_Face_Git_LFS_Details",
+        "reported_date": "2026-11-12",
+        "page_url": "https://huggingface.co/datasets/atomscott/soccertrack-v2/blob/325bd4c57ee8e135ab652f3921d274526ada496b/videos/117092/117092_panorama_1st_half.mp4",
+        "independently_fetched_by_agent": false
+      }
+    }
+  ],
+  "notes": [
+    "Only first half of training match 117092 requested.",
+    "No GSR, second-half video, full dataset or detector weights requested.",
+    "Expected 67375 frames at 25 fps comes from verified release changelog; must check against local video."
+  ]
+}

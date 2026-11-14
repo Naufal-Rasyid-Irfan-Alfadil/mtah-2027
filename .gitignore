@@ -68,3 +68,9 @@ external_artifacts/
 
 # Operator-only official inference output. Agents must not inspect this directory.
 local_official_artifacts/
+
+# Project-local execution environment, package cache and temporary fixtures.
+runtime/
+
+# User-acquired external SoccerTrack payloads; provenance summaries live in docs/.
+/Soccertrack V2/

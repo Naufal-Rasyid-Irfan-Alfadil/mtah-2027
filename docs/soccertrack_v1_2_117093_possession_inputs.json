@@ -1,0 +1,55 @@
+{
+  "dataset": "atomscott/soccertrack-v2",
+  "revision": "325bd4c57ee8e135ab652f3921d274526ada496b",
+  "match": "117093",
+  "publisher_split": "validation",
+  "project_role": "external_development_only",
+  "license": "CC BY 4.0",
+  "local_root": "Soccertrack V2",
+  "catalog_manifest": "external_artifacts/v3/feasibility-20261112-metadata/manifest.json",
+  "catalog_file": "soccertrack-file-catalog.response",
+  "catalog_sha256": "4124bcc266b2bfb8de0f2730e2736b68d06e05804c5ab674f19a75e38e6446ab",
+  "files": [
+    {
+      "path": "raw/117093/117093_player_nodes.csv",
+      "bytes": 550228,
+      "git_oid": "8c50bd3984032ffc97040d775e53f586f46e33f8",
+      "lfs": false,
+      "payload_sha256": "not_required_non_lfs_git_blob",
+      "url": "https://huggingface.co/datasets/atomscott/soccertrack-v2/resolve/325bd4c57ee8e135ab652f3921d274526ada496b/raw/117093/117093_player_nodes.csv",
+      "details_url": "https://huggingface.co/datasets/atomscott/soccertrack-v2/blob/325bd4c57ee8e135ab652f3921d274526ada496b/raw/117093/117093_player_nodes.csv",
+      "purpose": "external schema/time/team/target feasibility audit only; not training"
+    },
+    {
+      "path": "raw/117093/117093_12_class_events.json",
+      "bytes": 383084,
+      "git_oid": "b109069b1e83ced7c02dc18182a22e02b610cf69",
+      "lfs": false,
+      "payload_sha256": "not_required_non_lfs_git_blob",
+      "url": "https://huggingface.co/datasets/atomscott/soccertrack-v2/resolve/325bd4c57ee8e135ab652f3921d274526ada496b/raw/117093/117093_12_class_events.json",
+      "details_url": "https://huggingface.co/datasets/atomscott/soccertrack-v2/blob/325bd4c57ee8e135ab652f3921d274526ada496b/raw/117093/117093_12_class_events.json",
+      "purpose": "external schema/time/team/target feasibility audit only; not training"
+    },
+    {
+      "path": "raw/117093/117093_tracker_box_data.xml",
+      "bytes": 216067470,
+      "git_oid": "b23323ff24b67bc69ece72a837e26b484dcc1e8c",
+      "lfs": true,
+      "payload_sha256": null,
+      "url": "https://huggingface.co/datasets/atomscott/soccertrack-v2/resolve/325bd4c57ee8e135ab652f3921d274526ada496b/raw/117093/117093_tracker_box_data.xml",
+      "details_url": "https://huggingface.co/datasets/atomscott/soccertrack-v2/blob/325bd4c57ee8e135ab652f3921d274526ada496b/raw/117093/117093_tracker_box_data.xml",
+      "purpose": "external schema/time/team/target feasibility audit only; not training"
+    }
+  ],
+  "total_bytes": 217000782,
+  "automatically_download_large_files": false,
+  "source_evidence": "external_artifacts/v3/117093-possession-source-20261113/manifest.json",
+  "notes": [
+    "Public GitHub Frame model declares ballStatus; payload validity, independent origin and live/dead semantics remain unproved.",
+    "Do not derive home/away possession from interpolated BAS ball.",
+    "Raw metadata frame span does not by itself prove alignment to v1.2 trimmed video.",
+    "Do not request 2.71 GB GSR at this stage.",
+    "All requested dataset payloads returned unauthenticated HTTP 401 in bounded probe.",
+    "For XML, report the SHA256 from Hugging Face Git LFS Details before parsing; local hash alone does not prove publisher identity."
+  ]
+}

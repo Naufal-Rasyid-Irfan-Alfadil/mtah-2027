@@ -1,0 +1,139 @@
+# Preserve checksum-bound handoff bytes in future checkouts.
+# Existing converted working trees must use tools/restore_handoff.py.
+.gitignore text eol=lf
+CHALLENGE.md -text
+CITATION.cff -text
+DATA.md -text
+EVALUATION.md -text
+FAQ.md -text
+HANDOFF.md text eol=lf
+HANDOFF_MANIFEST.json text eol=lf
+KONTEKS_PERCAKAPAN.md text eol=lf
+LICENSE -text
+OVERVIEW.md -text
+README.md -text
+RULES.md -text
+SUBMISSION.md -text
+check_atd_metadata.py text eol=lf
+data/README.md -text
+docs/audit_adapter_half_bounds.md text eol=lf
+docs/external_baseline.md text eol=lf
+docs/hasil_refinement_v2.md text eol=lf
+docs/perbandingan_v1_v2_eksternal.md text eol=lf
+docs/protokol_refinement_v2.md text eol=lf
+docs/verifikasi_v2.md text eol=lf
+evaluation/possession_metrics.py -text
+evaluation/run_evaluation.py -text
+evaluation/validate_submission.py -text
+external_artifacts/v2/J03WMX-refined-assessment-v1/decision.json text eol=lf
+external_artifacts/v2/J03WMX-refined-assessment-v1/manifest.json text eol=lf
+external_artifacts/v2/J03WMX-refined-assessment-v1/metrics.json text eol=lf
+external_artifacts/v2/J03WMX-refined-assessment-v1/protocol.json text eol=lf
+external_artifacts/v2/external-comparison-v1/gate_audit.csv -text
+external_artifacts/v2/external-comparison-v1/summary.json text eol=lf
+external_artifacts/v2/inference-bundle-v2-r1/CODE_LICENSE -text
+external_artifacts/v2/inference-bundle-v2-r1/README.md text eol=lf
+external_artifacts/v2/inference-bundle-v2-r1/bundle_manifest.json text eol=lf
+external_artifacts/v2/inference-bundle-v2-r1/feature_contract.json text eol=lf
+external_artifacts/v2/inference-bundle-v2-r1/model/decoder_parameters.json text eol=lf
+external_artifacts/v2/inference-bundle-v2-r1/model/model.joblib -text
+external_artifacts/v2/inference-bundle-v2-r1/provenance/adapter/parent_bundle_manifest.json text eol=lf
+external_artifacts/v2/inference-bundle-v2-r1/provenance/adapter/revision.json text eol=lf
+external_artifacts/v2/inference-bundle-v2-r1/provenance/assessment/decision.json text eol=lf
+external_artifacts/v2/inference-bundle-v2-r1/provenance/assessment/manifest.json text eol=lf
+external_artifacts/v2/inference-bundle-v2-r1/provenance/assessment/metrics.json text eol=lf
+external_artifacts/v2/inference-bundle-v2-r1/provenance/assessment/protocol.json text eol=lf
+external_artifacts/v2/inference-bundle-v2-r1/provenance/baseline/expanded_manifest.json text eol=lf
+external_artifacts/v2/inference-bundle-v2-r1/provenance/baseline/old_classifier_manifest.json -text
+external_artifacts/v2/inference-bundle-v2-r1/provenance/baseline/protocol.json text eol=lf
+external_artifacts/v2/inference-bundle-v2-r1/provenance/baseline/snapshot_manifest.json text eol=lf
+external_artifacts/v2/inference-bundle-v2-r1/provenance/diagnosis.json text eol=lf
+external_artifacts/v2/inference-bundle-v2-r1/provenance/manifest.json text eol=lf
+external_artifacts/v2/inference-bundle-v2-r1/provenance/metrics.json text eol=lf
+external_artifacts/v2/inference-bundle-v2-r1/provenance/protocol.json text eol=lf
+external_artifacts/v2/inference-bundle-v2-r1/provenance/selection.json text eol=lf
+external_artifacts/v2/inference-bundle-v2-r1/requirements-external-training.txt text eol=lf
+external_artifacts/v2/inference-bundle-v2-r1/requirements.txt text eol=lf
+external_artifacts/v2/inference-bundle-v2-r1/run_tactical.py text eol=lf
+external_artifacts/v2/inference-bundle-v2-r1/src/evaluation/possession_metrics.py -text
+external_artifacts/v2/inference-bundle-v2-r1/src/external_baseline/__init__.py text eol=lf
+external_artifacts/v2/inference-bundle-v2-r1/src/external_baseline/atd_inference.py text eol=lf
+external_artifacts/v2/inference-bundle-v2-r1/src/external_baseline/atd_periods.py text eol=lf
+external_artifacts/v2/inference-bundle-v2-r1/src/external_baseline/augmented.py text eol=lf
+external_artifacts/v2/inference-bundle-v2-r1/src/external_baseline/contracts.py text eol=lf
+external_artifacts/v2/inference-bundle-v2-r1/src/external_baseline/dfl.py text eol=lf
+external_artifacts/v2/inference-bundle-v2-r1/src/external_baseline/diagnostics.py text eol=lf
+external_artifacts/v2/inference-bundle-v2-r1/src/external_baseline/external_guard.py text eol=lf
+external_artifacts/v2/inference-bundle-v2-r1/src/external_baseline/features.py text eol=lf
+external_artifacts/v2/inference-bundle-v2-r1/src/external_baseline/freeze_expanded.py text eol=lf
+external_artifacts/v2/inference-bundle-v2-r1/src/external_baseline/holdout.py text eol=lf
+external_artifacts/v2/inference-bundle-v2-r1/src/external_baseline/inference_bundle.py text eol=lf
+external_artifacts/v2/inference-bundle-v2-r1/src/external_baseline/metrica_sample.py text eol=lf
+external_artifacts/v2/inference-bundle-v2-r1/src/external_baseline/multimatch.py text eol=lf
+external_artifacts/v2/inference-bundle-v2-r1/src/external_baseline/observation_router.py text eol=lf
+external_artifacts/v2/inference-bundle-v2-r1/src/external_baseline/prepare.py text eol=lf
+external_artifacts/v2/inference-bundle-v2-r1/src/external_baseline/robustness.py text eol=lf
+external_artifacts/v2/inference-bundle-v2-r1/src/external_baseline/sample_review.py text eol=lf
+external_artifacts/v2/inference-bundle-v2-r1/src/external_baseline/temporal.py text eol=lf
+external_artifacts/v2/inference-bundle-v2-r1/src/external_baseline/training.py text eol=lf
+external_artifacts/v2/inference-bundle-v2-r1/src/external_baseline/v2.py text eol=lf
+external_artifacts/v2/inference-bundle-v2-r1/src/external_baseline/v2_refinement.py text eol=lf
+external_artifacts/v2/inference-bundle-v2-r1/src/organizer_game_metadata.py -text
+external_artifacts/v2/inference-bundle-v2-r1/verify_bundle.py text eol=lf
+external_artifacts/v2/refinement-run1/diagnosis.json text eol=lf
+external_artifacts/v2/refinement-run1/manifest.json text eol=lf
+external_artifacts/v2/refinement-run1/metrics.json text eol=lf
+external_artifacts/v2/refinement-run1/protocol.json text eol=lf
+external_artifacts/v2/refinement-run1/selection.json text eol=lf
+external_baseline/__init__.py text eol=lf
+external_baseline/atd_inference.py text eol=lf
+external_baseline/atd_periods.py text eol=lf
+external_baseline/augmented.py text eol=lf
+external_baseline/contracts.py text eol=lf
+external_baseline/dfl.py text eol=lf
+external_baseline/diagnostics.py text eol=lf
+external_baseline/external_guard.py text eol=lf
+external_baseline/features.py text eol=lf
+external_baseline/freeze_expanded.py text eol=lf
+external_baseline/holdout.py text eol=lf
+external_baseline/inference_bundle.py text eol=lf
+external_baseline/metrica_sample.py text eol=lf
+external_baseline/multimatch.py text eol=lf
+external_baseline/observation_router.py text eol=lf
+external_baseline/prepare.py text eol=lf
+external_baseline/robustness.py text eol=lf
+external_baseline/sample_review.py text eol=lf
+external_baseline/temporal.py text eol=lf
+external_baseline/training.py text eol=lf
+external_baseline/v2.py text eol=lf
+external_baseline/v2_refinement.py text eol=lf
+games.py -text
+penjelasan_file.md text eol=lf
+requirements-external-training.txt text eol=lf
+requirements-multimatch-training.txt text eol=lf
+requirements-starter.txt -text
+requirements.txt -text
+ringkasan_model.json text eol=lf
+starter/baseline.py -text
+starter/load_atd.py -text
+starter/load_homography.py -text
+starter/load_smart_tagging.py -text
+starter/make_dummy_submission.py -text
+starter/utils.py -text
+tests/test_atd_period_sources.py text eol=lf
+tests/test_external_augmented.py text eol=lf
+tests/test_external_dfl.py text eol=lf
+tests/test_external_diagnostics.py text eol=lf
+tests/test_external_holdout.py text eol=lf
+tests/test_external_multimatch.py text eol=lf
+tests/test_external_robustness.py text eol=lf
+tests/test_external_temporal.py text eol=lf
+tests/test_external_training.py text eol=lf
+tests/test_freeze_expanded.py text eol=lf
+tests/test_local_inference.py text eol=lf
+tests/test_metadata_preflight.py text eol=lf
+tests/test_metrica_sample.py text eol=lf
+tests/test_observation_features.py text eol=lf
+tests/test_observation_router.py text eol=lf
+tests/test_sample_review.py text eol=lf
+tests/test_v2.py text eol=lf

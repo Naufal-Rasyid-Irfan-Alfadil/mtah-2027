@@ -1,0 +1,106 @@
+{
+  "dataset": "atomscott/soccertrack-v2",
+  "release": "v1.2",
+  "revision": "325bd4c57ee8e135ab652f3921d274526ada496b",
+  "license": "CC BY 4.0",
+  "match": "117093",
+  "publisher_split": "validation",
+  "project_role": "external_geometry_development; not untouched test after inspection",
+  "purpose": "user-selected clearer camera for component audit; clarity not yet verified locally",
+  "local_root": "Soccertrack V2",
+  "files": [
+    {
+      "path": "raw/117093/117093_keypoints.json",
+      "bytes": 3852,
+      "url": "https://huggingface.co/datasets/atomscott/soccertrack-v2/resolve/325bd4c57ee8e135ab652f3921d274526ada496b/raw/117093/117093_keypoints.json",
+      "git_oid": "8a20ca46c138227aca9accd2ba226b934e20d271",
+      "lfs": false,
+      "git_oid_is_payload_checksum": true
+    },
+    {
+      "path": "raw/117093/117093_camera_intrinsics.npz",
+      "bytes": 1996,
+      "url": "https://huggingface.co/datasets/atomscott/soccertrack-v2/resolve/325bd4c57ee8e135ab652f3921d274526ada496b/raw/117093/117093_camera_intrinsics.npz",
+      "git_oid": "382e8f147785ecabfcfccb6ba1ab1f9eaa7a334c",
+      "lfs": true,
+      "git_oid_is_payload_checksum": false,
+      "payload_sha256": "fe3f14a96495aa6706e6bf716490d599e0818ed0a48e7bf8e4387e7fe985c720",
+      "payload_sha256_evidence": {
+        "method": "operator_transcription_of_Hugging_Face_Git_LFS_Details",
+        "reported_date": "2026-11-13",
+        "page_url": "https://huggingface.co/datasets/atomscott/soccertrack-v2/blob/325bd4c57ee8e135ab652f3921d274526ada496b/raw/117093/117093_camera_intrinsics.npz",
+        "independently_fetched_by_agent": false
+      }
+    },
+    {
+      "path": "raw/117093/117093_homography.npy",
+      "bytes": 200,
+      "url": "https://huggingface.co/datasets/atomscott/soccertrack-v2/resolve/325bd4c57ee8e135ab652f3921d274526ada496b/raw/117093/117093_homography.npy",
+      "git_oid": "ec9fbedb6334a7c1be33b8ef4f25e42a300e620e",
+      "lfs": true,
+      "git_oid_is_payload_checksum": false,
+      "payload_sha256": "deb667816e2b0a98c536cf65d08d03d0c5d300cc0027425eb1bcee8f0e0426f7",
+      "payload_sha256_evidence": {
+        "method": "operator_transcription_of_Hugging_Face_Git_LFS_Details",
+        "reported_date": "2026-11-13",
+        "page_url": "https://huggingface.co/datasets/atomscott/soccertrack-v2/blob/325bd4c57ee8e135ab652f3921d274526ada496b/raw/117093/117093_homography.npy",
+        "independently_fetched_by_agent": false
+      }
+    },
+    {
+      "path": "raw/117093/117093_padding_info.csv",
+      "bytes": 154,
+      "url": "https://huggingface.co/datasets/atomscott/soccertrack-v2/resolve/325bd4c57ee8e135ab652f3921d274526ada496b/raw/117093/117093_padding_info.csv",
+      "git_oid": "4b40a3abcbead3334a73a2117a383c3a0e039d53",
+      "lfs": false,
+      "git_oid_is_payload_checksum": true
+    },
+    {
+      "path": "raw/117093/117093_tracker_box_metadata.xml",
+      "bytes": 14079,
+      "url": "https://huggingface.co/datasets/atomscott/soccertrack-v2/resolve/325bd4c57ee8e135ab652f3921d274526ada496b/raw/117093/117093_tracker_box_metadata.xml",
+      "git_oid": "25ef9de8ff4947608939b94a20bff376bf44459b",
+      "lfs": false,
+      "git_oid_is_payload_checksum": true
+    },
+    {
+      "path": "bas/117093/117093_12_class_events.json",
+      "bytes": 479053,
+      "url": "https://huggingface.co/datasets/atomscott/soccertrack-v2/resolve/325bd4c57ee8e135ab652f3921d274526ada496b/bas/117093/117093_12_class_events.json",
+      "git_oid": "ef04f304c163dcf53db23c859b5adf18be7b7f09",
+      "lfs": false,
+      "git_oid_is_payload_checksum": true
+    },
+    {
+      "path": "videos/117093/117093_panorama_1st_half.mp4",
+      "bytes": 3346094631,
+      "url": "https://huggingface.co/datasets/atomscott/soccertrack-v2/resolve/325bd4c57ee8e135ab652f3921d274526ada496b/videos/117093/117093_panorama_1st_half.mp4",
+      "git_oid": "d3cfccee992d37bd865980a0c1229b9ebcda96e7",
+      "lfs": true,
+      "git_oid_is_payload_checksum": false,
+      "payload_sha256": "f50dfebc70743439a8c778abe06953885a50be8b47e3c9d3d1ce8d533fe315c8",
+      "payload_sha256_evidence": {
+        "method": "operator_transcription_of_Hugging_Face_Git_LFS_Details",
+        "reported_date": "2026-11-13",
+        "page_url": "https://huggingface.co/datasets/atomscott/soccertrack-v2/blob/325bd4c57ee8e135ab652f3921d274526ada496b/videos/117093/117093_panorama_1st_half.mp4",
+        "independently_fetched_by_agent": false
+      }
+    }
+  ],
+  "total_bytes": 3346593965,
+  "small_package_bytes": 499334,
+  "reuse_verified_documents": [
+    "README.md",
+    "CHANGES_v1_2.md"
+  ],
+  "expected_first_half_frames_from_changelog": 67625,
+  "expected_fps_from_changelog": 25,
+  "video_stream_start_from_changelog_seconds": 1.0,
+  "notes": [
+    "Use decoded frame indices, not unadjusted absolute MP4 timestamps. Verify actual stream after checksum.",
+    "Do not reuse 117092 calibration, annotations, padding or frame lengths.",
+    "Publisher split is validation; this project explicitly uses it for geometry development, not an untouched test.",
+    "Only seven requested files; no GSR, second half, maps, raw tracking or detector weights requested.",
+    "BAS is not dense H/A/D possession ground truth."
+  ]
+}

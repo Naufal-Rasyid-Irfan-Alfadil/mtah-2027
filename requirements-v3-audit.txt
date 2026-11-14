@@ -1,0 +1,3 @@
+# Separate video/geometry audit environment; never install into frozen V2 runtime.
+numpy==2.4.6
+opencv-python-headless==4.10.0.84
