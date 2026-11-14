@@ -1,0 +1,29 @@
+{
+  "match": "117093",
+  "frame_index_0_based": 7500,
+  "feature": "right_penalty_edge_x88.5",
+  "reviewer": "assistant",
+  "reviewer_had_seen_model_diagnostics": true,
+  "method": "qualitative raw-image crops at operator coordinates; no prediction overlay",
+  "points": [
+    {
+      "point": 1,
+      "status": "visually_consistent_with_painted_penalty_edge",
+      "pixel_coordinates_modified": false
+    },
+    {
+      "point": 2,
+      "status": "visually_consistent_with_painted_penalty_edge",
+      "pixel_coordinates_modified": false
+    },
+    {
+      "point": 3,
+      "status": "visually_consistent_with_painted_penalty_edge",
+      "pixel_coordinates_modified": false
+    }
+  ],
+  "uncertainty_quantified": false,
+  "geometry_scores_computed": false,
+  "production_candidate_selected": false,
+  "annotations_csv_sha256": "9365a1babdec416fa437827ba22d482e4ca49fec54f663b5b565700630d6570e"
+}

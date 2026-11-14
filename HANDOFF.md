@@ -2,6 +2,16 @@
 
 The available submission candidate is frozen V2/R, adapter revision 1.
 
+## Git handoff update, 14 November 2026
+
+Audited V3 artifacts and the restored V2 release-readiness tree are now included
+for Git handoff. Read external_artifacts/README.md and the checksum inventory
+external_artifacts/handoff-inventory-20261114.json (498 listed files). New
+artifact attributes preserve exact bytes across checkout. This includes Q01-Q06
+review clips; the review remains 0/6. Research gates and V2 candidate status are
+unchanged. Raw datasets, runtime and official inputs/GT/results stay local.
+See section 33 of KONTEKS_PERCAKAPAN.md for exclusions and author configuration.
+
 ## Local readiness update — 12 November 2026, 19:59 WIB
 
 Read `docs/kesiapan_pengumpulan_20261112.md` for the current operator commands,

@@ -1,0 +1,41 @@
+{
+  "purpose": "reviewer-only selection key; do not show before operator annotation",
+  "clips": [
+    {
+      "clip_id": "Q01",
+      "source_frame_index_0_based": 39795,
+      "selection": "midpoint_of_longest_in_bounds_provider_run_for_stratified_pilot",
+      "provider_status": "NEUTRAL"
+    },
+    {
+      "clip_id": "Q02",
+      "source_frame_index_0_based": 25186,
+      "selection": "midpoint_of_longest_in_bounds_provider_run_for_stratified_pilot",
+      "provider_status": "HOME"
+    },
+    {
+      "clip_id": "Q03",
+      "source_frame_index_0_based": 7500,
+      "selection": "fixed_time_control_previously_seen_for_geometry",
+      "provider_status": null
+    },
+    {
+      "clip_id": "Q04",
+      "source_frame_index_0_based": 62644,
+      "selection": "midpoint_of_longest_in_bounds_provider_run_for_stratified_pilot",
+      "provider_status": "AWAY"
+    },
+    {
+      "clip_id": "Q05",
+      "source_frame_index_0_based": 37500,
+      "selection": "fixed_time_control_previously_seen_for_geometry",
+      "provider_status": null
+    },
+    {
+      "clip_id": "Q06",
+      "source_frame_index_0_based": 51430,
+      "selection": "midpoint_of_longest_in_bounds_provider_run_for_stratified_pilot",
+      "provider_status": "BALLOUT"
+    }
+  ]
+}

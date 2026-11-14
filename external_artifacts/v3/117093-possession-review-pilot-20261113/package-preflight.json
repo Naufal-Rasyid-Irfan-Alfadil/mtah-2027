@@ -1,0 +1,72 @@
+{
+  "status": "pilot_package_preflight_passed",
+  "clips_verified": 6,
+  "sample_frames_decoded": 18,
+  "checks": [
+    {
+      "clip_id": "Q01",
+      "clip_checksum_verified": true,
+      "target_png_checksum_verified": true,
+      "sample_frames_decoded": [
+        0,
+        150,
+        299
+      ]
+    },
+    {
+      "clip_id": "Q02",
+      "clip_checksum_verified": true,
+      "target_png_checksum_verified": true,
+      "sample_frames_decoded": [
+        0,
+        150,
+        299
+      ]
+    },
+    {
+      "clip_id": "Q03",
+      "clip_checksum_verified": true,
+      "target_png_checksum_verified": true,
+      "sample_frames_decoded": [
+        0,
+        150,
+        299
+      ]
+    },
+    {
+      "clip_id": "Q04",
+      "clip_checksum_verified": true,
+      "target_png_checksum_verified": true,
+      "sample_frames_decoded": [
+        0,
+        150,
+        299
+      ]
+    },
+    {
+      "clip_id": "Q05",
+      "clip_checksum_verified": true,
+      "target_png_checksum_verified": true,
+      "sample_frames_decoded": [
+        0,
+        150,
+        299
+      ]
+    },
+    {
+      "clip_id": "Q06",
+      "clip_checksum_verified": true,
+      "target_png_checksum_verified": true,
+      "sample_frames_decoded": [
+        0,
+        150,
+        299
+      ]
+    }
+  ],
+  "review_completed": 0,
+  "expected_review_measurements": 6,
+  "provider_status_semantics_verified": false,
+  "model_predictions_read": false,
+  "production_eligible": false
+}

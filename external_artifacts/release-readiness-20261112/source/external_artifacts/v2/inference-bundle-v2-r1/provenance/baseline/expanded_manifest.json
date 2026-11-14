@@ -1,0 +1,205 @@
+{
+  "contract_version": 1,
+  "early_stopping_used": false,
+  "elapsed_seconds": 355.675,
+  "fitted_samples": 1979175,
+  "git": {
+    "commit": "e2231bd3922853b2a444bebb322436965fe41cb0",
+    "status": "M CHALLENGE.md\n M CITATION.cff\n M DATA.md\n M EVALUATION.md\n M FAQ.md\n M LICENSE\n M OVERVIEW.md\n M README.md\n M RULES.md\n M SUBMISSION.md\n M data/README.md\n M docs/external_baseline.md\n M evaluation/gt/BAR-ATH_possession_gt_public.csv\n M evaluation/gt/BAR-ATH_possession_gt_public_meta.json\n M evaluation/possession_metrics.py\n M evaluation/results/README.md\n M evaluation/results/baseline_raw.csv\n M evaluation/results/baseline_smooth125.csv\n M evaluation/results/baseline_smooth25.csv\n M evaluation/results/baseline_smooth50.csv\n M evaluation/run_evaluation.py\n M evaluation/validate_submission.py\n M games.py\n M requirements-starter.txt\n M requirements.txt\n M starter/01_smart_tagging.ipynb\n M starter/02_tracking_atd.ipynb\n M starter/03_first_submission.ipynb\n M starter/baseline.py\n M starter/load_atd.py\n M starter/load_homography.py\n M starter/load_smart_tagging.py\n M starter/make_dummy_submission.py\n M starter/utils.py\n?? external_baseline/multimatch.py\n?? tests/test_external_multimatch.py"
+  },
+  "inputs_sha256": {
+    "/media/naufal/Linux1/new-mtah/external_artifacts/J03WOH-augmented-v1/classifier/manifest.json": "c1758f2ebff8d09a5d00b9a15d4fe996606548a7d2d1b786778761f33d627b82",
+    "/media/naufal/Linux1/new-mtah/external_artifacts/J03WOH-augmented-v1/classifier/model.joblib": "e80953d25b1b219e32b67b925cf915dd211753344c30e23cfdfb74faccc7c0e7",
+    "/media/naufal/Linux1/new-mtah/external_artifacts/J03WOH-augmented-v1/decoder/decoder_parameters.json": "12ad792ba50e37e1ea73ec4ecca625b462751a1a1cfc8558c4a9de629f226223",
+    "/media/naufal/Linux1/new-mtah/external_artifacts/J03WOH-augmented-v1/decoder/manifest.json": "a1f21439f6bbe2958abaa98cb0452e1e0b469d5df9ab69f89e0f835dfac7412f",
+    "/media/naufal/Linux1/new-mtah/external_artifacts/J03WOH-features-run2/features.sqlite": "b8b0bcef99d2f38c437b2d87a81ecf5cf73b97783e84b6b285394a5ac450d417",
+    "/media/naufal/Linux1/new-mtah/external_artifacts/J03WOH-features-run2/manifest.json": "4c26f96a003ed8c9e76dfe8417c67da1020bb91ab2ef8309cc78ee723a6e53bb",
+    "/media/naufal/Linux1/new-mtah/external_artifacts/J03WOH-run2/manifest.json": "5ea4c687f8f2248bf07a0d967d4eefea808ed0927b807c8e9330b04c03521fd7",
+    "/media/naufal/Linux1/new-mtah/external_artifacts/J03WOH-run2/observations.sqlite": "e1d04663c483a09df437647624a9ebe364ea5d8e13ea51f1c81d5238301b0685",
+    "/media/naufal/Linux1/new-mtah/external_artifacts/J03WOH-run2/targets.sqlite": "d27e1772f57e2b1f6c5879fdeaed56cb5463150efff5e54bc74d18fd17a7fd4a",
+    "/media/naufal/Linux1/new-mtah/external_artifacts/J03WPY-features-v1/features.sqlite": "2387073f3a771617a76a5f848236de32c5e4ee69fe27ba97f1a86820aa0f7de8",
+    "/media/naufal/Linux1/new-mtah/external_artifacts/J03WPY-features-v1/manifest.json": "2f94bee9c3af17472d734207ba0f46b40a3f0a590b69634bd515d70e7c53f565",
+    "/media/naufal/Linux1/new-mtah/external_artifacts/J03WPY-prepared-v1/manifest.json": "f7cf207f31ad77980aff5f4b2314bd2a128b73022c7d2a9809c0df89e9b4dfdd",
+    "/media/naufal/Linux1/new-mtah/external_artifacts/J03WPY-prepared-v1/observations.sqlite": "836ccd69b19562dc3e91105cfc27b83fb914d17a154a7a0a4b166d6f33c46dcc",
+    "/media/naufal/Linux1/new-mtah/external_artifacts/J03WPY-prepared-v1/targets.sqlite": "7d8ea533f531603fbf519f280bca534bf5e7d30f44d0aebe30622700f6565d8c",
+    "/media/naufal/Linux1/new-mtah/external_artifacts/J03WQQ-features-v1/features.sqlite": "546d339873f98935009a8e385ffc1947dc848924e4b96e6a4cd2c0a3f900b12f",
+    "/media/naufal/Linux1/new-mtah/external_artifacts/J03WQQ-features-v1/manifest.json": "b0cdc54577751e5cdbb640d51d585497f8fd1e17a0561d8235a7e8cdb633a702",
+    "/media/naufal/Linux1/new-mtah/external_artifacts/J03WQQ-prepared-v1/manifest.json": "b71fe911894c72b200487965959e88ddc7ff676ee39a323f89a1e1a0a8f01efa",
+    "/media/naufal/Linux1/new-mtah/external_artifacts/J03WQQ-prepared-v1/observations.sqlite": "3de9573e536069c11a7b2993fd6d2f28aa7671def03c2ccda6760067e0822e9a",
+    "/media/naufal/Linux1/new-mtah/external_artifacts/J03WQQ-prepared-v1/targets.sqlite": "67df225a6d357609131179932e15bb24f8d9c945018d0bb33e4f6c0fe6ffd49e"
+  },
+  "model_iterations": 100,
+  "model_reload_exact": true,
+  "multimatch_version": 1,
+  "outputs_sha256": {
+    "comparison.json": "c00ba43ef9391c57a8ffaf35b064493933f2de903521a7689d495e0986c24207",
+    "decoder_parameters.json": "2aa5b5f1c777fe9c2c71b7bdb894082b22b967dae5b67664be9b5c7871bafa74",
+    "metrics.json": "7d5194c6040218638f15b86420388121227efc0de77d03f105c0425b5cf97226",
+    "model.joblib": "d1f4fdd7e9d7ea1a18b42e505dd9bef741379ff4bf81a039530f69afcc6a6f10",
+    "predictions.sqlite": "c3c99a662f13c39bce3520bc92043ecaca3e988dbfd0cef9b0b1449adb618368",
+    "protocol.json": "d87c93d35c1144a3f3e1db20a0334aa8bc3bec2eb8214b1255f24c695ae901ea",
+    "training-X.bin": "6115738cc79cb9d4b1a47f6fc6668c99a0e344fbed11fbe9e4a56f618bf2f6e0",
+    "training-y.bin": "3a8097799de238461d018c62aff8f7af369f7094de020d19c51d4505777dffc8",
+    "training_audit.json": "b87de74c6151431d7ecbd5f35742ae3846f54cc973d426216c1e879b62176524"
+  },
+  "packages": {
+    "joblib": "1.5.2",
+    "numpy": "2.4.6",
+    "pandas": "3.0.6",
+    "scikit-learn": "1.7.2",
+    "scipy": "1.17.1",
+    "threadpoolctl": "3.7.0"
+  },
+  "process_peak_resident_bytes": 470953984,
+  "protocol": {
+    "augmentation_views": [
+      {
+        "kind": "identity",
+        "name": "clean"
+      },
+      {
+        "kind": "ball_drop",
+        "name": "ball_drop_iid20",
+        "probability": 0.2
+      },
+      {
+        "kind": "ball_burst",
+        "missing_frames": 50,
+        "name": "ball_drop_burst2s",
+        "period_frames": 500
+      },
+      {
+        "kind": "ball_partial",
+        "name": "ball_x_missing_iid20",
+        "probability": 0.2
+      },
+      {
+        "kind": "player_drop",
+        "name": "player_drop_iid20",
+        "probability": 0.2
+      },
+      {
+        "kind": "jitter",
+        "name": "position_jitter_025m",
+        "sigma_m": 0.25
+      },
+      {
+        "kind": "frame_gap",
+        "missing_frames": 25,
+        "name": "frame_gap1s_every60s",
+        "period_frames": 1500
+      }
+    ],
+    "comparator": "unchanged old augmented J03WOH half-1 model and its unchanged decoder",
+    "consumed_assessment": [
+      "DFL-MAT-J03WOY"
+    ],
+    "decoder": "pool clean training state/transition counts; add-one once; same Viterbi rule",
+    "feature_names": [
+      "ball_record_present",
+      "ball_x_observed",
+      "ball_y_observed",
+      "ball_xy_observed",
+      "ball_speed_mps",
+      "home_records",
+      "home_xy_observed",
+      "away_records",
+      "away_xy_observed",
+      "nearest_home_m",
+      "nearest_away_m",
+      "ball_longitudinal_margin_m",
+      "ball_lateral_margin_m",
+      "ball_inside_pitch"
+    ],
+    "hgb_params": {
+      "categorical_features": null,
+      "class_weight": null,
+      "early_stopping": false,
+      "interaction_cst": null,
+      "l2_regularization": 0.0,
+      "learning_rate": 0.1,
+      "loss": "log_loss",
+      "max_bins": 255,
+      "max_depth": null,
+      "max_features": 1.0,
+      "max_iter": 100,
+      "max_leaf_nodes": 31,
+      "min_samples_leaf": 20,
+      "monotonic_cst": null,
+      "n_iter_no_change": 10,
+      "random_state": 0,
+      "scoring": "loss",
+      "tol": 1e-07,
+      "validation_fraction": null,
+      "verbose": 0,
+      "warm_start": false
+    },
+    "interpretation": "development comparison, not untouched test; more data includes formerly-validation J03WOH half 2; classifier and decoder both refitted",
+    "reserved_test": [
+      "DFL-MAT-J03WR9"
+    ],
+    "rng_policy": "independent generator per scenario, restarted with seed 2028 per original half",
+    "role_applies_to_both_halves": true,
+    "sample_order": "sorted match, period, scenario, original frame; equal weight per retained valid view sample",
+    "selection": "one predeclared run; no sweep, threshold selection or automatic promotion",
+    "threads": 1,
+    "training": [
+      "DFL-MAT-J03WOH",
+      "DFL-MAT-J03WPY"
+    ],
+    "training_seed": 2028,
+    "validation": [
+      "DFL-MAT-J03WQQ"
+    ],
+    "version": 1
+  },
+  "provenance": {
+    "DFL-MAT-J03WOH": {
+      "attribution": "Deutsche Fussball Liga (DFL); Bassek, Rein, Weber and Memmert (2025), Scientific Data 12:195, doi:10.1038/s41597-025-04505-y",
+      "authorization": "User confirmed data directory contains external DFL only.",
+      "changes": "Streaming parse, planar observation extraction, missing normalization, frame-key joins, target mapping and half split.",
+      "decisions": "User-approved plan; no old project code/parameters copied. Fresh clone alone does not establish independence from earlier experiments.",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "model": "HGB proposed by user; not implemented or selected experimentally.",
+      "official_data": "No official data, GT or prediction files used. Organizer clarification supplied by user takes precedence over repository docs.",
+      "source": "https://doi.org/10.6084/m9.figshare.28196177"
+    },
+    "DFL-MAT-J03WPY": {
+      "attribution": "Deutsche Fussball Liga (DFL); Bassek, Rein, Weber and Memmert (2025), Scientific Data 12:195, doi:10.1038/s41597-025-04505-y",
+      "authorization": "User confirmed data directory contains external DFL only.",
+      "changes": "Streaming parse, planar observation extraction, missing normalization, frame-key joins, target mapping and half split.",
+      "decisions": "User-approved plan; no old project code/parameters copied. Fresh clone alone does not establish independence from earlier experiments.",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "model": "HGB proposed by user; not implemented or selected experimentally.",
+      "official_data": "No official data, GT or prediction files used. Organizer clarification supplied by user takes precedence over repository docs.",
+      "source": "https://doi.org/10.6084/m9.figshare.28196177"
+    },
+    "DFL-MAT-J03WQQ": {
+      "attribution": "Deutsche Fussball Liga (DFL); Bassek, Rein, Weber and Memmert (2025), Scientific Data 12:195, doi:10.1038/s41597-025-04505-y",
+      "authorization": "User confirmed data directory contains external DFL only.",
+      "changes": "Streaming parse, planar observation extraction, missing normalization, frame-key joins, target mapping and half split.",
+      "decisions": "User-approved plan; no old project code/parameters copied. Fresh clone alone does not establish independence from earlier experiments.",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "model": "HGB proposed by user; not implemented or selected experimentally.",
+      "official_data": "No official data, GT or prediction files used. Organizer clarification supplied by user takes precedence over repository docs.",
+      "source": "https://doi.org/10.6084/m9.figshare.28196177"
+    }
+  },
+  "python": "3.11.17",
+  "source_sha256": {
+    "evaluation/possession_metrics.py": "32c878630c74fb52a90c301485d6dff806509d8e933b1177b6035ee8e8f42b80",
+    "external_baseline/__init__.py": "60d8a2eda9152dafc9c8a65fe9be57457ab5ff1328d8f4e9122c3efc8303d1b2",
+    "external_baseline/augmented.py": "aaeaedfe0cc269b097bf7680ceb88e223591710fa7ee0b58b5b781f8df857a92",
+    "external_baseline/contracts.py": "a1bd90d2a692fc9a44eb7c716af792d53631dfb0f4902522e9ab9821107c3a19",
+    "external_baseline/dfl.py": "a60d5ea02c0b88fb06deca16f3f82b575d1324e110c6be209a4e3eec3043736c",
+    "external_baseline/diagnostics.py": "3140cc841de9e1ca2636ff5519495870cd47921e32581b9280a28381d78d7c94",
+    "external_baseline/features.py": "b575c1ef3dabbe8312bfa6df30172944856e262875e9492b74e2750d6ef6d7f7",
+    "external_baseline/holdout.py": "876e15bcaa77e840a6b6a586a0174fc6ab27541ce637597548de912c447dfe56",
+    "external_baseline/multimatch.py": "da55a91cb6f2ed0811482b9d899e580d5b3465a9e0dc3e7e38b99b1fc6c0c6d5",
+    "external_baseline/prepare.py": "c8a3399d79deb255265b047a233600cd06877d131d03e2838489bb35fe0253cd",
+    "external_baseline/robustness.py": "f3923def541bf31d98631e8f95cbea18b174cbbbc5ace8c28121e79a05f74d1a",
+    "external_baseline/temporal.py": "e2388555ad219fa6016cd61eb13b7cd4242f0cccc84e0decabadd813c2ade5a0",
+    "external_baseline/training.py": "51dd11c96d47a8dd9dc9e4956531d4e77b3c726c693a524655bf6bb57d38a6de"
+  },
+  "status": "ready"
+}

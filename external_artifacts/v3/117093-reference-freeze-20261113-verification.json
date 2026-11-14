@@ -1,0 +1,8 @@
+{
+  "status": "all_snapshot_checksums_verified",
+  "files_verified": 73,
+  "manifest_sha256": "f8d2092da58461126ba21bea7d000008a28e358ce49c3566fb1b4e847f12819f",
+  "annotations_csv_sha256": "96f8f9136da08e236e236f5a955e5dc76b6a9ae5aaf1c392d34cdc78d2c4f252",
+  "model_predictions_read": false,
+  "geometry_scores_computed": false
+}

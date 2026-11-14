@@ -1,0 +1,140 @@
+{
+  "checked_at": "2026-11-12T14:16:08.843828+00:00",
+  "dataset_revision": "325bd4c57ee8e135ab652f3921d274526ada496b",
+  "input_sha256": [
+    {
+      "path": "README.md",
+      "sha256": "b968a6ff3e1734e884c0e3bb31fc636670935431a8e83aee4f8f675c97eb576d"
+    },
+    {
+      "path": "CHANGES_v1_2.md",
+      "sha256": "751162ed78c4643045a21d9df4cd4fdd07519a06871ef0ea82b34c209b8e90eb"
+    },
+    {
+      "path": "raw/117092/117092_keypoints.json",
+      "sha256": "910c20d8883e689e740557e96037b4681ce75b60d94e1a800c09cab0da305aa7"
+    },
+    {
+      "path": "raw/117092/117092_camera_intrinsics.npz",
+      "sha256": "4f6db409ac8f5b36b62898ac279247add16cc1ff905583440ac71f45c6a167fb"
+    },
+    {
+      "path": "raw/117092/117092_homography.npy",
+      "sha256": "26dcb723a362e9be1acad852313e9f55565d49260a2a68f6e39481e4e0bf2cc3"
+    },
+    {
+      "path": "raw/117092/117092_padding_info.csv",
+      "sha256": "ee4a634e3a60a768bd8c1ff15ac14cf014f88e4fdb362b4db9fddfce56fb8b6e"
+    },
+    {
+      "path": "raw/117092/117092_tracker_box_metadata.xml",
+      "sha256": "8025e779d0ce80c3d527e7b2b812ff662261df4cc04079432de04e8161fbfa8b"
+    },
+    {
+      "path": "bas/117092/117092_12_class_events.json",
+      "sha256": "a14e98f80b07774484485fef90b0efde788b2f429c39c62817c036a150a74d9f"
+    }
+  ],
+  "pose_extraction": "static pickletools float literals after archive SHA256 verification; no pickle execution",
+  "fitted_parameters_changed": false,
+  "fit_called": false,
+  "independent_evaluation": false,
+  "Knew_reconstruction": {
+    "dimensions": [
+      3840,
+      1906
+    ],
+    "balance": 1,
+    "max_absolute_difference": 0.0
+  },
+  "stored_pose": {
+    "rvec": [
+      [
+        -1.0791608788004154
+      ],
+      [
+        0.019247006173927623
+      ],
+      [
+        -0.06992809976863214
+      ]
+    ],
+    "tvec": [
+      [
+        -55.6669646092713
+      ],
+      [
+        -19.649678557993813
+      ],
+      [
+        71.03612710790816
+      ]
+    ],
+    "stored_rms_px": 30.632144071024634,
+    "reproduced_fit_residual_px": {
+      "median": 23.303627971433265,
+      "p95": 57.03705669631779,
+      "max": 69.76057284570729,
+      "rms": 30.63214334130106
+    }
+  },
+  "algebra": {
+    "formula": "Knew @ [R[:,0], R[:,1], t]; R=Rodrigues(stored rvec)",
+    "derived_homography": [
+      [
+        3.9364198978225473,
+        -25.95747763394237,
+        1916.1620796159239
+      ],
+      [
+        0.062488905980284865,
+        -9.334340307213886,
+        795.2979228820626
+      ],
+      [
+        0.0002602355260481595,
+        -0.01240680876343944,
+        1.0
+      ]
+    ],
+    "original_homography": [
+      [
+        1.1464524855425706,
+        -22.42729282808332,
+        1937.3878913704264
+      ],
+      [
+        -0.7370643123823536,
+        -8.054027855917527,
+        786.3306752197497
+      ],
+      [
+        -0.0009097131169422641,
+        -0.010694224815864652,
+        1.0
+      ]
+    ],
+    "matrix_max_absolute_difference": 21.2258117545025,
+    "direct_pose_vs_derived_H_raw_pixel_max_abs": 6.366462912410498e-12
+  },
+  "supplied_H_fit_residual_px": {
+    "median": 70.47450838168952,
+    "p95": 331.27053290768436,
+    "max": 358.79275162582235,
+    "rms": 169.21766609982444
+  },
+  "chain_disagreement_raw_px": {
+    "median": 68.82082165163456,
+    "p95": 330.01145385815164,
+    "max": 333.9220250062017,
+    "rms": 166.42070863723686
+  },
+  "conclusion": "Knew and stored pose internally consistent; supplied H is not the exact plane homography of that pose",
+  "unresolved": "Exact generating run/inlier mask for supplied H not provided; independent geometry and possession accuracy unproven",
+  "production_candidate_selected": false,
+  "reference_task": {
+    "path": "D:\\Coding\\Machine Learning\\Dataset Lomba\\more-than-a-hack-2027\\external_artifacts\\v3\\geometry-contract-audit-20261112-r2\\reference-task",
+    "requested_slots": 54,
+    "valid_annotations": 0
+  }
+}

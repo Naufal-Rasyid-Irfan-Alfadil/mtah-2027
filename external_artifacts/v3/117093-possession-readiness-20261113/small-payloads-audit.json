@@ -1,0 +1,85 @@
+{
+  "match": "117093",
+  "dataset_revision": "325bd4c57ee8e135ab652f3921d274526ada496b",
+  "files": [
+    {
+      "path": "raw/117093/117093_player_nodes.csv",
+      "expected_bytes": 550228,
+      "status": "checksum_verified_audited",
+      "sha256": "808326901dbca78cbf447ac79cbdffcffeb7723905e999514e7235a56ed322bc",
+      "schema": {
+        "kind": "csv_schema",
+        "columns": [
+          "id",
+          "match_id",
+          "match_full_time",
+          "extra_full_time",
+          "player_id",
+          "back_number",
+          "player_name",
+          "player_last_name",
+          "team_id",
+          "team_name",
+          "event_time",
+          "event_period",
+          "is_side_changed",
+          "event_types",
+          "filtered_event_types",
+          "x",
+          "y",
+          "relative_player_id",
+          "relative_player_name",
+          "relative_player_last_name",
+          "relative_x",
+          "relative_y"
+        ],
+        "rows": 2581,
+        "candidate_target_columns": []
+      }
+    },
+    {
+      "path": "raw/117093/117093_12_class_events.json",
+      "expected_bytes": 383084,
+      "status": "checksum_verified_audited",
+      "sha256": "3cdad0c06fe72920ab7357f896c134a9439d706d027f11a59c59316105088fd5",
+      "schema": {
+        "kind": "json_schema",
+        "top_level_keys": [
+          "UrlLocal",
+          "UrlYoutube",
+          "annotations"
+        ],
+        "key_counts": {
+          "UrlLocal": 1,
+          "UrlYoutube": 1,
+          "annotations": 1,
+          "gameTime": 2177,
+          "label": 2177,
+          "position": 2177,
+          "team": 2177,
+          "visibility": 2177
+        },
+        "candidate_target_fields": [],
+        "independent_possession_target_verified": false
+      }
+    },
+    {
+      "path": "raw/117093/117093_tracker_box_data.xml",
+      "expected_bytes": 216067470,
+      "status": "publisher_payload_checksum_required_not_parsed"
+    }
+  ],
+  "metadata_checksum_verified": true,
+  "roster_players": 41,
+  "team_side_by_id": {
+    "9701": "home",
+    "9834": "away"
+  },
+  "dense_independent_possession_targets_ready": false,
+  "source_claim_ballStatus": "publisher Frame model only; payload not inferred",
+  "production_eligible": false,
+  "trained": false,
+  "inference_run": false,
+  "official_data_read": false,
+  "action": "review actual payload schema/time/independent origin before any production implementation"
+}

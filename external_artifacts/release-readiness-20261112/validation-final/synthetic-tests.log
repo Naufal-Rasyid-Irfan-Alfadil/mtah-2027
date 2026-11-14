@@ -1,0 +1,71 @@
+test_empty_invalid_and_zero_values_are_not_silent_numeric_defaults (test_atd_period_sources.PeriodSourceTests.test_empty_invalid_and_zero_values_are_not_silent_numeric_defaults) ... ok
+test_layout_zero_lower_bound_never_rebases_raw_row_counter (test_atd_period_sources.PeriodSourceTests.test_layout_zero_lower_bound_never_rebases_raw_row_counter) ... ok
+test_public_zero_based_inclusive_scope_maps_to_raw_plus_one_only (test_atd_period_sources.PeriodSourceTests.test_public_zero_based_inclusive_scope_maps_to_raw_plus_one_only) ... ok
+test_recording_extent_does_not_automatically_become_two_halves (test_atd_period_sources.PeriodSourceTests.test_recording_extent_does_not_automatically_become_two_halves) ... ok
+{
+  "bundle": "D:\\Coding\\Machine Learning\\Dataset Lomba\\more-than-a-hack-2027\\runtime\\tmp\\tmpubgien2n\\bundle",
+  "candidate": "synthetic",
+  "model_sha256": "5ca413314a2c6858e08b21f2d808ee7cb56ea78aa5459177609328e3cd2e9f1c"
+}
+test_adjacent_halves_reset_features_and_decode_independently_without_fitting (test_atd_period_sources.RevisedBundleTests.test_adjacent_halves_reset_features_and_decode_independently_without_fitting) ... {
+  "rows": 8,
+  "submission": "D:\\Coding\\Machine Learning\\Dataset Lomba\\more-than-a-hack-2027\\runtime\\tmp\\tmpx558bl7i\\out\\submission.csv",
+  "scored": false
+}
+ok
+test_gap_endpoints_and_x_mask_use_same_raw_video_lattice (test_atd_period_sources.RevisedBundleTests.test_gap_endpoints_and_x_mask_use_same_raw_video_lattice) ... {
+  "rows": 8,
+  "submission": "D:\\Coding\\Machine Learning\\Dataset Lomba\\more-than-a-hack-2027\\runtime\\tmp\\tmpemwqrhyx\\out\\submission.csv",
+  "scored": false
+}
+ok
+test_revision_preserves_payload_and_rejects_checksum_tampering (test_atd_period_sources.RevisedBundleTests.test_revision_preserves_payload_and_rejects_checksum_tampering) ... ok
+test_all_zero_scope_does_not_become_one_frame_or_full_recording (test_metadata_preflight.PreflightTests.test_all_zero_scope_does_not_become_one_frame_or_full_recording) ... ok
+test_import_and_help_never_open_dataset (test_metadata_preflight.PreflightTests.test_import_and_help_never_open_dataset) ... ok
+test_missing_file_and_malformed_xml_are_distinct_without_leaking_details (test_metadata_preflight.PreflightTests.test_missing_file_and_malformed_xml_are_distinct_without_leaking_details) ... ok
+test_negative_reversed_overlapping_and_missing (test_metadata_preflight.PreflightTests.test_negative_reversed_overlapping_and_missing) ... ok
+test_one_zero_start_range_and_empty_second_half_is_not_two_halves (test_metadata_preflight.PreflightTests.test_one_zero_start_range_and_empty_second_half_is_not_two_halves) ... ok
+test_valid_scope_namespace_and_no_frame_values_disclosed (test_metadata_preflight.PreflightTests.test_valid_scope_namespace_and_no_frame_values_disclosed) ... ok
+test_zero_start_is_ambiguous_without_inventing_offset (test_metadata_preflight.PreflightTests.test_zero_start_is_ambiguous_without_inventing_offset) ... ok
+{
+  "bundle": "D:\\Coding\\Machine Learning\\Dataset Lomba\\more-than-a-hack-2027\\runtime\\tmp\\tmp72oqmjmm\\bundle",
+  "candidate": "synthetic",
+  "model_sha256": "5ca413314a2c6858e08b21f2d808ee7cb56ea78aa5459177609328e3cd2e9f1c"
+}
+test_bundle_portable_and_tamper_rejected_before_loading (test_local_inference.LocalInferenceTests.test_bundle_portable_and_tamper_rejected_before_loading) ... ok
+test_cold_import_help_no_dataset_or_model_access (test_local_inference.LocalInferenceTests.test_cold_import_help_no_dataset_or_model_access) ... ok
+test_declared_layout_switch_no_roster_slot_inference (test_local_inference.LocalInferenceTests.test_declared_layout_switch_no_roster_slot_inference) ... ok
+test_full_199319_submission_contract_no_fit_no_gt_and_reproduction (test_local_inference.LocalInferenceTests.test_full_199319_submission_contract_no_fit_no_gt_and_reproduction) ... {
+  "rows": 199319,
+  "submission": "D:\\Coding\\Machine Learning\\Dataset Lomba\\more-than-a-hack-2027\\runtime\\tmp\\tmp2b98ea57\\one\\submission.csv",
+  "scored": false
+}
+{
+  "rows": 199319,
+  "submission": "D:\\Coding\\Machine Learning\\Dataset Lomba\\more-than-a-hack-2027\\runtime\\tmp\\tmp2b98ea57\\two\\submission.csv",
+  "scored": false
+}
+ok
+test_invalid_schema_units_fps_scope_and_raw_alignment (test_local_inference.LocalInferenceTests.test_invalid_schema_units_fps_scope_and_raw_alignment) ... ok
+test_metadata_channel_order_team_roles_and_missing_outside (test_local_inference.LocalInferenceTests.test_metadata_channel_order_team_roles_and_missing_outside) ... ok
+test_changed_or_added_source_cannot_be_packaged_as_evaluated (test_observation_router.RouterTests.test_changed_or_added_source_cannot_be_packaged_as_evaluated) ... ok
+test_guard_denies_official_directory_even_for_listing (test_observation_router.RouterTests.test_guard_denies_official_directory_even_for_listing) ... ok
+test_invalid_contract_and_reference_rejected (test_observation_router.RouterTests.test_invalid_contract_and_reference_rejected) ... ok
+test_router_packaged_roundtrip_and_assessment_required (test_observation_router.RouterTests.test_router_packaged_roundtrip_and_assessment_required) ... {
+  "bundle": "D:\\Coding\\Machine Learning\\Dataset Lomba\\more-than-a-hack-2027\\runtime\\tmp\\tmpmpwylk7f\\bundle",
+  "candidate": "synthetic",
+  "model_sha256": "5ca413314a2c6858e08b21f2d808ee7cb56ea78aa5459177609328e3cd2e9f1c"
+}
+{
+  "rows": 8,
+  "submission": "D:\\Coding\\Machine Learning\\Dataset Lomba\\more-than-a-hack-2027\\runtime\\tmp\\tmpp1uw57v0\\out\\submission.csv",
+  "scored": false
+}
+ok
+test_selection_preserves_guards_and_rejects_incomplete_or_nan_scores (test_observation_router.RouterTests.test_selection_preserves_guards_and_rejects_incomplete_or_nan_scores) ... ok
+test_unreliable_observations_use_baseline_without_class_permutation (test_observation_router.RouterTests.test_unreliable_observations_use_baseline_without_class_permutation) ... ok
+
+----------------------------------------------------------------------
+Ran 26 tests in 22.110s
+
+OK

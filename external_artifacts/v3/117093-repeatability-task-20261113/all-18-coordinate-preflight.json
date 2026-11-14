@@ -1,0 +1,96 @@
+{
+  "status": "all_repeat_coordinates_recorded_exposure_pending",
+  "completed_measurements": 18,
+  "expected_measurements": 18,
+  "operator_exposure_provenance_complete_points": 0,
+  "source_snapshot_files_checksum_verified": 73,
+  "crop_checksums_verified": 18,
+  "fixed_slice_and_bounds_passed": true,
+  "used_for_fitting": false,
+  "source_snapshot_manifest_sha256": "f8d2092da58461126ba21bea7d000008a28e358ce49c3566fb1b4e847f12819f",
+  "task_manifest_sha256": "9b26590aac91d9404bdc38f7f14f4ae35e3365873910dd6c93c8ec50611615e5",
+  "repeats_csv_sha256": "a36ee55ef0f628420d53f063dff5345e5271d59c02cb835299a10e0030a1285f",
+  "pairwise_displacement_computed": false,
+  "repeatability_measured": false,
+  "geometry_scores_computed": false,
+  "numerical_accuracy_gates_frozen": false,
+  "ready_for_geometry_scoring": false,
+  "ready_for_possession_evaluation": false,
+  "recorded_batch": [
+    {
+      "sample_id": "R04",
+      "pixel_x_local": "128",
+      "pixel_y_local": "38"
+    },
+    {
+      "sample_id": "R05",
+      "pixel_x_local": "128",
+      "pixel_y_local": "38"
+    },
+    {
+      "sample_id": "R06",
+      "pixel_x_local": "89",
+      "pixel_y_local": "64"
+    },
+    {
+      "sample_id": "R07",
+      "pixel_x_local": "89",
+      "pixel_y_local": "64"
+    },
+    {
+      "sample_id": "R08",
+      "pixel_x_local": "128",
+      "pixel_y_local": "31"
+    },
+    {
+      "sample_id": "R09",
+      "pixel_x_local": "128",
+      "pixel_y_local": "59"
+    },
+    {
+      "sample_id": "R10",
+      "pixel_x_local": "128",
+      "pixel_y_local": "58"
+    },
+    {
+      "sample_id": "R11",
+      "pixel_x_local": "128",
+      "pixel_y_local": "52"
+    },
+    {
+      "sample_id": "R12",
+      "pixel_x_local": "128",
+      "pixel_y_local": "57"
+    },
+    {
+      "sample_id": "R13",
+      "pixel_x_local": "114",
+      "pixel_y_local": "64"
+    },
+    {
+      "sample_id": "R14",
+      "pixel_x_local": "128",
+      "pixel_y_local": "33"
+    },
+    {
+      "sample_id": "R15",
+      "pixel_x_local": "128",
+      "pixel_y_local": "58"
+    },
+    {
+      "sample_id": "R16",
+      "pixel_x_local": "128",
+      "pixel_y_local": "59"
+    },
+    {
+      "sample_id": "R17",
+      "pixel_x_local": "128",
+      "pixel_y_local": "37"
+    },
+    {
+      "sample_id": "R18",
+      "pixel_x_local": "114",
+      "pixel_y_local": "64"
+    }
+  ]
+}

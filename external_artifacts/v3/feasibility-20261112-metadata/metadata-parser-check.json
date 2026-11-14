@@ -1,0 +1,20 @@
+[
+  {
+    "source": "dfl-J03WOH-metadata",
+    "match_id": "DFL-MAT-J03WOH",
+    "length_m": 105.0,
+    "width_m": 68.0,
+    "roster_records": 39,
+    "parser": "existing frozen external_baseline.dfl.read_match_info",
+    "result": "passed"
+  },
+  {
+    "source": "dfl-J03WQQ-metadata",
+    "match_id": "DFL-MAT-J03WQQ",
+    "length_m": 105.0,
+    "width_m": 68.0,
+    "roster_records": 40,
+    "parser": "existing frozen external_baseline.dfl.read_match_info",
+    "result": "passed"
+  }
+]

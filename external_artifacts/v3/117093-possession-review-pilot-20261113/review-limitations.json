@@ -1,0 +1,8 @@
+{
+  "audio_preserved": false,
+  "source_audio_presence_verified": false,
+  "missing_audio_limits_referee_stoppage_review": true,
+  "provider_labels_not_rendered": true,
+  "game_state_when_unclear": "uncertain",
+  "review_completed": 0
+}

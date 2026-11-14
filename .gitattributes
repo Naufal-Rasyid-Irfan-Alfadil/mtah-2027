@@ -1,5 +1,6 @@
 # Preserve checksum-bound handoff bytes in future checkouts.
 # Existing converted working trees must use tools/restore_handoff.py.
+.gitattributes text eol=lf
 .gitignore text eol=lf
 CHALLENGE.md -text
 CITATION.cff -text
@@ -137,3 +138,7 @@ tests/test_observation_features.py text eol=lf
 tests/test_observation_router.py text eol=lf
 tests/test_sample_review.py text eol=lf
 tests/test_v2.py text eol=lf
+
+# Audited artifact bytes must survive add/checkout unchanged.
+external_artifacts/v3/** -text
+external_artifacts/release-readiness-20261112/** -text

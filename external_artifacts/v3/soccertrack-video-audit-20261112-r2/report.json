@@ -1,0 +1,102 @@
+{
+  "checked_at": "2026-11-12T14:05:10.803810+00:00",
+  "dataset": "atomscott/soccertrack-v2",
+  "revision": "325bd4c57ee8e135ab652f3921d274526ada496b",
+  "video": {
+    "path": "videos/117092/117092_panorama_1st_half.mp4",
+    "bytes": 6687957167,
+    "sha256": "9fabe074b0c6fc5812a602dd4119f3e6cb724e2f06b8a3a1eb9358b9734c036e",
+    "evidence": {
+      "method": "operator_transcription_of_Hugging_Face_Git_LFS_Details",
+      "reported_date": "2026-11-12",
+      "page_url": "https://huggingface.co/datasets/atomscott/soccertrack-v2/blob/325bd4c57ee8e135ab652f3921d274526ada496b/videos/117092/117092_panorama_1st_half.mp4",
+      "independently_fetched_by_agent": false
+    }
+  },
+  "packages": {
+    "numpy": "2.4.6",
+    "opencv-python-headless": "4.10.0.84"
+  },
+  "stream": {
+    "fps": 25.0,
+    "container_frame_count": 67375.0,
+    "width": 3840.0,
+    "height": 1906.0
+  },
+  "samples": [
+    {
+      "requested_video_index_0_based": 0,
+      "backend_next_frame_position": 1.0,
+      "backend_position_ms": 0.0,
+      "decoded_shape": [
+        1906,
+        3840,
+        3
+      ],
+      "preview": "external-117092-frame-0.jpg"
+    },
+    {
+      "requested_video_index_0_based": 30000,
+      "backend_next_frame_position": 30001.0,
+      "backend_position_ms": 1200000.0,
+      "decoded_shape": [
+        1906,
+        3840,
+        3
+      ],
+      "preview": "external-117092-frame-30000.jpg"
+    },
+    {
+      "requested_video_index_0_based": 67374,
+      "backend_next_frame_position": 67375.0,
+      "backend_position_ms": 2694960.0,
+      "decoded_shape": [
+        1906,
+        3840,
+        3
+      ],
+      "preview": "external-117092-frame-67374.jpg"
+    }
+  ],
+  "all_frames_decoded": false,
+  "geometry": {
+    "contract": "corner pitch metres -> H -> undistorted pixels -> inverse Knew -> fisheye K/D -> raw pixels",
+    "keypoints": 65,
+    "raw_pixel_residual": {
+      "median": 70.47450838168952,
+      "p95": 331.27053290768436,
+      "max": 358.79275162582235
+    },
+    "undistorted_pixel_residual": {
+      "median": 23.487131229707398,
+      "p95": 354.56161162641365,
+      "max": 513.1264772433021
+    },
+    "raw_pixel_residual_by_pitch_y": {
+      "0.0": {
+        "count": 21,
+        "median": 35.83505951602816,
+        "p95": 103.54334175971864,
+        "max": 103.97748648049172
+      },
+      "68.0": {
+        "count": 21,
+        "median": 309.7902121270572,
+        "p95": 352.7778565781157,
+        "max": 358.79275162582235
+      }
+    },
+    "independent_test": false,
+    "parameters_modified": false,
+    "refitting": false
+  },
+  "empirical_event_alignment_verified": false,
+  "independent_possession_target_available": false,
+  "status": "integrity_stream_samples_passed; geometry_diagnostic_only; production_blocked",
+  "outputs_sha256": {
+    "external-117092-frame-0.jpg": "77640180075c5633860f5c1c06af0a8a51915ceccd2413115007eca5801b2cec",
+    "external-117092-frame-30000.jpg": "c5e1d27cf54ee38ddb2d68bc8383150f14764876e1a5f4c0d8c614142c1afcc7",
+    "external-117092-frame-67374.jpg": "9e83e2408b3af243b4b29ff8018998ae8c753765afd0f8e993c45eeb7cac976b",
+    "geometry-diagnostic.jpg": "ac391a07c8b11dc997801cdf5fe8b648d900d26f1076bf2df715bcd0dd0f370a"
+  }
+}

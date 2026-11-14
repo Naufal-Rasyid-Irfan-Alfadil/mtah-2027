@@ -1,0 +1,122 @@
+{
+  "checked_at": "2026-11-13T18:18:37.682023+07:00",
+  "dataset": "atomscott/soccertrack-v2",
+  "revision": "325bd4c57ee8e135ab652f3921d274526ada496b",
+  "match": "117093",
+  "publisher_split": "validation",
+  "project_role": "external_geometry_development; not untouched test after inspection",
+  "files": [
+    {
+      "path": "raw/117093/117093_keypoints.json",
+      "expected_bytes": 3852,
+      "publisher_url": "https://huggingface.co/datasets/atomscott/soccertrack-v2/resolve/325bd4c57ee8e135ab652f3921d274526ada496b/raw/117093/117093_keypoints.json",
+      "exists": true,
+      "lfs": false,
+      "bytes": 3852,
+      "size_matches": true,
+      "sha256": "bcc874620cfa1bcbd49b33a6132abf51f35525f25cafb677084e8ce3e803a94f",
+      "expected_git_blob_oid": "8a20ca46c138227aca9accd2ba226b934e20d271",
+      "publisher_checksum_status": "match"
+    },
+    {
+      "path": "raw/117093/117093_camera_intrinsics.npz",
+      "expected_bytes": 1996,
+      "publisher_url": "https://huggingface.co/datasets/atomscott/soccertrack-v2/resolve/325bd4c57ee8e135ab652f3921d274526ada496b/raw/117093/117093_camera_intrinsics.npz",
+      "exists": true,
+      "lfs": true,
+      "bytes": 1996,
+      "size_matches": true,
+      "sha256": "fe3f14a96495aa6706e6bf716490d599e0818ed0a48e7bf8e4387e7fe985c720",
+      "publisher_payload_sha256": null,
+      "publisher_checksum_status": "pending_operator_hash"
+    },
+    {
+      "path": "raw/117093/117093_homography.npy",
+      "expected_bytes": 200,
+      "publisher_url": "https://huggingface.co/datasets/atomscott/soccertrack-v2/resolve/325bd4c57ee8e135ab652f3921d274526ada496b/raw/117093/117093_homography.npy",
+      "exists": true,
+      "lfs": true,
+      "bytes": 200,
+      "size_matches": true,
+      "sha256": "deb667816e2b0a98c536cf65d08d03d0c5d300cc0027425eb1bcee8f0e0426f7",
+      "publisher_payload_sha256": null,
+      "publisher_checksum_status": "pending_operator_hash"
+    },
+    {
+      "path": "raw/117093/117093_padding_info.csv",
+      "expected_bytes": 154,
+      "publisher_url": "https://huggingface.co/datasets/atomscott/soccertrack-v2/resolve/325bd4c57ee8e135ab652f3921d274526ada496b/raw/117093/117093_padding_info.csv",
+      "exists": true,
+      "lfs": false,
+      "bytes": 154,
+      "size_matches": true,
+      "sha256": "0b7e73f40dad775807790860df61fcaada818fcbd634f105d454bb4fdd43ead5",
+      "expected_git_blob_oid": "4b40a3abcbead3334a73a2117a383c3a0e039d53",
+      "publisher_checksum_status": "match"
+    },
+    {
+      "path": "raw/117093/117093_tracker_box_metadata.xml",
+      "expected_bytes": 14079,
+      "publisher_url": "https://huggingface.co/datasets/atomscott/soccertrack-v2/resolve/325bd4c57ee8e135ab652f3921d274526ada496b/raw/117093/117093_tracker_box_metadata.xml",
+      "exists": true,
+      "lfs": false,
+      "bytes": 14079,
+      "size_matches": true,
+      "sha256": "715d1699ba9a06326c30ddd05e149941ad7ef392043d4b3d88cd4ac40d59d9d5",
+      "expected_git_blob_oid": "25ef9de8ff4947608939b94a20bff376bf44459b",
+      "publisher_checksum_status": "match"
+    },
+    {
+      "path": "bas/117093/117093_12_class_events.json",
+      "expected_bytes": 479053,
+      "publisher_url": "https://huggingface.co/datasets/atomscott/soccertrack-v2/resolve/325bd4c57ee8e135ab652f3921d274526ada496b/bas/117093/117093_12_class_events.json",
+      "exists": true,
+      "lfs": false,
+      "bytes": 479053,
+      "size_matches": true,
+      "sha256": "3af71f3c1c30184a3deddb9485299dc2d4e6faa8c629e5966ca500e7eddf768f",
+      "expected_git_blob_oid": "ef04f304c163dcf53db23c859b5adf18be7b7f09",
+      "publisher_checksum_status": "match"
+    },
+    {
+      "path": "videos/117093/117093_panorama_1st_half.mp4",
+      "expected_bytes": 3346094631,
+      "publisher_url": "https://huggingface.co/datasets/atomscott/soccertrack-v2/resolve/325bd4c57ee8e135ab652f3921d274526ada496b/videos/117093/117093_panorama_1st_half.mp4",
+      "exists": true,
+      "lfs": true,
+      "bytes": 3346094631,
+      "size_matches": true,
+      "sha256": "f50dfebc70743439a8c778abe06953885a50be8b47e3c9d3d1ce8d533fe315c8",
+      "publisher_payload_sha256": null,
+      "publisher_checksum_status": "pending_operator_hash"
+    }
+  ],
+  "reused_documents": [
+    {
+      "path": "README.md",
+      "git_blob_matches": true,
+      "size_matches": true
+    },
+    {
+      "path": "CHANGES_v1_2.md",
+      "git_blob_matches": true,
+      "size_matches": true
+    }
+  ],
+  "requested_files": 7,
+  "files_present": 7,
+  "all_sizes_match": true,
+  "verified_publisher_checksums": 4,
+  "missing_files": [],
+  "mismatch_files": [],
+  "pending_lfs_hashes": [
+    "raw/117093/117093_camera_intrinsics.npz",
+    "raw/117093/117093_homography.npy",
+    "videos/117093/117093_panorama_1st_half.mp4"
+  ],
+  "video_decoded": false,
+  "geometry_evaluated": false,
+  "official_data_access": false,
+  "completeness_passed": true,
+  "full_publisher_integrity_passed": false
+}

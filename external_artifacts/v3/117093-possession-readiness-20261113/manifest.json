@@ -1,0 +1,45 @@
+{
+  "kind": "external_possession_readiness_audit",
+  "match": "117093",
+  "dataset_revision": "325bd4c57ee8e135ab652f3921d274526ada496b",
+  "files": [
+    {
+      "path": "report.json",
+      "bytes": 1000,
+      "sha256": "affcc67ed770281b59a4481bc99275af88ed79158c49740c966be754ab961f9f"
+    },
+    {
+      "path": "static-source-findings.json",
+      "bytes": 1977,
+      "sha256": "8d8d7b2bf8a8652cc66509a1299096efe33335a5201a808ee56f039fdce9c514"
+    },
+    {
+      "path": "synthetic-checks.json",
+      "bytes": 1390,
+      "sha256": "428b51bcec6073feb33712ab67e3a6b493cbfc69f79ed2a2a9234364bdcaa20d"
+    }
+  ],
+  "source_and_protocol": [
+    {
+      "path": "tools/acquire_possession_audit.py",
+      "sha256": "102384eda50550ac51338e42f09cf5c8a1abbca210dbc3376b06319144f725fb"
+    },
+    {
+      "path": "tools/audit_soccertrack_possession_inputs.py",
+      "sha256": "9523bfe6186023ba4396fcc54694938dfc794f4aa242723621fd14331856f5f3"
+    },
+    {
+      "path": "docs/soccertrack_v1_2_117093_possession_inputs.json",
+      "sha256": "2d966e3d6a8578cf23cc7a3121b2718d25676801f52cb0d0e8f26646392a150f"
+    },
+    {
+      "path": "docs/kelanjutan_v3_possession_117093.md",
+      "sha256": "20ef18acb8fcc92f3e223162342b747b12b4c317d4a9a60a9c1fd608b3106600"
+    }
+  ],
+  "source_manifest": "../117093-possession-source-20261113/manifest.json",
+  "source_manifest_sha256": "f824f6a14db8f9bed0f23028b8f943a3ab837659d43e5ab90a9123620e0e85b0",
+  "gate": "awaiting_operator_download_of_three_checksum_bound_raw_payloads",
+  "production_eligible": false,
+  "official_data_read": false
+}

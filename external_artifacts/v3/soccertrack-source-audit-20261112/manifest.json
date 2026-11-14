@@ -1,0 +1,26 @@
+{
+  "repository": "https://github.com/AtomScott/SoccerTrack-v2",
+  "revision": "a752d294df2a0e816e827b70f284980698f5a50e",
+  "files": [
+    {
+      "path": "scripts/calibration/keypoints_calibration.py",
+      "url": "https://raw.githubusercontent.com/AtomScott/SoccerTrack-v2/a752d294df2a0e816e827b70f284980698f5a50e/scripts/calibration/keypoints_calibration.py",
+      "sha256": "18e56c58e4e04d14e2c73a6a8395b066d1a99aa1a4f2214056579e223a629031"
+    },
+    {
+      "path": "scripts/calibration/calculate_homography.py",
+      "url": "https://raw.githubusercontent.com/AtomScott/SoccerTrack-v2/a752d294df2a0e816e827b70f284980698f5a50e/scripts/calibration/calculate_homography.py",
+      "sha256": "dd99bba2a4cd8071f6332f1a3df4ea34b34a16578f175c0e25f341a5dacc073e"
+    },
+    {
+      "path": "src/calibration/generate_calibration_mappings.py",
+      "url": "https://raw.githubusercontent.com/AtomScott/SoccerTrack-v2/a752d294df2a0e816e827b70f284980698f5a50e/src/calibration/generate_calibration_mappings.py",
+      "sha256": "b17e12699bdc1e237327e5f8e71da8618a4040fa4d489c1eba739ca85dd08c19"
+    },
+    {
+      "path": "docs/calibration-findings.md",
+      "url": "https://raw.githubusercontent.com/AtomScott/SoccerTrack-v2/a752d294df2a0e816e827b70f284980698f5a50e/docs/calibration-findings.md",
+      "sha256": "acb3f76b6bd696b24df9135eedbcdef3c5c88fa150e00cbdd024386d8a8dccc0"
+    }
+  ]
+}

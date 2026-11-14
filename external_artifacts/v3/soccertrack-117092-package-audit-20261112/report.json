@@ -1,0 +1,317 @@
+{
+  "checked_at": "2026-11-12T13:38:15.987289+00:00",
+  "dataset": "atomscott/soccertrack-v2",
+  "revision": "325bd4c57ee8e135ab652f3921d274526ada496b",
+  "source_root": "D:\\Coding\\Machine Learning\\Dataset Lomba\\more-than-a-hack-2027\\Soccertrack V2",
+  "license": "CC BY 4.0",
+  "inventory": [
+    {
+      "path": "README.md",
+      "bytes": 3843,
+      "sha256": "b968a6ff3e1734e884c0e3bb31fc636670935431a8e83aee4f8f675c97eb576d",
+      "publisher_checksum": "Git_blob_verified"
+    },
+    {
+      "path": "CHANGES_v1_2.md",
+      "bytes": 8959,
+      "sha256": "751162ed78c4643045a21d9df4cd4fdd07519a06871ef0ea82b34c209b8e90eb",
+      "publisher_checksum": "Git_blob_verified"
+    },
+    {
+      "path": "raw/117092/117092_keypoints.json",
+      "bytes": 3624,
+      "sha256": "910c20d8883e689e740557e96037b4681ce75b60d94e1a800c09cab0da305aa7",
+      "publisher_checksum": "Git_blob_verified"
+    },
+    {
+      "path": "raw/117092/117092_camera_intrinsics.npz",
+      "bytes": 1996,
+      "sha256": "4f6db409ac8f5b36b62898ac279247add16cc1ff905583440ac71f45c6a167fb",
+      "publisher_checksum": "pending_LFS_payload_digest"
+    },
+    {
+      "path": "raw/117092/117092_homography.npy",
+      "bytes": 200,
+      "sha256": "26dcb723a362e9be1acad852313e9f55565d49260a2a68f6e39481e4e0bf2cc3",
+      "publisher_checksum": "pending_LFS_payload_digest"
+    },
+    {
+      "path": "raw/117092/117092_padding_info.csv",
+      "bytes": 153,
+      "sha256": "ee4a634e3a60a768bd8c1ff15ac14cf014f88e4fdb362b4db9fddfce56fb8b6e",
+      "publisher_checksum": "Git_blob_verified"
+    },
+    {
+      "path": "raw/117092/117092_tracker_box_metadata.xml",
+      "bytes": 25330,
+      "sha256": "8025e779d0ce80c3d527e7b2b812ff662261df4cc04079432de04e8161fbfa8b",
+      "publisher_checksum": "Git_blob_verified"
+    },
+    {
+      "path": "bas/117092/117092_12_class_events.json",
+      "bytes": 443655,
+      "sha256": "a14e98f80b07774484485fef90b0efde788b2f429c39c62817c036a150a74d9f",
+      "publisher_checksum": "Git_blob_verified"
+    }
+  ],
+  "keypoints": {
+    "count": 65,
+    "world_min": [
+      0.0,
+      0.0
+    ],
+    "world_max": [
+      105.0,
+      68.0
+    ],
+    "pixel_min": [
+      230.0,
+      559.0
+    ],
+    "pixel_max": [
+      3670.0,
+      1467.0
+    ],
+    "world_origin": "pitch_corner; not centered GSR",
+    "independent_evaluation_target": false
+  },
+  "calibration": {
+    "npz_members": {
+      "K.npy": {
+        "shape": [
+          3,
+          3
+        ],
+        "dtype": "float64",
+        "object_array": false
+      },
+      "D.npy": {
+        "shape": [
+          4,
+          1
+        ],
+        "dtype": "float64",
+        "object_array": false
+      },
+      "Knew.npy": {
+        "shape": [
+          3,
+          3
+        ],
+        "dtype": "float64",
+        "object_array": false
+      },
+      "rvecs.npy": {
+        "shape": [
+          1,
+          3,
+          1
+        ],
+        "dtype": "object",
+        "object_array": true
+      },
+      "tvecs.npy": {
+        "shape": [
+          1,
+          3,
+          1
+        ],
+        "dtype": "object",
+        "object_array": true
+      },
+      "rms.npy": {
+        "shape": [],
+        "dtype": "float64",
+        "object_array": false
+      }
+    },
+    "numeric_parameters": {
+      "K": [
+        [
+          1364.6401664423522,
+          0.0,
+          1977.3457073432946
+        ],
+        [
+          0.0,
+          945.8520438163,
+          866.2911242238372
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "D": [
+        [
+          -0.13882948758850835
+        ],
+        [
+          0.0646404768757904
+        ],
+        [
+          0.0
+        ],
+        [
+          0.0
+        ]
+      ],
+      "Knew": [
+        [
+          241.28535083344798,
+          0.0,
+          2105.24365870001
+        ],
+        [
+          0.0,
+          167.23840309033633,
+          841.5586214458427
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "rms": 30.632144071024634
+    },
+    "object_arrays_loaded": false,
+    "homography": [
+      [
+        1.1464524855425706,
+        -22.42729282808332,
+        1937.3878913704264
+      ],
+      [
+        -0.7370643123823536,
+        -8.054027855917527,
+        786.3306752197497
+      ],
+      [
+        -0.0009097131169422641,
+        -0.010694224815864652,
+        1.0
+      ]
+    ],
+    "homography_determinant": 0.9960360947821937,
+    "homography_condition_number": 6488986.070254836,
+    "note": "Payload SHA256 not yet attested by publisher; no accuracy gate passed"
+  },
+  "BAS": {
+    "top_level_keys": [
+      "actions",
+      "clock",
+      "fps",
+      "match_id"
+    ],
+    "actions": 2085,
+    "clock": "ms from the first frame of the half's released video",
+    "fps": 25.0,
+    "labels": {
+      "PASS": 898,
+      "HIGH PASS": 124,
+      "DRIVE": 787,
+      "PLAYER SUCCESSFUL TACKLE": 36,
+      "CROSS": 46,
+      "BALL PLAYER BLOCK": 38,
+      "OUT": 75,
+      "FREE KICK": 15,
+      "SHOT": 25,
+      "THROW IN": 34,
+      "HEADER": 3,
+      "GOAL": 4
+    },
+    "teams": {
+      "right": 1085,
+      "left": 1000
+    },
+    "halves": [
+      {
+        "half": 1,
+        "actions": 1029,
+        "min_frame": 32,
+        "max_frame": 67276,
+        "frame_out_of_range": 0,
+        "max_frame_time_error_ms": 20,
+        "halfway_time_events": 4
+      },
+      {
+        "half": 2,
+        "actions": 1056,
+        "min_frame": 51,
+        "max_frame": 67485,
+        "frame_out_of_range": 0,
+        "max_frame_time_error_ms": 20,
+        "halfway_time_events": 4
+      }
+    ],
+    "timeline": "frame is 1-based; video_index=frame-1; use supplied frame, no recomputed rounding",
+    "automatic_smart_tagging": false,
+    "independent_dense_possession_target": false,
+    "video_alignment_empirically_verified": false
+  },
+  "raw_metadata": {
+    "root": "metadata",
+    "tag_counts": {
+      "metadata": 1,
+      "match": 1,
+      "period": 4,
+      "pitch": 1,
+      "teams": 1,
+      "team": 2,
+      "players": 1,
+      "player": 346,
+      "activePlayers": 1,
+      "chunk": 13
+    },
+    "periods": [
+      {
+        "period": "FIRST_HALF",
+        "frameStart": "252.0",
+        "frameEnd": "67626.0",
+        "matchTimeStart": "40.0",
+        "matchTimeEnd": "2695000.0",
+        "fps": "25"
+      },
+      {
+        "period": "SECOND_HALF",
+        "frameStart": "251.0",
+        "frameEnd": "67826.0",
+        "matchTimeStart": "2700000.0",
+        "matchTimeEnd": "5403000.0",
+        "fps": "25"
+      },
+      {
+        "period": "EXTRA_FIRST_HALF",
+        "frameStart": "251.0",
+        "frameEnd": "68501.0",
+        "matchTimeStart": "5400000.0",
+        "matchTimeEnd": "8130000.0",
+        "fps": "25"
+      },
+      {
+        "period": "EXTRA_SECOND_HALF",
+        "frameStart": "nan",
+        "frameEnd": "nan",
+        "matchTimeStart": "nan",
+        "matchTimeEnd": "nan",
+        "fps": "25"
+      }
+    ],
+    "pitch": [
+      {
+        "width": "105",
+        "height": "68"
+      }
+    ],
+    "note": "Raw provider clock includes extra period and is distinct from released two-half BAS"
+  },
+  "status": "schema_audited; geometry_accuracy_and_possession_gates_pending",
+  "blocked": [
+    "publisher LFS payload SHA256 for two numeric files",
+    "paired video decoding and actual stream dimensions",
+    "independent geometry evaluation points",
+    "independent ball observations/annotations and dense H/A/D possession targets"
+  ]
+}

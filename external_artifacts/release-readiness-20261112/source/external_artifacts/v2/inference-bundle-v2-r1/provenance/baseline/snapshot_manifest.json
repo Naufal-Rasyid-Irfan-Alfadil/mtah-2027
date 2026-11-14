@@ -1,0 +1,33 @@
+{
+  "files_sha256": {
+    "augmented/decoder_parameters.json": "2aa5b5f1c777fe9c2c71b7bdb894082b22b967dae5b67664be9b5c7871bafa74",
+    "augmented/model.joblib": "d1f4fdd7e9d7ea1a18b42e505dd9bef741379ff4bf81a039530f69afcc6a6f10",
+    "development_protocol.json": "d87c93d35c1144a3f3e1db20a0334aa8bc3bec2eb8214b1255f24c695ae901ea",
+    "expanded_manifest.json": "b81447791338ea14af91a931936e594db81fa1c4421a1f3d77127df53c183ce3",
+    "old_classifier_manifest.json": "c1758f2ebff8d09a5d00b9a15d4fe996606548a7d2d1b786778761f33d627b82",
+    "old_decoder_manifest.json": "a1f21439f6bbe2958abaa98cb0452e1e0b469d5df9ab69f89e0f835dfac7412f",
+    "original/decoder_parameters.json": "12ad792ba50e37e1ea73ec4ecca625b462751a1a1cfc8558c4a9de629f226223",
+    "original/model.joblib": "e80953d25b1b219e32b67b925cf915dd211753344c30e23cfdfb74faccc7c0e7",
+    "protocol.json": "08fec1bd2669ac83a64592a5ec2e5c8f6bbaf1be0123725ef3402fbe52eee73a",
+    "requirements-external-training.txt": "ec180e211db1ae88babd9e58a17ecd3fab27e57dc9b7ec6dbbe6fe7f50c90e59",
+    "requirements-multimatch-training.txt": "4dc0dac0e2aff2926c0963199e2e23484114bb550f386d1bf7056abd62d9330a",
+    "source/evaluation/possession_metrics.py": "32c878630c74fb52a90c301485d6dff806509d8e933b1177b6035ee8e8f42b80",
+    "source/external_baseline/__init__.py": "60d8a2eda9152dafc9c8a65fe9be57457ab5ff1328d8f4e9122c3efc8303d1b2",
+    "source/external_baseline/augmented.py": "aaeaedfe0cc269b097bf7680ceb88e223591710fa7ee0b58b5b781f8df857a92",
+    "source/external_baseline/contracts.py": "a1bd90d2a692fc9a44eb7c716af792d53631dfb0f4902522e9ab9821107c3a19",
+    "source/external_baseline/dfl.py": "a60d5ea02c0b88fb06deca16f3f82b575d1324e110c6be209a4e3eec3043736c",
+    "source/external_baseline/diagnostics.py": "3140cc841de9e1ca2636ff5519495870cd47921e32581b9280a28381d78d7c94",
+    "source/external_baseline/features.py": "b575c1ef3dabbe8312bfa6df30172944856e262875e9492b74e2750d6ef6d7f7",
+    "source/external_baseline/freeze_expanded.py": "5e9c215d700b0c51c29042fd981a8517dc1f02b9c8a62e1b1f59958dc31beb0e",
+    "source/external_baseline/holdout.py": "876e15bcaa77e840a6b6a586a0174fc6ab27541ce637597548de912c447dfe56",
+    "source/external_baseline/multimatch.py": "da55a91cb6f2ed0811482b9d899e580d5b3465a9e0dc3e7e38b99b1fc6c0c6d5",
+    "source/external_baseline/prepare.py": "c8a3399d79deb255265b047a233600cd06877d131d03e2838489bb35fe0253cd",
+    "source/external_baseline/robustness.py": "f3923def541bf31d98631e8f95cbea18b174cbbbc5ace8c28121e79a05f74d1a",
+    "source/external_baseline/temporal.py": "e2388555ad219fa6016cd61eb13b7cd4242f0cccc84e0decabadd813c2ade5a0",
+    "source/external_baseline/training.py": "51dd11c96d47a8dd9dc9e4956531d4e77b3c726c693a524655bf6bb57d38a6de"
+  },
+  "fitting": false,
+  "model_deserialization": false,
+  "status": "ready",
+  "test_data_access": false
+}

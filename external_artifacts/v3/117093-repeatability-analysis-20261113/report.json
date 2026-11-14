@@ -1,0 +1,421 @@
+{
+  "status": "descriptive_repeatability_audit_complete",
+  "match": "117093",
+  "slots": 18,
+  "n_valid": 18,
+  "n_missing": 0,
+  "n_exposed": 0,
+  "exposure_counts": {
+    "neither_self_reported": 18
+  },
+  "overall": {
+    "n": 18,
+    "signed_median_px": 0.0,
+    "absolute_median_px": 1.0,
+    "absolute_p95_px": 2.1499999999999986,
+    "absolute_max_px": 3.0
+  },
+  "by_feature": {
+    "center_circle": {
+      "n": 3,
+      "signed_median_px": 0.0,
+      "absolute_median_px": 0.0,
+      "absolute_p95_px": 0.8999999999999999,
+      "absolute_max_px": 1.0
+    },
+    "far_touchline_y0": {
+      "n": 3,
+      "signed_median_px": -1.0,
+      "absolute_median_px": 1.0,
+      "absolute_p95_px": 1.0,
+      "absolute_max_px": 1.0
+    },
+    "halfway_x52.5": {
+      "n": 3,
+      "signed_median_px": -2.0,
+      "absolute_median_px": 2.0,
+      "absolute_p95_px": 2.0,
+      "absolute_max_px": 2.0
+    },
+    "left_penalty_edge_x16.5": {
+      "n": 3,
+      "signed_median_px": 0.0,
+      "absolute_median_px": 0.0,
+      "absolute_p95_px": 0.0,
+      "absolute_max_px": 0.0
+    },
+    "near_touchline_y68": {
+      "n": 3,
+      "signed_median_px": 2.0,
+      "absolute_median_px": 2.0,
+      "absolute_p95_px": 2.9,
+      "absolute_max_px": 3.0
+    },
+    "right_penalty_edge_x88.5": {
+      "n": 3,
+      "signed_median_px": 0.0,
+      "absolute_median_px": 0.0,
+      "absolute_p95_px": 0.8999999999999999,
+      "absolute_max_px": 1.0
+    }
+  },
+  "by_frame": {
+    "7500": {
+      "n": 6,
+      "signed_median_px": -1.0,
+      "absolute_median_px": 1.0,
+      "absolute_p95_px": 2.75,
+      "absolute_max_px": 3.0
+    },
+    "37500": {
+      "n": 6,
+      "signed_median_px": 0.0,
+      "absolute_median_px": 0.0,
+      "absolute_p95_px": 2.0,
+      "absolute_max_px": 2.0
+    },
+    "60000": {
+      "n": 6,
+      "signed_median_px": 0.0,
+      "absolute_median_px": 0.5,
+      "absolute_p95_px": 1.75,
+      "absolute_max_px": 2.0
+    }
+  },
+  "by_exposure": {
+    "neither_self_reported": {
+      "n": 18,
+      "signed_median_px": 0.0,
+      "absolute_median_px": 1.0,
+      "absolute_p95_px": 2.1499999999999986,
+      "absolute_max_px": 3.0
+    }
+  },
+  "points": [
+    {
+      "sample_id": "R01",
+      "frame": 60000,
+      "feature": "halfway_x52.5",
+      "measured_axis": "x",
+      "original_raw_xy": [
+        2098.0,
+        532.0
+      ],
+      "repeat_raw_xy": [
+        2099.0,
+        532.0
+      ],
+      "signed_displacement_px": 1.0,
+      "absolute_displacement_px": 1.0,
+      "exposure": "neither_self_reported"
+    },
+    {
+      "sample_id": "R02",
+      "frame": 60000,
+      "feature": "near_touchline_y68",
+      "measured_axis": "y",
+      "original_raw_xy": [
+        2300.0,
+        707.0
+      ],
+      "repeat_raw_xy": [
+        2300.0,
+        709.0
+      ],
+      "signed_displacement_px": 2.0,
+      "absolute_displacement_px": 2.0,
+      "exposure": "neither_self_reported"
+    },
+    {
+      "sample_id": "R03",
+      "frame": 60000,
+      "feature": "center_circle",
+      "measured_axis": "x",
+      "original_raw_xy": [
+        2329.0,
+        250.0
+      ],
+      "repeat_raw_xy": [
+        2329.0,
+        250.0
+      ],
+      "signed_displacement_px": 0.0,
+      "absolute_displacement_px": 0.0,
+      "exposure": "neither_self_reported"
+    },
+    {
+      "sample_id": "R04",
+      "frame": 7500,
+      "feature": "near_touchline_y68",
+      "measured_axis": "y",
+      "original_raw_xy": [
+        2277.0,
+        707.0
+      ],
+      "repeat_raw_xy": [
+        2277.0,
+        710.0
+      ],
+      "signed_displacement_px": 3.0,
+      "absolute_displacement_px": 3.0,
+      "exposure": "neither_self_reported"
+    },
+    {
+      "sample_id": "R05",
+      "frame": 37500,
+      "feature": "near_touchline_y68",
+      "measured_axis": "y",
+      "original_raw_xy": [
+        2280.0,
+        708.0
+      ],
+      "repeat_raw_xy": [
+        2280.0,
+        710.0
+      ],
+      "signed_displacement_px": 2.0,
+      "absolute_displacement_px": 2.0,
+      "exposure": "neither_self_reported"
+    },
+    {
+      "sample_id": "R06",
+      "frame": 7500,
+      "feature": "center_circle",
+      "measured_axis": "x",
+      "original_raw_xy": [
+        2330.0,
+        249.0
+      ],
+      "repeat_raw_xy": [
+        2329.0,
+        249.0
+      ],
+      "signed_displacement_px": -1.0,
+      "absolute_displacement_px": 1.0,
+      "exposure": "neither_self_reported"
+    },
+    {
+      "sample_id": "R07",
+      "frame": 37500,
+      "feature": "center_circle",
+      "measured_axis": "x",
+      "original_raw_xy": [
+        2329.0,
+        251.0
+      ],
+      "repeat_raw_xy": [
+        2329.0,
+        251.0
+      ],
+      "signed_displacement_px": 0.0,
+      "absolute_displacement_px": 0.0,
+      "exposure": "neither_self_reported"
+    },
+    {
+      "sample_id": "R08",
+      "frame": 7500,
+      "feature": "right_penalty_edge_x88.5",
+      "measured_axis": "y",
+      "original_raw_xy": [
+        3095.0,
+        320.0
+      ],
+      "repeat_raw_xy": [
+        3095.0,
+        319.0
+      ],
+      "signed_displacement_px": -1.0,
+      "absolute_displacement_px": 1.0,
+      "exposure": "neither_self_reported"
+    },
+    {
+      "sample_id": "R09",
+      "frame": 37500,
+      "feature": "left_penalty_edge_x16.5",
+      "measured_axis": "y",
+      "original_raw_xy": [
+        971.0,
+        347.0
+      ],
+      "repeat_raw_xy": [
+        971.0,
+        347.0
+      ],
+      "signed_displacement_px": 0.0,
+      "absolute_displacement_px": 0.0,
+      "exposure": "neither_self_reported"
+    },
+    {
+      "sample_id": "R10",
+      "frame": 7500,
+      "feature": "far_touchline_y0",
+      "measured_axis": "y",
+      "original_raw_xy": [
+        2239.0,
+        155.0
+      ],
+      "repeat_raw_xy": [
+        2239.0,
+        154.0
+      ],
+      "signed_displacement_px": -1.0,
+      "absolute_displacement_px": 1.0,
+      "exposure": "neither_self_reported"
+    },
+    {
+      "sample_id": "R11",
+      "frame": 60000,
+      "feature": "left_penalty_edge_x16.5",
+      "measured_axis": "y",
+      "original_raw_xy": [
+        987.0,
+        340.0
+      ],
+      "repeat_raw_xy": [
+        987.0,
+        340.0
+      ],
+      "signed_displacement_px": 0.0,
+      "absolute_displacement_px": 0.0,
+      "exposure": "neither_self_reported"
+    },
+    {
+      "sample_id": "R12",
+      "frame": 7500,
+      "feature": "left_penalty_edge_x16.5",
+      "measured_axis": "y",
+      "original_raw_xy": [
+        977.0,
+        345.0
+      ],
+      "repeat_raw_xy": [
+        977.0,
+        345.0
+      ],
+      "signed_displacement_px": 0.0,
+      "absolute_displacement_px": 0.0,
+      "exposure": "neither_self_reported"
+    },
+    {
+      "sample_id": "R13",
+      "frame": 7500,
+      "feature": "halfway_x52.5",
+      "measured_axis": "x",
+      "original_raw_xy": [
+        2100.0,
+        524.0
+      ],
+      "repeat_raw_xy": [
+        2098.0,
+        524.0
+      ],
+      "signed_displacement_px": -2.0,
+      "absolute_displacement_px": 2.0,
+      "exposure": "neither_self_reported"
+    },
+    {
+      "sample_id": "R14",
+      "frame": 60000,
+      "feature": "right_penalty_edge_x88.5",
+      "measured_axis": "y",
+      "original_raw_xy": [
+        3098.0,
+        321.0
+      ],
+      "repeat_raw_xy": [
+        3098.0,
+        321.0
+      ],
+      "signed_displacement_px": 0.0,
+      "absolute_displacement_px": 0.0,
+      "exposure": "neither_self_reported"
+    },
+    {
+      "sample_id": "R15",
+      "frame": 60000,
+      "feature": "far_touchline_y0",
+      "measured_axis": "y",
+      "original_raw_xy": [
+        2225.0,
+        155.0
+      ],
+      "repeat_raw_xy": [
+        2225.0,
+        154.0
+      ],
+      "signed_displacement_px": -1.0,
+      "absolute_displacement_px": 1.0,
+      "exposure": "neither_self_reported"
+    },
+    {
+      "sample_id": "R16",
+      "frame": 37500,
+      "feature": "far_touchline_y0",
+      "measured_axis": "y",
+      "original_raw_xy": [
+        2245.0,
+        155.0
+      ],
+      "repeat_raw_xy": [
+        2245.0,
+        155.0
+      ],
+      "signed_displacement_px": 0.0,
+      "absolute_displacement_px": 0.0,
+      "exposure": "neither_self_reported"
+    },
+    {
+      "sample_id": "R17",
+      "frame": 37500,
+      "feature": "right_penalty_edge_x88.5",
+      "measured_axis": "y",
+      "original_raw_xy": [
+        3109.0,
+        325.0
+      ],
+      "repeat_raw_xy": [
+        3109.0,
+        325.0
+      ],
+      "signed_displacement_px": 0.0,
+      "absolute_displacement_px": 0.0,
+      "exposure": "neither_self_reported"
+    },
+    {
+      "sample_id": "R18",
+      "frame": 37500,
+      "feature": "halfway_x52.5",
+      "measured_axis": "x",
+      "original_raw_xy": [
+        2100.0,
+        525.0
+      ],
+      "repeat_raw_xy": [
+        2098.0,
+        525.0
+      ],
+      "signed_displacement_px": -2.0,
+      "absolute_displacement_px": 2.0,
+      "exposure": "neither_self_reported"
+    }
+  ],
+  "missing": [],
+  "independent_cameras": 1,
+  "uncertainty_scope": "descriptive same-operator fixed-axis paired displacement only",
+  "independent_blinding_verified": false,
+  "absolute_accuracy_established": false,
+  "production_error_budget_supported": false,
+  "numerical_accuracy_gates_frozen": false,
+  "model_predictions_read": false,
+  "geometry_scores_computed": false,
+  "used_for_fitting": false,
+  "ready_for_geometry_scoring": false,
+  "ready_for_possession_evaluation": false,
+  "source_checksums": {
+    "reference_manifest": "f8d2092da58461126ba21bea7d000008a28e358ce49c3566fb1b4e847f12819f",
+    "task_manifest": "9b26590aac91d9404bdc38f7f14f4ae35e3365873910dd6c93c8ec50611615e5",
+    "repeats_csv": "ddc8d8884110d53267bab38f39e2ea77101c65c1db24150c2534e155597de63f",
+    "protocol": "0114f619f1a3b977dc1f42e5e6d464d0cfdacdcbdbfb75052bf06a44c91f363f",
+    "measurement_journal": "5d4cef60d5674b8d905011d2cab2887d7f0f9bf870dbe0e9fc9b4582fe70b4b6"
+  }
+}

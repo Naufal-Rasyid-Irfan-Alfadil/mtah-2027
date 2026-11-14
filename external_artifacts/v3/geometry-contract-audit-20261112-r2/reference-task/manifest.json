@@ -1,0 +1,38 @@
+{
+  "status": "unannotated; not an evaluation dataset yet",
+  "video_sha256": "9fabe074b0c6fc5812a602dd4119f3e6cb724e2f06b8a3a1eb9358b9734c036e",
+  "dataset_revision": "325bd4c57ee8e135ab652f3921d274526ada496b",
+  "match": "117092",
+  "split": "external_training_camera",
+  "images": [
+    {
+      "path": "external-117092-frame-7500-raw.png",
+      "sha256": "beb9f54c553fa70e378adfdfc6ba9d25ba356ff62c13c811c648f8fcaddc05f3",
+      "frame_index_0_based": 7500,
+      "next_backend_frame": 7501.0,
+      "width": 3840,
+      "height": 1906
+    },
+    {
+      "path": "external-117092-frame-37500-raw.png",
+      "sha256": "0cc29e88af2613bc1481937cbd8abe554263827a4623c8b54b4eee41be374a9d",
+      "frame_index_0_based": 37500,
+      "next_backend_frame": 37501.0,
+      "width": 3840,
+      "height": 1906
+    },
+    {
+      "path": "external-117092-frame-60000-raw.png",
+      "sha256": "4bc5f9775f7f7e48f8caa389716f95d8305be4e8477e0bd6485dc011a7de6a11",
+      "frame_index_0_based": 60000,
+      "next_backend_frame": 60001.0,
+      "width": 3840,
+      "height": 1906
+    }
+  ],
+  "requested_slots": 54,
+  "valid_annotations": 0,
+  "labels_generated_from_projection": false,
+  "independent_cameras": 1,
+  "protocol": "docs/protokol_referensi_geometri_117092.md"
+}

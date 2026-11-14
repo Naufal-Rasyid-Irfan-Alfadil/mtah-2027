@@ -1,0 +1,21 @@
+{
+  "status": "descriptive_repeatability_audit_complete",
+  "expected_measurements": 18,
+  "completed_measurements": 18,
+  "repeatability_measured": true,
+  "numerical_accuracy_gates_frozen": false,
+  "geometry_scores_computed": false,
+  "ready_for_geometry_scoring": false,
+  "ready_for_possession_evaluation": false,
+  "source_snapshot_all_73_files_verified": true,
+  "manifest_sha256": "9b26590aac91d9404bdc38f7f14f4ae35e3365873910dd6c93c8ec50611615e5",
+  "operator_exposure_provenance_complete_points": 18,
+  "next_sample_id": null,
+  "repeats_csv_sha256": "ddc8d8884110d53267bab38f39e2ea77101c65c1db24150c2534e155597de63f",
+  "remaining": "justify and freeze downstream geometry error budget before candidate scoring; independent synchronized possession targets still unavailable",
+  "operator_exposure_evidence": "self_report_only",
+  "independently_verified_blinding": false,
+  "repeatability_scope": "same-operator fixed-axis paired displacement; not absolute geometric accuracy",
+  "analysis_report": "external_artifacts/v3/117093-repeatability-analysis-20261113/report.json",
+  "analysis_report_sha256": "d782d4b60b3a2736bf4e3800f2bb2ed12f5d86ad5e1f469aaacb7d895ccfc1fe"
+}

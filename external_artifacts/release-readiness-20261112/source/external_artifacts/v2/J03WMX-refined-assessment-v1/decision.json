@@ -1,0 +1,11 @@
+{
+  "historical_assessment_used": false,
+  "independent_generalization": false,
+  "legacy_history": "unknown",
+  "release_passed": true,
+  "selected": "R",
+  "untouched_test_claim": false,
+  "violations": {
+    "R": []
+  }
+}

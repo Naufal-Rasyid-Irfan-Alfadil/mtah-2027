@@ -1,0 +1,16 @@
+{
+  "status": "collection_package_verified",
+  "source_snapshot_manifest_sha256": "f8d2092da58461126ba21bea7d000008a28e358ce49c3566fb1b4e847f12819f",
+  "task_manifest_sha256": "9b26590aac91d9404bdc38f7f14f4ae35e3365873910dd6c93c8ec50611615e5",
+  "raw_crops_verified_pixel_exact": 18,
+  "guide_checksums_verified": 18,
+  "blank_measurement_slots_verified": 18,
+  "protocol_sha256": "0114f619f1a3b977dc1f42e5e6d464d0cfdacdcbdbfb75052bf06a44c91f363f",
+  "protocol_matches_repository": true,
+  "measurements_fabricated": false,
+  "model_predictions_read": false,
+  "geometry_scores_computed": false,
+  "repeatability_measured": false,
+  "production_gates_frozen": false,
+  "readme_sha256": "46bf7a2160b8a5fa8215f331b4f0ebff4b43e4da0a2df30defcff63eb066e242"
+}

@@ -1,0 +1,80 @@
+{
+  "kind": "external_target_clock_and_review_stage_snapshot",
+  "files": [
+    {
+      "path": "external_artifacts/v3/117093-target-clock-audit-20261113/report.json",
+      "bytes": 444023,
+      "sha256": "f73e8e3011a433c3a9a9834f7e6df1b672e1655be0da250cf9ba6383a94bf2f7"
+    },
+    {
+      "path": "external_artifacts/v3/117093-target-clock-audit-20261113/raw-status-intervals.csv",
+      "bytes": 24514,
+      "sha256": "4363afceb2735a93855c66353ad66d51337ac2a39f0799cdc877cc9a7e677334"
+    },
+    {
+      "path": "external_artifacts/v3/117093-target-clock-audit-20261113/clock-checks.json",
+      "bytes": 481,
+      "sha256": "36bb2439c001c536900e3c9feddf39648c8338f5e7916274cfdf8d3ab8cf3c10"
+    },
+    {
+      "path": "external_artifacts/v3/117093-target-clock-audit-20261113/pilot-selection-key.json",
+      "bytes": 1302,
+      "sha256": "97c8a748f2466ff0a78c63b091a783b2eef23ded6e7f3b26e2259cddd75315fa"
+    },
+    {
+      "path": "external_artifacts/v3/117093-target-clock-audit-20261113/pilot-review-template.csv",
+      "bytes": 227,
+      "sha256": "672fb73d1f846df74f8663af6cdbeb712d4240d3e99df85579be98a6813399cf"
+    },
+    {
+      "path": "external_artifacts/v3/117093-target-clock-audit-20261113/audit_soccertrack_target_clock.py",
+      "bytes": 7334,
+      "sha256": "05daa52bc3459d5ca8a8292c2a573cac5e8bdbd059098e287998cd8a554a3a76"
+    },
+    {
+      "path": "external_artifacts/v3/117093-target-clock-audit-20261113/audit_soccertrack_possession_inputs.py",
+      "bytes": 10705,
+      "sha256": "9523bfe6186023ba4396fcc54694938dfc794f4aa242723621fd14331856f5f3"
+    },
+    {
+      "path": "external_artifacts/v3/117093-possession-review-pilot-20261113/manifest.json",
+      "bytes": 4520,
+      "sha256": "c01de2a574effc2745e80b64cdb6a1c69aff9f74eefe670e7bd470d8063cfe66"
+    },
+    {
+      "path": "external_artifacts/v3/117093-possession-review-pilot-20261113/package-preflight.json",
+      "bytes": 1545,
+      "sha256": "40d0f9e1d7a4077885c48058c0da508551aa1524f6f4b2d319e05a18f9619fbf"
+    },
+    {
+      "path": "external_artifacts/v3/117093-possession-review-pilot-20261113/review-limitations.json",
+      "bytes": 245,
+      "sha256": "df877694fc9fd419998a64e19605f1d765421d567437d13b53abf0a78a22c172"
+    },
+    {
+      "path": "external_artifacts/v3/117093-possession-review-pilot-20261113/README.md",
+      "bytes": 2118,
+      "sha256": "062362e4ea88aa02313e31a74d85e64098dc7d385c5adc39f9f94d09215c73f5"
+    },
+    {
+      "path": "docs/soccertrack_v1_2_117093_possession_verified.json",
+      "bytes": 4073,
+      "sha256": "128cefcb1606edc0eefc595463f8728fcfd7cedf4c7a54bc03df2b24e6f67ea4"
+    },
+    {
+      "path": "docs/audit_target_possession_117093.md",
+      "bytes": 5015,
+      "sha256": "3539664858a61f73694bbe77322b1bd5be737df9dc8386de39ae4cb8decdb99b"
+    },
+    {
+      "path": "external_artifacts/v3/117093-possession-readiness-20261113/payload-report.json",
+      "bytes": 5736,
+      "sha256": "17b0aee2ee8741fb77dc9a23bc0dbdd9cd7ec394fcc5d5e183def7dea4fc0e89"
+    }
+  ],
+  "raw_xml_sha256": "43f45382e667959f2fc5904f87f65b597de103eb225616c0e6309b2144a9a7c1",
+  "clip_and_png_hashes_bound_by_pilot_manifest": true,
+  "pilot_labels_completed": 0,
+  "production_eligible": false,
+  "official_data_read": false
+}

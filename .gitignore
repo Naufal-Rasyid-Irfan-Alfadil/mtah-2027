@@ -1,5 +1,5 @@
 # ---------------------------------------------------------------------------------------------
-# This repository is public. The full-match ground truth is not.
+# Official inputs, GT and per-frame results stay local regardless of repository visibility.
 #
 # Everything below either is a private asset, would leak the answer, or is generated output. The
 # history of this repo is new, so anything committed once is committed forever -- when in doubt,
@@ -7,8 +7,8 @@
 # ---------------------------------------------------------------------------------------------
 
 # -- private ground truth ----------------------------------------------------------------------
-# The public ground truth is evaluation/gt/*_possession_gt_public.csv and is committed on purpose.
-# The full-match files below are graded over all 158857 frames and must never be published.
+# All official ground truth is excluded from this development handoff.
+# These legacy filename patterns are retained alongside whole-directory exclusions below.
 *_possession_gt.csv
 *_possession_gt_meta.json
 *_possession_gt_reference.csv
@@ -64,7 +64,7 @@ env/
 .DS_Store
 
 # External-only prepared data, reports and per-frame targets (never source).
-external_artifacts/
+/external_artifacts/*
 
 # Operator-only official inference output. Agents must not inspect this directory.
 local_official_artifacts/
@@ -74,3 +74,53 @@ runtime/
 
 # User-acquired external SoccerTrack payloads; provenance summaries live in docs/.
 /Soccertrack V2/
+
+
+# Audited external handoff artifacts; keep all other historical artifacts ignored.
+!/external_artifacts/v3/
+/external_artifacts/v3/*
+!/external_artifacts/v3/117093-camera-audit-20261113/
+!/external_artifacts/v3/117093-frame-37500-annotation-review/
+!/external_artifacts/v3/117093-frame-60000-annotation-review/
+!/external_artifacts/v3/117093-frame-7500-annotation-review/
+!/external_artifacts/v3/117093-inventory-20261113/
+!/external_artifacts/v3/117093-possession-readiness-20261113/
+!/external_artifacts/v3/117093-possession-review-pilot-20261113/
+!/external_artifacts/v3/117093-possession-source-20261113/
+!/external_artifacts/v3/117093-possession-source-network1-20261113/
+!/external_artifacts/v3/117093-reference-freeze-20261113/
+!/external_artifacts/v3/117093-reference-task-20261113/
+!/external_artifacts/v3/117093-repeatability-analysis-20261113/
+!/external_artifacts/v3/117093-repeatability-task-20261113/
+!/external_artifacts/v3/117093-right-penalty-review-20261113/
+!/external_artifacts/v3/117093-target-clock-audit-20261113/
+!/external_artifacts/v3/117093-target-lineage-source-20261113/
+!/external_artifacts/v3/117093-target-lineage-source-network1-20261113/
+!/external_artifacts/v3/feasibility-20261112-metadata/
+!/external_artifacts/v3/feasibility-20261112-network1/
+!/external_artifacts/v3/feasibility-20261112-network2/
+!/external_artifacts/v3/geometry-contract-audit-20261112/
+!/external_artifacts/v3/geometry-contract-audit-20261112-r2/
+!/external_artifacts/v3/geometry-contract-source-20261112/
+!/external_artifacts/v3/operator-annotation-review-20261112/
+!/external_artifacts/v3/soccertrack-117092-package-audit-20261112/
+!/external_artifacts/v3/soccertrack-117092-package-audit-20261112-r2/
+!/external_artifacts/v3/soccertrack-source-audit-20261112/
+!/external_artifacts/v3/soccertrack-video-audit-20261112/
+!/external_artifacts/v3/soccertrack-video-audit-20261112-r2/
+!/external_artifacts/v3/117093-reference-freeze-20261113-verification.json
+!/external_artifacts/v3/117093-repeatability-analysis-20261113-verification.json
+!/external_artifacts/release-readiness-20261112/
+!/external_artifacts/README.md
+!/external_artifacts/handoff-inventory-20261114.json
+!/external_artifacts/v3/117093-possession-review-pilot-20261113/Q0[1-6].mp4
+
+# Official/unreviewed legacy material and local copies stay on this machine.
+/evaluation/gt/
+/evaluation/results/
+/inference-bundle-v1/
+/mtah-2027/
+/*.zip
+/starter/01_smart_tagging.ipynb
+/starter/02_tracking_atd.ipynb
+/starter/03_first_submission.ipynb

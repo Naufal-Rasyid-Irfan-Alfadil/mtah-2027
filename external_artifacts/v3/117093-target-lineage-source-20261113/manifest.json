@@ -1,0 +1,72 @@
+{
+  "created_at": "2026-11-13T13:38:34.132655+00:00",
+  "dataset_revision": "325bd4c57ee8e135ab652f3921d274526ada496b",
+  "code_revision": "a752d294df2a0e816e827b70f284980698f5a50e",
+  "authenticated": false,
+  "credentials_read": false,
+  "publisher_source_executed": false,
+  "large_files_downloaded": false,
+  "max_total_bytes": 1000000,
+  "requests": [
+    {
+      "kind": "publisher_static_source",
+      "path": "docs/ground_truth_creation.md",
+      "url": "https://raw.githubusercontent.com/AtomScott/SoccerTrack-v2/a752d294df2a0e816e827b70f284980698f5a50e/docs/ground_truth_creation.md",
+      "git_oid": "b00f180878ba1777765055cdc0b22885f98df8e8",
+      "bytes": 7066,
+      "requested_at": "2026-11-13T13:38:32.010539+00:00",
+      "status": "checksum_verified",
+      "http_status": 200,
+      "sha256": "9c0d28066f9f54b69ba4fac8e76711a606b00a076418687edb0de86cd633bebd",
+      "local_path": "source/docs/ground_truth_creation.md"
+    },
+    {
+      "kind": "publisher_static_source",
+      "path": "src/coordinate_conversion/convert_raw_to_pitch_plane.py",
+      "url": "https://raw.githubusercontent.com/AtomScott/SoccerTrack-v2/a752d294df2a0e816e827b70f284980698f5a50e/src/coordinate_conversion/convert_raw_to_pitch_plane.py",
+      "git_oid": "54146803d3db48b3816342a724bea8277420d8ba",
+      "bytes": 7131,
+      "requested_at": "2026-11-13T13:38:32.382026+00:00",
+      "status": "checksum_verified",
+      "http_status": 200,
+      "sha256": "3255728422f9838bbb321861d739ad9c3be8c113013b40a99b5a108cfaa606e5",
+      "local_path": "source/src/coordinate_conversion/convert_raw_to_pitch_plane.py"
+    },
+    {
+      "kind": "publisher_static_source",
+      "path": "src/video_utils/trim_video_into_halves.py",
+      "url": "https://raw.githubusercontent.com/AtomScott/SoccerTrack-v2/a752d294df2a0e816e827b70f284980698f5a50e/src/video_utils/trim_video_into_halves.py",
+      "git_oid": "7e69b117679c772541351e014f240d6d4b10969b",
+      "bytes": 7710,
+      "requested_at": "2026-11-13T13:38:32.809083+00:00",
+      "status": "checksum_verified",
+      "http_status": 200,
+      "sha256": "32d10a26e777ee2e37b5453ac3b7c3ea6e972c3931faa94a93eaa336b4f2871d",
+      "local_path": "source/src/video_utils/trim_video_into_halves.py"
+    },
+    {
+      "kind": "publisher_static_source",
+      "path": "src/data_association/create_ground_truth.py",
+      "url": "https://raw.githubusercontent.com/AtomScott/SoccerTrack-v2/a752d294df2a0e816e827b70f284980698f5a50e/src/data_association/create_ground_truth.py",
+      "git_oid": "d8c026526da9d1c3995e5ff8fe92a6ef6253a92d",
+      "bytes": 34635,
+      "requested_at": "2026-11-13T13:38:33.244929+00:00",
+      "status": "checksum_verified",
+      "http_status": 200,
+      "sha256": "f18b61f4d9b4e264e3bc5114de7bddd6e173f4ec11527ce390d41d0821c7b123",
+      "local_path": "source/src/data_association/create_ground_truth.py"
+    },
+    {
+      "kind": "publisher_static_source",
+      "path": "configs/video_trimming_config.yaml",
+      "url": "https://raw.githubusercontent.com/AtomScott/SoccerTrack-v2/a752d294df2a0e816e827b70f284980698f5a50e/configs/video_trimming_config.yaml",
+      "git_oid": "8adf719ff12f9ba597d8cf377fa6d01a857062be",
+      "bytes": 1101,
+      "requested_at": "2026-11-13T13:38:33.772298+00:00",
+      "status": "checksum_verified",
+      "http_status": 200,
+      "sha256": "1e928a10ce29bfcb18e5311b08a1ea571b0586afffe7bb7c90aee5ee11cf4dd7",
+      "local_path": "source/configs/video_trimming_config.yaml"
+    }
+  ]
+}

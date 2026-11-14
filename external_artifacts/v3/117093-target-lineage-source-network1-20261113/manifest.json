@@ -1,0 +1,62 @@
+{
+  "created_at": "2026-11-13T13:38:13.698661+00:00",
+  "dataset_revision": "325bd4c57ee8e135ab652f3921d274526ada496b",
+  "code_revision": "a752d294df2a0e816e827b70f284980698f5a50e",
+  "authenticated": false,
+  "credentials_read": false,
+  "publisher_source_executed": false,
+  "large_files_downloaded": false,
+  "max_total_bytes": 1000000,
+  "requests": [
+    {
+      "kind": "publisher_static_source",
+      "path": "docs/ground_truth_creation.md",
+      "url": "https://raw.githubusercontent.com/AtomScott/SoccerTrack-v2/a752d294df2a0e816e827b70f284980698f5a50e/docs/ground_truth_creation.md",
+      "git_oid": "b00f180878ba1777765055cdc0b22885f98df8e8",
+      "bytes": 7066,
+      "requested_at": "2026-11-13T13:38:13.396149+00:00",
+      "status": "network_error",
+      "error_type": "URLError"
+    },
+    {
+      "kind": "publisher_static_source",
+      "path": "src/coordinate_conversion/convert_raw_to_pitch_plane.py",
+      "url": "https://raw.githubusercontent.com/AtomScott/SoccerTrack-v2/a752d294df2a0e816e827b70f284980698f5a50e/src/coordinate_conversion/convert_raw_to_pitch_plane.py",
+      "git_oid": "54146803d3db48b3816342a724bea8277420d8ba",
+      "bytes": 7131,
+      "requested_at": "2026-11-13T13:38:13.443913+00:00",
+      "status": "network_error",
+      "error_type": "URLError"
+    },
+    {
+      "kind": "publisher_static_source",
+      "path": "src/video_utils/trim_video_into_halves.py",
+      "url": "https://raw.githubusercontent.com/AtomScott/SoccerTrack-v2/a752d294df2a0e816e827b70f284980698f5a50e/src/video_utils/trim_video_into_halves.py",
+      "git_oid": "7e69b117679c772541351e014f240d6d4b10969b",
+      "bytes": 7710,
+      "requested_at": "2026-11-13T13:38:13.507692+00:00",
+      "status": "network_error",
+      "error_type": "URLError"
+    },
+    {
+      "kind": "publisher_static_source",
+      "path": "src/data_association/create_ground_truth.py",
+      "url": "https://raw.githubusercontent.com/AtomScott/SoccerTrack-v2/a752d294df2a0e816e827b70f284980698f5a50e/src/data_association/create_ground_truth.py",
+      "git_oid": "d8c026526da9d1c3995e5ff8fe92a6ef6253a92d",
+      "bytes": 34635,
+      "requested_at": "2026-11-13T13:38:13.587325+00:00",
+      "status": "network_error",
+      "error_type": "URLError"
+    },
+    {
+      "kind": "publisher_static_source",
+      "path": "configs/video_trimming_config.yaml",
+      "url": "https://raw.githubusercontent.com/AtomScott/SoccerTrack-v2/a752d294df2a0e816e827b70f284980698f5a50e/configs/video_trimming_config.yaml",
+      "git_oid": "8adf719ff12f9ba597d8cf377fa6d01a857062be",
+      "bytes": 1101,
+      "requested_at": "2026-11-13T13:38:13.619338+00:00",
+      "status": "network_error",
+      "error_type": "URLError"
+    }
+  ]
+}

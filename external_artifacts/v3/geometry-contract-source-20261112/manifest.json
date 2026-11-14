@@ -1,0 +1,42 @@
+{
+  "repository": "https://github.com/AtomScott/SoccerTrack-v2",
+  "revision": "a752d294df2a0e816e827b70f284980698f5a50e",
+  "tree_sha256": "e515214edd45a3d622c2c9e49590c4d0fd0e989a3ee30f48f22bfdfe2028f7f9",
+  "files": [
+    {
+      "path": "scripts/calibration/calculate_homography.py",
+      "url": "https://raw.githubusercontent.com/AtomScott/SoccerTrack-v2/a752d294df2a0e816e827b70f284980698f5a50e/scripts/calibration/calculate_homography.py",
+      "sha256": "dd99bba2a4cd8071f6332f1a3df4ea34b34a16578f175c0e25f341a5dacc073e"
+    },
+    {
+      "path": "scripts/calibration/calibrate_all_from_keypoints.py",
+      "url": "https://raw.githubusercontent.com/AtomScott/SoccerTrack-v2/a752d294df2a0e816e827b70f284980698f5a50e/scripts/calibration/calibrate_all_from_keypoints.py",
+      "sha256": "97dc13d5967bb2a69234465c58f0d417be3587f0c8dcd0636533a489785facf8"
+    },
+    {
+      "path": "scripts/calibration/project_tracking_to_image.py",
+      "url": "https://raw.githubusercontent.com/AtomScott/SoccerTrack-v2/a752d294df2a0e816e827b70f284980698f5a50e/scripts/calibration/project_tracking_to_image.py",
+      "sha256": "a392cbd1c04456bf6f73d267b1d848dded038b37b8806e478a90d2375ed593c4"
+    },
+    {
+      "path": "scripts/convert_pitch_plane_to_image_plane.sh",
+      "url": "https://raw.githubusercontent.com/AtomScott/SoccerTrack-v2/a752d294df2a0e816e827b70f284980698f5a50e/scripts/convert_pitch_plane_to_image_plane.sh",
+      "sha256": "0e5280fb51dafab3cd4e6036f65226a7397e78239d72f2b21d75ebb61f77baf4"
+    },
+    {
+      "path": "scripts/create_ground_truth.sh",
+      "url": "https://raw.githubusercontent.com/AtomScott/SoccerTrack-v2/a752d294df2a0e816e827b70f284980698f5a50e/scripts/create_ground_truth.sh",
+      "sha256": "7c396e2792b67fbd52951d664afe29c2187d133459a7876f7c2ef30a51cc2445"
+    },
+    {
+      "path": "scripts/generate_calibration_mappings.sh",
+      "url": "https://raw.githubusercontent.com/AtomScott/SoccerTrack-v2/a752d294df2a0e816e827b70f284980698f5a50e/scripts/generate_calibration_mappings.sh",
+      "sha256": "043b52d2029456c879c5668443824d0382b212efdc08a6b2b1256b33084651ad"
+    },
+    {
+      "path": "src/coordinate_conversion/convert_pitch_plane_to_image_plane.py",
+      "url": "https://raw.githubusercontent.com/AtomScott/SoccerTrack-v2/a752d294df2a0e816e827b70f284980698f5a50e/src/coordinate_conversion/convert_pitch_plane_to_image_plane.py",
+      "sha256": "3d6859e24923dd2074b8265b1c1b7aba142f224480cbd269dc3cedc5e9fa30ef"
+    }
+  ]
+}

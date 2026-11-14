@@ -1,0 +1,8 @@
+# Verified installed versions for the fixed external HGB baseline (Python 3.11.6).
+# Preparation/features still need only the standard library. No install is run automatically.
+numpy==2.4.6
+pandas==3.0.6
+scikit-learn==1.7.2
+scipy==1.17.1
+joblib==1.5.2
+threadpoolctl==3.7.0

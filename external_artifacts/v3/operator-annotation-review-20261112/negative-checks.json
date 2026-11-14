@@ -1,0 +1,9 @@
+{
+  "out_of_bounds": "rejected",
+  "fitting_contamination": "rejected",
+  "image_provenance_mismatch": "rejected",
+  "fit_point_reuse": "rejected",
+  "coordinates_on_ambiguous_row": "rejected",
+  "missing_annotator_provenance": "rejected",
+  "duplicate_or_missing_slot": "rejected"
+}

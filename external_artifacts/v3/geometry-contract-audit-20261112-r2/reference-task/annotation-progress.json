@@ -1,0 +1,12 @@
+{
+  "populated_coordinates": 3,
+  "ambiguous_slots": 3,
+  "operator_exposure_provenance_complete_points": 3,
+  "reviewed_evaluation_annotations": 0,
+  "remaining": "quality/uncertainty review; additional visible geometry; numerical gates before scoring",
+  "source_csv_sha256": "d25a9ac526e702f5825d62e741b00fae40e99ddbf68bdff0e050359e12c65049",
+  "qualitatively_reviewed_points": 3,
+  "reviewer_seen_predictions": true,
+  "ready_for_geometry_scoring": false,
+  "ready_for_possession_evaluation": false
+}

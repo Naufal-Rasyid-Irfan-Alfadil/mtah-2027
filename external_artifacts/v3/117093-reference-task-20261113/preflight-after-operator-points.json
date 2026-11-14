@@ -1,0 +1,52 @@
+{
+  "status": "annotation_preflight_passed",
+  "slots": 54,
+  "populated_points": 3,
+  "unavailable_slots": 0,
+  "unreviewed_slots": 51,
+  "frames_with_coordinates": [
+    7500
+  ],
+  "features_with_coordinates": [
+    "near_touchline_y68"
+  ],
+  "points": [
+    {
+      "frame": 7500,
+      "feature": "near_touchline_y68",
+      "point": "1",
+      "x": 1210.0,
+      "y": 699.0,
+      "distance_from_fit_px": 155.0681659916052,
+      "annotator": "operator_user",
+      "seen_predictions": false
+    },
+    {
+      "frame": 7500,
+      "feature": "near_touchline_y68",
+      "point": "2",
+      "x": 2277.0,
+      "y": 707.0,
+      "distance_from_fit_px": 109.42450062486004,
+      "annotator": "operator_user",
+      "seen_predictions": false
+    },
+    {
+      "frame": 7500,
+      "feature": "near_touchline_y68",
+      "point": "3",
+      "x": 2980.0,
+      "y": 661.0,
+      "distance_from_fit_px": 133.72733370556668,
+      "annotator": "operator_user",
+      "seen_predictions": false
+    }
+  ],
+  "source_csv_sha256": "12d47d58ee93ce618def6ce3d5b5492c614dea9aec2706b24235692fbf61f783",
+  "independently_verified_blinding": false,
+  "repeatability_measured": false,
+  "numerical_accuracy_gates_frozen": false,
+  "ready_for_geometry_scoring": false,
+  "ready_for_possession_evaluation": false,
+  "model_predictions_read": false
+}

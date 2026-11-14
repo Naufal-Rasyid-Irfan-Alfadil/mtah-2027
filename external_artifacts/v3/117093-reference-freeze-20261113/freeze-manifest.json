@@ -1,0 +1,393 @@
+{
+  "kind": "external_geometry_reference_snapshot",
+  "schema_version": 1,
+  "created_at": "2026-11-13T19:42:35.213727+07:00",
+  "match": "117093",
+  "dataset_revision": "325bd4c57ee8e135ab652f3921d274526ada496b",
+  "publisher_split": "validation",
+  "project_role": "external_geometry_development",
+  "frames": [
+    7500,
+    37500,
+    60000
+  ],
+  "independent_cameras": 1,
+  "annotation_count": 54,
+  "annotations_csv_sha256": "96f8f9136da08e236e236f5a955e5dc76b6a9ae5aaf1c392d34cdc78d2c4f252",
+  "operator_blinding": "self_report_only",
+  "reviewer_had_seen_model_diagnostics": true,
+  "used_for_fitting": false,
+  "uncertainty_quantified": false,
+  "numerical_accuracy_gates_frozen": false,
+  "geometry_scores_computed": false,
+  "ready_for_geometry_scoring": false,
+  "ready_for_possession_evaluation": false,
+  "production_candidate_selected": false,
+  "files": [
+    {
+      "path": "annotation-progress.json",
+      "bytes": 863,
+      "sha256": "649f30c5d4e3b58e0a4ffecd4dfaa097012bf2633895b59e099b2c356493ae01"
+    },
+    {
+      "path": "annotations.csv",
+      "bytes": 9372,
+      "sha256": "96f8f9136da08e236e236f5a955e5dc76b6a9ae5aaf1c392d34cdc78d2c4f252"
+    },
+    {
+      "path": "external-117093-frame-37500-raw.png",
+      "bytes": 8388707,
+      "sha256": "dc55af9821cfc2ea829373f664626583b3ecff8b4a0923135deec9f0c9b4b9a0"
+    },
+    {
+      "path": "external-117093-frame-60000-raw.png",
+      "bytes": 8528092,
+      "sha256": "0e9837fd371e836b3221a4227f6b71f795920c55151da89a513909a45abcfc37"
+    },
+    {
+      "path": "external-117093-frame-7500-raw.png",
+      "bytes": 8719087,
+      "sha256": "da03cfebd1c84fd6ccfa27d68be7aa7370aaa4dbe89cfaf0b72ed1b08ece5cda"
+    },
+    {
+      "path": "operator-measurements.jsonl",
+      "bytes": 39912,
+      "sha256": "7814eaeeb80ce37c4be8a9884444b969a706d2cead274eac7a8a4374e6c6f73c"
+    },
+    {
+      "path": "preflight-all-54-complete.json",
+      "bytes": 14699,
+      "sha256": "8e6e20b33dc9d5d17a278b9cf37d192a7f9bf5cbd7903911a5fd1bb9e7768f3e"
+    },
+    {
+      "path": "protocol/protokol_referensi_geometri_117092.md",
+      "bytes": 3860,
+      "sha256": "46cc53d3eec939d395200ce50b542a51ece8cf4eaae1e38e098a72bc239339e9"
+    },
+    {
+      "path": "protocol/protokol_referensi_geometri_117093.md",
+      "bytes": 1919,
+      "sha256": "2aefd75ed86031e23503299c13a2021ced789f0226ea672a9dc2a1f26f26948c"
+    },
+    {
+      "path": "provenance/117093_keypoints.json",
+      "bytes": 3852,
+      "sha256": "bcc874620cfa1bcbd49b33a6132abf51f35525f25cafb677084e8ce3e803a94f"
+    },
+    {
+      "path": "provenance/source-download-manifest.json",
+      "bytes": 5319,
+      "sha256": "8fdb0e7e5d46b6753c3a5f13744861050f2522898e61334214b44cbb50fdb23a"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1653,
+      "sha256": "8b5cd568c0881832881d1a9093d4d1edfc20018832fe80ec985b7200ad6f85dc"
+    },
+    {
+      "path": "review/frame-37500/01-near_touchline_y68-1-raw.png",
+      "bytes": 31008,
+      "sha256": "56bee9afc5f212a1fff83f4544db0b5e81b2f4510bb4bbbd8879cedc4d384f64"
+    },
+    {
+      "path": "review/frame-37500/02-near_touchline_y68-2-raw.png",
+      "bytes": 32426,
+      "sha256": "3151353586dec28d5a692779c72d9823676c37b38cbe282835c66f902f40c1b1"
+    },
+    {
+      "path": "review/frame-37500/03-near_touchline_y68-3-raw.png",
+      "bytes": 30216,
+      "sha256": "ce527b683d10fb1b9a1850da17bd6e98b4ca4d41b86d0f995b7ab7df511c6824"
+    },
+    {
+      "path": "review/frame-37500/04-far_touchline_y0-1-raw.png",
+      "bytes": 27453,
+      "sha256": "7c452e78b7b7e34b185dfcb71f1a1c53a173b45b0b4198b76868d8768a0ab356"
+    },
+    {
+      "path": "review/frame-37500/05-far_touchline_y0-2-raw.png",
+      "bytes": 28755,
+      "sha256": "fab0448956cb5286de2b96737a4550970b8ed938d8755220cb3ef0860951af99"
+    },
+    {
+      "path": "review/frame-37500/06-far_touchline_y0-3-raw.png",
+      "bytes": 25673,
+      "sha256": "c5f3a91c3737c74c6ab8de7d281cd888a1cd1ef75b81d857ffaddd503a1bff56"
+    },
+    {
+      "path": "review/frame-37500/07-halfway_x52.5-1-raw.png",
+      "bytes": 31659,
+      "sha256": "7bed0ddfee8e27d46102f295ea114cf129af3a88fdd78f3c116b61f676321e03"
+    },
+    {
+      "path": "review/frame-37500/08-halfway_x52.5-2-raw.png",
+      "bytes": 32445,
+      "sha256": "9229ed8091b7f1289139cfb1fe331e189873a69b8954ee46f7afbe10adf0581a"
+    },
+    {
+      "path": "review/frame-37500/09-halfway_x52.5-3-raw.png",
+      "bytes": 33009,
+      "sha256": "93d68b2f419cb9828c4aa7af8c45a750bffcc2592fc83f63b40dadf6afea863e"
+    },
+    {
+      "path": "review/frame-37500/10-left_penalty_edge_x16.5-1-raw.png",
+      "bytes": 28750,
+      "sha256": "be9b45966e38f05f5dbe7b876e1f3ce51bd4f7e690a3f3a007596e5e39fc4597"
+    },
+    {
+      "path": "review/frame-37500/11-left_penalty_edge_x16.5-2-raw.png",
+      "bytes": 28408,
+      "sha256": "2f107d80bc35ab596d6f3defbdded1dbba8e3e7c47a381aca9373b4b2d77001d"
+    },
+    {
+      "path": "review/frame-37500/12-left_penalty_edge_x16.5-3-raw.png",
+      "bytes": 28496,
+      "sha256": "20ad96cd7b359335cab4d9bc5d28a45897e496dfe4097def5dcaea2e23e0ecd1"
+    },
+    {
+      "path": "review/frame-37500/13-right_penalty_edge_x88.5-1-raw.png",
+      "bytes": 24887,
+      "sha256": "10bb887b950018aa33dba183d53ad6dad30a113c57471ae609c2fce0f50f9591"
+    },
+    {
+      "path": "review/frame-37500/14-right_penalty_edge_x88.5-2-raw.png",
+      "bytes": 23199,
+      "sha256": "a4b96f977046c2efc310dcbddf82e0cdc0f0d1a63e96e045c4824659c27b6ca3"
+    },
+    {
+      "path": "review/frame-37500/15-right_penalty_edge_x88.5-3-raw.png",
+      "bytes": 21805,
+      "sha256": "8c388c87bd2cbb5f393dd91082edcf523b43a9e0e4680307fdca571452431b22"
+    },
+    {
+      "path": "review/frame-37500/16-center_circle-1-raw.png",
+      "bytes": 27645,
+      "sha256": "2ce2e0d6ad2dfbd56b89085a20a5260ea63d67d84a83acfbcf5b4814bccec4c2"
+    },
+    {
+      "path": "review/frame-37500/17-center_circle-2-raw.png",
+      "bytes": 25657,
+      "sha256": "ffa4b89bf3b04e706d234fb3118e397a302224fe2b28ac731c104d4b2d4300a7"
+    },
+    {
+      "path": "review/frame-37500/18-center_circle-3-raw.png",
+      "bytes": 28580,
+      "sha256": "e29b1290113b1ffebb6027c13bf11f488fb5d4b79fe2afda3745b685009c75ce"
+    },
+    {
+      "path": "review/frame-37500/operator-points-contact-sheet.png",
+      "bytes": 534216,
+      "sha256": "9ecc3b28af06896435a1696cdec0e882e6172208a1e90f7967d851ee5734952c"
+    },
+    {
+      "path": "review/frame-37500/qualitative-review.json",
+      "bytes": 828,
+      "sha256": "d1ca5c3a502f809c702355bfa98e1a8c2c8be81b7a9b078b719e4da1991fce19"
+    },
+    {
+      "path": "review/frame-60000/01-near_touchline_y68-1-raw.png",
+      "bytes": 31903,
+      "sha256": "3ce84942115bbb6465de2b0dc94e69e82b101c30013b99af1f130aef02e5df8f"
+    },
+    {
+      "path": "review/frame-60000/02-near_touchline_y68-2-raw.png",
+      "bytes": 33043,
+      "sha256": "6300dbd857778e1315130356ae5338eec1981cba32227a292fa1751c7df4e182"
+    },
+    {
+      "path": "review/frame-60000/03-near_touchline_y68-3-raw.png",
+      "bytes": 31705,
+      "sha256": "5ab0f4ab6e954a118a17a1ea486d1f6214811f3f20eab0ef5649f2948f6c60b1"
+    },
+    {
+      "path": "review/frame-60000/04-far_touchline_y0-1-raw.png",
+      "bytes": 25102,
+      "sha256": "57755be300a377bf61d7a69319190e4b4f09b02f04a30d7459fa8edea7c0ed25"
+    },
+    {
+      "path": "review/frame-60000/05-far_touchline_y0-2-raw.png",
+      "bytes": 23390,
+      "sha256": "fd6b24d190515211491415aa47d148dceefad9a276db4ba2cc0f5757e93d7031"
+    },
+    {
+      "path": "review/frame-60000/06-far_touchline_y0-3-raw.png",
+      "bytes": 22267,
+      "sha256": "f6034e691f80b64b070268a64e81b57ca6157d00935bae0cfdc01ce14fbeeed6"
+    },
+    {
+      "path": "review/frame-60000/07-halfway_x52.5-1-raw.png",
+      "bytes": 32787,
+      "sha256": "fe3d45bf11c07cd1fd48f4f18dbbd02d5cdb00e282cde3106737e346170928f7"
+    },
+    {
+      "path": "review/frame-60000/08-halfway_x52.5-2-raw.png",
+      "bytes": 33339,
+      "sha256": "8ac328dd07cc7f779c7cc4036997adf1f3b6dd4570f5492b22c5986b81125c93"
+    },
+    {
+      "path": "review/frame-60000/09-halfway_x52.5-3-raw.png",
+      "bytes": 33761,
+      "sha256": "b32d336f48a6c7c878ede0c2a66eab6443dbe7b830371310b49a07a7a7764d8f"
+    },
+    {
+      "path": "review/frame-60000/10-left_penalty_edge_x16.5-1-raw.png",
+      "bytes": 26385,
+      "sha256": "4ce739e93a8ba2db0f68f68b01828ece33d1d1155657d766aa8ce5ad005d4afd"
+    },
+    {
+      "path": "review/frame-60000/11-left_penalty_edge_x16.5-2-raw.png",
+      "bytes": 28590,
+      "sha256": "488c24997baa483ebe817da9a000ab93cbe13134ae04195a6779ec4601c9a128"
+    },
+    {
+      "path": "review/frame-60000/12-left_penalty_edge_x16.5-3-raw.png",
+      "bytes": 29198,
+      "sha256": "752a51b4258aa230b7e2a1c33e41a858a8bb23a0322dc92bb3268a6d85b04bb6"
+    },
+    {
+      "path": "review/frame-60000/13-right_penalty_edge_x88.5-1-raw.png",
+      "bytes": 24791,
+      "sha256": "0e57dba0549bddb608a2c58fbca0a5a52bd2b9ab5ea00abebbc664c04d1c449a"
+    },
+    {
+      "path": "review/frame-60000/14-right_penalty_edge_x88.5-2-raw.png",
+      "bytes": 25296,
+      "sha256": "3473896b1645e2dd59f55ef1f7f5cec5b7603bc62b6e30226ef80cec7e007359"
+    },
+    {
+      "path": "review/frame-60000/15-right_penalty_edge_x88.5-3-raw.png",
+      "bytes": 25624,
+      "sha256": "74bb3f9bee76f1e06ed6625a8cac17aa8d86b841691b96d89b1dd0a86e2aac6e"
+    },
+    {
+      "path": "review/frame-60000/16-center_circle-1-raw.png",
+      "bytes": 26443,
+      "sha256": "c5d7966dfb12d701e74d51d42752c6f36a2bf2076e33482c6e4f5c1268def611"
+    },
+    {
+      "path": "review/frame-60000/17-center_circle-2-raw.png",
+      "bytes": 27861,
+      "sha256": "fa7edd227f9969f0d2673e3f89a41485b22bf835a6f1c20ae52823529e6df9a5"
+    },
+    {
+      "path": "review/frame-60000/18-center_circle-3-raw.png",
+      "bytes": 28435,
+      "sha256": "51b8ae6cd86e1ebda55ee02cf96ae80c00d9037ef67f8bc2e7a9d1cb46c2fa1e"
+    },
+    {
+      "path": "review/frame-60000/operator-points-contact-sheet.png",
+      "bytes": 534614,
+      "sha256": "023713de07368c4a6f0abd37bc0be9dc6ae2ab6bf387fc3aa195d036f0d46798"
+    },
+    {
+      "path": "review/frame-60000/qualitative-review.json",
+      "bytes": 828,
+      "sha256": "7cdaf01250c839b2d1bad3dbeec23167ad6d85e0eba44d6d495423dd64b02dda"
+    },
+    {
+      "path": "review/frame-7500/center_circle-1-raw.png",
+      "bytes": 28161,
+      "sha256": "45de2200e2cb70f32c3646a287d7dc8d7d5f319951fefb6927b732ff69608ce1"
+    },
+    {
+      "path": "review/frame-7500/center_circle-2-raw.png",
+      "bytes": 26814,
+      "sha256": "100d9410206a115717a6c45e9eb4e489025a13c1ba0f103fcefc76c7261bfe31"
+    },
+    {
+      "path": "review/frame-7500/center_circle-3-raw.png",
+      "bytes": 29513,
+      "sha256": "e867f95576971bb6a1e133ac2cc8bdf34e0a02ccbd622dc8ebd577af144a2ab4"
+    },
+    {
+      "path": "review/frame-7500/far_touchline_y0-1-raw.png",
+      "bytes": 27112,
+      "sha256": "f22e30cddbb6f52b3fee3acf93d923a86aa73c9399082b4ebb4994655624cca8"
+    },
+    {
+      "path": "review/frame-7500/far_touchline_y0-2-raw.png",
+      "bytes": 27211,
+      "sha256": "8584bae9def94efb2de85705d7080726c11ba4cd1298bb1eb80f4a5144d20df1"
+    },
+    {
+      "path": "review/frame-7500/far_touchline_y0-3-raw.png",
+      "bytes": 23588,
+      "sha256": "b3d3ef8a280a0b1248a161a5b6a417ec868c3ada891ce5e1e90b193447301c80"
+    },
+    {
+      "path": "review/frame-7500/halfway_x52.5-1-raw.png",
+      "bytes": 32778,
+      "sha256": "356d69bd4f9aef06e575cfe5f79ca3d45fc332d13cdbdd863cb034588aa38984"
+    },
+    {
+      "path": "review/frame-7500/halfway_x52.5-2-raw.png",
+      "bytes": 33666,
+      "sha256": "de0fe7e0b5e6f3b1b2b781f4d234eb7557bc1a54172fcecd3735fc41661bbeab"
+    },
+    {
+      "path": "review/frame-7500/halfway_x52.5-3-raw.png",
+      "bytes": 34210,
+      "sha256": "0bdb4bccab1e18dbe0fdb55cba75f592eee8a23fa091ac7afc7c07375864f1e6"
+    },
+    {
+      "path": "review/frame-7500/left_penalty_edge_x16.5-1-raw.png",
+      "bytes": 29152,
+      "sha256": "604c4bd32a4e4ef3335735ecc3341920401ac3bf2cb3cde475d9541bacbc6aac"
+    },
+    {
+      "path": "review/frame-7500/left_penalty_edge_x16.5-2-raw.png",
+      "bytes": 30653,
+      "sha256": "42c27a144e5f322afa38e1a65e00fcaffccb2265a2292e705b8ee061b768dfa0"
+    },
+    {
+      "path": "review/frame-7500/left_penalty_edge_x16.5-3-raw.png",
+      "bytes": 31517,
+      "sha256": "26039580bf7a6c048718f4d92cb5996465f65ed32aca0fc4202ee47d22636724"
+    },
+    {
+      "path": "review/frame-7500/near_touchline_y68-1-raw.png",
+      "bytes": 32819,
+      "sha256": "1505719508217090856eb50ac490fa63c9cf6d59b16f6678a1ef8d477e9abebd"
+    },
+    {
+      "path": "review/frame-7500/near_touchline_y68-2-raw.png",
+      "bytes": 33540,
+      "sha256": "d28d938da96e1b1a5e67055b3f3665b11c60e1ca525b4f460e023174c839ec04"
+    },
+    {
+      "path": "review/frame-7500/near_touchline_y68-3-raw.png",
+      "bytes": 31320,
+      "sha256": "818ef201bfe8d6f4144b95329ecedf7ab627f7b08d0cc27ecfa8851c65fe4dd1"
+    },
+    {
+      "path": "review/frame-7500/operator-points-contact-sheet.png",
+      "bytes": 556787,
+      "sha256": "13021a80c1963ed71a6abbee2e1a1ae2fa731aea9a3f4eaa2ab599f03f601c97"
+    },
+    {
+      "path": "review/frame-7500/qualitative-review.json",
+      "bytes": 781,
+      "sha256": "1c405ee755bd99d5a0ad3ab50e4598dc8a87a8354f69767fa8f3a09b072f95dd"
+    },
+    {
+      "path": "review/frame-7500/right_penalty_edge_x88.5-1-raw.png",
+      "bytes": 25738,
+      "sha256": "4c0754f4a251a0a7230b0baf966c8e80ddb3e0336e70207ecdf69706ed2657b2"
+    },
+    {
+      "path": "review/frame-7500/right_penalty_edge_x88.5-2-raw.png",
+      "bytes": 26251,
+      "sha256": "2b796f9667771cab50e2b08ca94c4b8210db78703ec7daa25cfbc08abe2b7f3b"
+    },
+    {
+      "path": "review/frame-7500/right_penalty_edge_x88.5-3-raw.png",
+      "bytes": 29451,
+      "sha256": "2ce979016c1510051179b63e5f0939883dfdf9372b386d281dc5e587c9d43dd8"
+    },
+    {
+      "path": "task-template-manifest.json",
+      "bytes": 1427,
+      "sha256": "3360834a6f921e9cff5e5132c05269f4e85570b7389d88ad75655dd0ff381a39"
+    }
+  ]
+}

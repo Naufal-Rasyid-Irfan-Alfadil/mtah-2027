@@ -1,0 +1,49 @@
+{
+  "checks": [
+    {
+      "check": "out_of_bounds",
+      "result": "rejected_as_expected"
+    },
+    {
+      "check": "wrong_slice",
+      "result": "rejected_as_expected"
+    },
+    {
+      "check": "nonfinite",
+      "result": "rejected_as_expected"
+    },
+    {
+      "check": "unknown_exposure",
+      "result": "rejected_as_expected"
+    },
+    {
+      "check": "fitting_flag",
+      "result": "rejected_as_expected"
+    },
+    {
+      "check": "unavailable_with_coordinates",
+      "result": "rejected_as_expected"
+    },
+    {
+      "check": "missing_annotator",
+      "result": "rejected_as_expected"
+    },
+    {
+      "check": "occluded_with_blank_coordinates",
+      "result": "accepted_as_missing"
+    },
+    {
+      "check": "linear_quantile_edge_cases",
+      "result": "passed"
+    },
+    {
+      "check": "median_p95_independent_statistics_crosscheck",
+      "result": "passed"
+    },
+    {
+      "check": "feature_frame_group_counts",
+      "result": "passed"
+    }
+  ],
+  "passed": 11
+}

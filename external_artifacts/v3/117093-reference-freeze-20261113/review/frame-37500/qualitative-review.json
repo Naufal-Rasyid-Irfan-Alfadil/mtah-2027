@@ -1,0 +1,18 @@
+{
+  "match": "117093",
+  "frame_index_0_based": 37500,
+  "annotator": "operator_user",
+  "operator_reported_seen_predictions": false,
+  "independently_verified_blinding": false,
+  "reviewer": "assistant",
+  "reviewer_had_seen_model_diagnostics": true,
+  "method": "qualitative original-image crops at supplied coordinates; no model prediction overlay",
+  "qualitatively_reviewed_points": 18,
+  "result": "points visually consistent with named painted field features; no quantitative centerline precision claimed",
+  "operator_coordinates_modified": false,
+  "uncertainty_quantified": false,
+  "numerical_accuracy_gate_frozen": false,
+  "geometry_scores_computed": false,
+  "production_candidate_selected": false,
+  "annotations_csv_sha256": "96f8f9136da08e236e236f5a955e5dc76b6a9ae5aaf1c392d34cdc78d2c4f252"
+}

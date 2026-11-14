@@ -1,0 +1,99 @@
+{
+  "dfl_version": 1,
+  "dfl_catalog_files": 21,
+  "dfl_license": {
+    "value": 52,
+    "name": "CC BY",
+    "url": "https://creativecommons.org/licenses/by/4.0/"
+  },
+  "soccertrack_commit": "325bd4c57ee8e135ab652f3921d274526ada496b",
+  "soccertrack_gated": "auto",
+  "soccertrack_catalog_records": 244,
+  "DFL_metadata_checks": [
+    {
+      "source": "dfl-J03WOH-metadata",
+      "match_id": "DFL-MAT-J03WOH",
+      "length_m": 105.0,
+      "width_m": 68.0,
+      "roster_records": 39,
+      "parser": "existing frozen external_baseline.dfl.read_match_info",
+      "result": "passed"
+    },
+    {
+      "source": "dfl-J03WQQ-metadata",
+      "match_id": "DFL-MAT-J03WQQ",
+      "length_m": 105.0,
+      "width_m": 68.0,
+      "roster_records": 40,
+      "parser": "existing frozen external_baseline.dfl.read_match_info",
+      "result": "passed"
+    }
+  ],
+  "proposed_external_acquisition": {
+    "files": [
+      {
+        "match": "J03WOH",
+        "role": "training_existing",
+        "id": 51643478,
+        "name": "DFL_02_01_matchinformation_DFL-COM-000002_DFL-MAT-J03WOH.xml",
+        "size": 11745,
+        "computed_md5": "b9710781d400dd812f62b0a6e3d7bce8",
+        "download_url": "https://ndownloader.figshare.com/files/51643478"
+      },
+      {
+        "match": "J03WOH",
+        "role": "training_existing",
+        "id": 51643520,
+        "name": "DFL_04_03_positions_raw_observed_DFL-COM-000002_DFL-MAT-J03WOH.xml",
+        "size": 348945715,
+        "computed_md5": "3efff25a86a61768e7d253b4bba137a3",
+        "download_url": "https://ndownloader.figshare.com/files/51643520"
+      },
+      {
+        "match": "J03WPY",
+        "role": "training_existing",
+        "id": 51643487,
+        "name": "DFL_02_01_matchinformation_DFL-COM-000002_DFL-MAT-J03WPY.xml",
+        "size": 11922,
+        "computed_md5": "65a4568e4f374af94d3c1015cbc7c4f5",
+        "download_url": "https://ndownloader.figshare.com/files/51643487"
+      },
+      {
+        "match": "J03WPY",
+        "role": "training_existing",
+        "id": 51643526,
+        "name": "DFL_04_03_positions_raw_observed_DFL-COM-000002_DFL-MAT-J03WPY.xml",
+        "size": 371688499,
+        "computed_md5": "e56ff1336a334f8da51110fbe7cab764",
+        "download_url": "https://ndownloader.figshare.com/files/51643526"
+      },
+      {
+        "match": "J03WQQ",
+        "role": "development_reused",
+        "id": 51643484,
+        "name": "DFL_02_01_matchinformation_DFL-COM-000002_DFL-MAT-J03WQQ.xml",
+        "size": 11932,
+        "computed_md5": "5979209af316a914ce57347d0633df6c",
+        "download_url": "https://ndownloader.figshare.com/files/51643484"
+      },
+      {
+        "match": "J03WQQ",
+        "role": "development_reused",
+        "id": 51643529,
+        "name": "DFL_04_03_positions_raw_observed_DFL-COM-000002_DFL-MAT-J03WQQ.xml",
+        "size": 356219423,
+        "computed_md5": "9105bad987191d3c3c362c1fce9a4fcd",
+        "download_url": "https://ndownloader.figshare.com/files/51643529"
+      }
+    ],
+    "bytes": 1076889236,
+    "downloaded": false
+  },
+  "branches": {
+    "DFL_fallback": "source_access_and_metadata_passed; full_position_payload_pending",
+    "homography": "gated_payload_and_independent_geometry_target_pending",
+    "video": "gated_payload_and_independent_possession_target_pending",
+    "automatic_tagging": "export_access_rights_and_independent_target_pending",
+    "fusion": "blocked_until_source_branch_passes"
+  }
+}

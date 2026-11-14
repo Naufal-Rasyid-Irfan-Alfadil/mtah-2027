@@ -1,0 +1,20 @@
+{
+  "populated_coordinates": 54,
+  "operator_exposure_provenance_complete_points": 54,
+  "completed_coordinate_frames": [
+    7500,
+    37500,
+    60000
+  ],
+  "frame_7500_metadata_preflight": "passed",
+  "reviewed_evaluation_annotations": 0,
+  "ready_for_geometry_scoring": false,
+  "ready_for_possession_evaluation": false,
+  "remaining": "quantify annotation uncertainty and freeze numerical error budget before geometry scoring; independent synchronized possession targets unavailable",
+  "source_csv_sha256": "96f8f9136da08e236e236f5a955e5dc76b6a9ae5aaf1c392d34cdc78d2c4f252",
+  "qualitatively_reviewed_points": 54,
+  "reviewer_had_seen_model_diagnostics": true,
+  "frame_37500_metadata_preflight": "passed",
+  "frame_60000_metadata_preflight": "passed",
+  "reference_snapshot": "external_artifacts/v3/117093-reference-freeze-20261113"
+}

@@ -1,0 +1,247 @@
+{
+  "config": {
+    "decoder": null,
+    "feature_names": [
+      "ball_record_present",
+      "ball_x_observed",
+      "ball_y_observed",
+      "ball_xy_observed",
+      "ball_speed_mps",
+      "home_records",
+      "home_xy_observed",
+      "away_records",
+      "away_xy_observed",
+      "nearest_home_m",
+      "nearest_away_m",
+      "ball_longitudinal_margin_m",
+      "ball_lateral_margin_m",
+      "ball_inside_pitch"
+    ],
+    "feature_set": "no-signed-position",
+    "feature_version": 1,
+    "hgb_params": {
+      "categorical_features": null,
+      "class_weight": null,
+      "early_stopping": false,
+      "interaction_cst": null,
+      "l2_regularization": 0.0,
+      "learning_rate": 0.1,
+      "loss": "log_loss",
+      "max_bins": 255,
+      "max_depth": null,
+      "max_features": 1.0,
+      "max_iter": 100,
+      "max_leaf_nodes": 31,
+      "min_samples_leaf": 20,
+      "monotonic_cst": null,
+      "n_iter_no_change": 10,
+      "random_state": 0,
+      "scoring": "loss",
+      "tol": 1e-07,
+      "validation_fraction": null,
+      "verbose": 0,
+      "warm_start": false
+    },
+    "preprocessing": null,
+    "selection": "one experiment motivated by observed external stress failures; no sweep, untouched-test claim or automatic model promotion",
+    "source_feature_names": [
+      "ball_record_present",
+      "ball_x_observed",
+      "ball_y_observed",
+      "ball_xy_observed",
+      "ball_x_m",
+      "ball_y_m",
+      "ball_speed_mps",
+      "home_records",
+      "home_xy_observed",
+      "away_records",
+      "away_xy_observed",
+      "nearest_home_m",
+      "nearest_away_m",
+      "ball_longitudinal_margin_m",
+      "ball_lateral_margin_m",
+      "ball_inside_pitch"
+    ],
+    "threads": 1,
+    "training_augmentation": {
+      "decoder": "reuse byte-identical original parameter JSON; no estimation",
+      "hgb_params": {
+        "categorical_features": null,
+        "class_weight": null,
+        "early_stopping": false,
+        "interaction_cst": null,
+        "l2_regularization": 0.0,
+        "learning_rate": 0.1,
+        "loss": "log_loss",
+        "max_bins": 255,
+        "max_depth": null,
+        "max_features": 1.0,
+        "max_iter": 100,
+        "max_leaf_nodes": 31,
+        "min_samples_leaf": 20,
+        "monotonic_cst": null,
+        "n_iter_no_change": 10,
+        "random_state": 0,
+        "scoring": "loss",
+        "tol": 1e-07,
+        "validation_fraction": null,
+        "verbose": 0,
+        "warm_start": false
+      },
+      "model_features": [
+        "ball_record_present",
+        "ball_x_observed",
+        "ball_y_observed",
+        "ball_xy_observed",
+        "ball_speed_mps",
+        "home_records",
+        "home_xy_observed",
+        "away_records",
+        "away_xy_observed",
+        "nearest_home_m",
+        "nearest_away_m",
+        "ball_longitudinal_margin_m",
+        "ball_lateral_margin_m",
+        "ball_inside_pitch"
+      ],
+      "selection": "one experiment motivated by observed external stress failures; no sweep, untouched-test claim or automatic model promotion",
+      "training_period": 1,
+      "training_seed": 2028,
+      "validation_period": 2,
+      "validation_stress_seed": 2027,
+      "version": 1,
+      "views": [
+        {
+          "kind": "identity",
+          "name": "clean"
+        },
+        {
+          "kind": "ball_drop",
+          "name": "ball_drop_iid20",
+          "probability": 0.2
+        },
+        {
+          "kind": "ball_burst",
+          "missing_frames": 50,
+          "name": "ball_drop_burst2s",
+          "period_frames": 500
+        },
+        {
+          "kind": "ball_partial",
+          "name": "ball_x_missing_iid20",
+          "probability": 0.2
+        },
+        {
+          "kind": "player_drop",
+          "name": "player_drop_iid20",
+          "probability": 0.2
+        },
+        {
+          "kind": "jitter",
+          "name": "position_jitter_025m",
+          "sigma_m": 0.25
+        },
+        {
+          "kind": "frame_gap",
+          "missing_frames": 25,
+          "name": "frame_gap1s_every60s",
+          "period_frames": 1500
+        }
+      ],
+      "weighting": "one equal-weight sample per retained valid frame per view"
+    },
+    "training_period": 1,
+    "validation_period": 2
+  },
+  "contract_version": 1,
+  "git": {
+    "commit": "f8f2629ff1e0985f81d7e59d8413678514ee1530",
+    "status": "M .gitignore\n?? docs/\n?? external_baseline/\n?? requirements-external-training.txt\n?? tests/"
+  },
+  "inputs_sha256": {
+    "D:\\Coding\\Machine Learning\\Dataset Lomba\\more-than-a-hack-2027\\external_artifacts\\J03WOH-augmented-v1\\protocol.json": "fca0483815cee3f764f09fae0d9b4f1370ea0a882bd8357029f5b0d74b5b6c04",
+    "D:\\Coding\\Machine Learning\\Dataset Lomba\\more-than-a-hack-2027\\external_artifacts\\J03WOH-features-run2\\features.sqlite": "b8b0bcef99d2f38c437b2d87a81ecf5cf73b97783e84b6b285394a5ac450d417",
+    "D:\\Coding\\Machine Learning\\Dataset Lomba\\more-than-a-hack-2027\\external_artifacts\\J03WOH-features-run2\\manifest.json": "4c26f96a003ed8c9e76dfe8417c67da1020bb91ab2ef8309cc78ee723a6e53bb",
+    "D:\\Coding\\Machine Learning\\Dataset Lomba\\more-than-a-hack-2027\\external_artifacts\\J03WOH-hgb-no-signed-position-v1\\comparison.json": "f34a5f45dc101a4f6a97cd968483ee33f42cfdd323a80915b38ba1e72e8bcc19",
+    "D:\\Coding\\Machine Learning\\Dataset Lomba\\more-than-a-hack-2027\\external_artifacts\\J03WOH-hgb-no-signed-position-v1\\config.json": "ffce273d3441f2836320f313ca1163caf135afa627152d2e2002840c16c99f7c",
+    "D:\\Coding\\Machine Learning\\Dataset Lomba\\more-than-a-hack-2027\\external_artifacts\\J03WOH-hgb-no-signed-position-v1\\manifest.json": "7f12ad1458fb022a1807597e3aba559d489dff98b073d38470c772a0df91f2fc",
+    "D:\\Coding\\Machine Learning\\Dataset Lomba\\more-than-a-hack-2027\\external_artifacts\\J03WOH-hgb-no-signed-position-v1\\model.joblib": "7f7dde58833dc8ddedb9568a383cc8c019fb97d06db406705ec51c36c592e84f",
+    "D:\\Coding\\Machine Learning\\Dataset Lomba\\more-than-a-hack-2027\\external_artifacts\\J03WOH-hgb-no-signed-position-v1\\predictions.sqlite": "a693618ef6e2900344f8cacbfbe4677e681298e617e00043299a02904dec04b5",
+    "D:\\Coding\\Machine Learning\\Dataset Lomba\\more-than-a-hack-2027\\external_artifacts\\J03WOH-markov-v1\\comparison.json": "5b520f0f75ad908cc6f69332bd3c42ae7f6a7045e6feca3eb6f21b69401560cf",
+    "D:\\Coding\\Machine Learning\\Dataset Lomba\\more-than-a-hack-2027\\external_artifacts\\J03WOH-markov-v1\\config.json": "969ee67cd4dd7b79e778195a4f32f50fcf1a53e42cda0ed7cbdf241e63c9aa3d",
+    "D:\\Coding\\Machine Learning\\Dataset Lomba\\more-than-a-hack-2027\\external_artifacts\\J03WOH-markov-v1\\decoder_parameters.json": "12ad792ba50e37e1ea73ec4ecca625b462751a1a1cfc8558c4a9de629f226223",
+    "D:\\Coding\\Machine Learning\\Dataset Lomba\\more-than-a-hack-2027\\external_artifacts\\J03WOH-markov-v1\\manifest.json": "1c0e3719c072595b8f835e6379dea69bad15be96688c33db6467a86182a68cde",
+    "D:\\Coding\\Machine Learning\\Dataset Lomba\\more-than-a-hack-2027\\external_artifacts\\J03WOH-markov-v1\\metrics.json": "f75a28ec21c51e444a0c60f4f7e72196cf8598543b5d8b871362015f4119e165",
+    "D:\\Coding\\Machine Learning\\Dataset Lomba\\more-than-a-hack-2027\\external_artifacts\\J03WOH-markov-v1\\predictions.sqlite": "89867df6c644107fc80e98cbddd58517196e4a742f92fa1d662d63bddf6562af",
+    "D:\\Coding\\Machine Learning\\Dataset Lomba\\more-than-a-hack-2027\\external_artifacts\\J03WOH-robustness-v1\\manifest.json": "757b66d1a649c3f4d887548b08748790ad71787c9d6b83766c314ed0a1e2f6ec",
+    "D:\\Coding\\Machine Learning\\Dataset Lomba\\more-than-a-hack-2027\\external_artifacts\\J03WOH-robustness-v1\\predictions.sqlite": "133a1b91791fe10bcc3117b7aa3d85ff62e62468451fd8331e86daab6dcf9e18",
+    "D:\\Coding\\Machine Learning\\Dataset Lomba\\more-than-a-hack-2027\\external_artifacts\\J03WOH-robustness-v1\\protocol.json": "a7e7ed2ead4a232ae661b114801178c6dff47b792cafe633b0493cdf30632dc5",
+    "D:\\Coding\\Machine Learning\\Dataset Lomba\\more-than-a-hack-2027\\external_artifacts\\J03WOH-robustness-v1\\robustness_report.json": "96bac7df60a27e5383000d002d237713ee041c42912240d281432256519dcaa5",
+    "D:\\Coding\\Machine Learning\\Dataset Lomba\\more-than-a-hack-2027\\external_artifacts\\J03WOH-run2\\manifest.json": "5ea4c687f8f2248bf07a0d967d4eefea808ed0927b807c8e9330b04c03521fd7",
+    "D:\\Coding\\Machine Learning\\Dataset Lomba\\more-than-a-hack-2027\\external_artifacts\\J03WOH-run2\\observations.sqlite": "e1d04663c483a09df437647624a9ebe364ea5d8e13ea51f1c81d5238301b0685",
+    "D:\\Coding\\Machine Learning\\Dataset Lomba\\more-than-a-hack-2027\\external_artifacts\\J03WOH-run2\\targets.sqlite": "d27e1772f57e2b1f6c5879fdeaed56cb5463150efff5e54bc74d18fd17a7fd4a"
+  },
+  "outputs_sha256": {
+    "config.json": "ed796a5f718880d329e0f873a5ba381f76ba470fcff621ca35977d3de6548bf4",
+    "metrics.json": "f983591ee5a00e0c4ea57573f0caed29f255db308947aed5e182f91b301cfee5",
+    "model.joblib": "e80953d25b1b219e32b67b925cf915dd211753344c30e23cfdfb74faccc7c0e7",
+    "predictions.sqlite": "8ac45a72f7417516836915d3f9a5bb963270e4f84b35e2a50a313d2280a06d73"
+  },
+  "packages": {
+    "joblib": "1.5.2",
+    "numpy": "2.4.6",
+    "pandas": "3.0.6",
+    "scikit-learn": "1.7.2",
+    "scipy": "1.17.1",
+    "threadpoolctl": "3.7.0"
+  },
+  "provenance": {
+    "decoder_note": "unchanged original training occupancy prior; augmented sample class proportions may differ slightly due to frame-gap removal",
+    "experiment": "one experiment motivated by observed external stress failures; no sweep, untouched-test claim or automatic model promotion",
+    "label_source": "unchanged original external targets for each retained half-1 observation view",
+    "parent": {
+      "feature_attribution": {
+        "decisions": "Basic geometry and contiguous differences from user-approved feature stage; no thresholds, old project code or official-match selection.",
+        "parent_attribution": {
+          "attribution": "Deutsche Fussball Liga (DFL); Bassek, Rein, Weber and Memmert (2025), Scientific Data 12:195, doi:10.1038/s41597-025-04505-y",
+          "authorization": "User confirmed data directory contains external DFL only.",
+          "changes": "Streaming parse, planar observation extraction, missing normalization, frame-key joins, target mapping and half split.",
+          "decisions": "User-approved plan; no old project code/parameters copied. Fresh clone alone does not establish independence from earlier experiments.",
+          "license": "https://creativecommons.org/licenses/by/4.0/",
+          "model": "HGB proposed by user; not implemented or selected experimentally.",
+          "official_data": "No official data, GT or prediction files used. Organizer clarification supplied by user takes precedence over repository docs.",
+          "source": "https://doi.org/10.6084/m9.figshare.28196177"
+        }
+      },
+      "feature_experiment": "one predeclared 14-feature ablation motivated by external inter-half diagnostics; no sweep or automatic model promotion",
+      "official_data": "No official data or GT read; no official candidate/threshold selection.",
+      "parameters": "sklearn 1.7.2 defaults except early_stopping=False, validation_fraction=None, categorical_features=None and random_state=0; fixed before validation, no old project parameters copied.",
+      "target_attribution": {
+        "attribution": "Deutsche Fussball Liga (DFL); Bassek, Rein, Weber and Memmert (2025), Scientific Data 12:195, doi:10.1038/s41597-025-04505-y",
+        "authorization": "User confirmed data directory contains external DFL only.",
+        "changes": "Streaming parse, planar observation extraction, missing normalization, frame-key joins, target mapping and half split.",
+        "decisions": "User-approved plan; no old project code/parameters copied. Fresh clone alone does not establish independence from earlier experiments.",
+        "license": "https://creativecommons.org/licenses/by/4.0/",
+        "model": "HGB proposed by user; not implemented or selected experimentally.",
+        "official_data": "No official data, GT or prediction files used. Organizer clarification supplied by user takes precedence over repository docs.",
+        "source": "https://doi.org/10.6084/m9.figshare.28196177"
+      }
+    }
+  },
+  "python": "3.11.6",
+  "source_sha256": {
+    "evaluation/possession_metrics.py": "32c878630c74fb52a90c301485d6dff806509d8e933b1177b6035ee8e8f42b80",
+    "external_baseline\\__init__.py": "60d8a2eda9152dafc9c8a65fe9be57457ab5ff1328d8f4e9122c3efc8303d1b2",
+    "external_baseline\\augmented.py": "aaeaedfe0cc269b097bf7680ceb88e223591710fa7ee0b58b5b781f8df857a92",
+    "external_baseline\\contracts.py": "a1bd90d2a692fc9a44eb7c716af792d53631dfb0f4902522e9ab9821107c3a19",
+    "external_baseline\\dfl.py": "a60d5ea02c0b88fb06deca16f3f82b575d1324e110c6be209a4e3eec3043736c",
+    "external_baseline\\diagnostics.py": "3140cc841de9e1ca2636ff5519495870cd47921e32581b9280a28381d78d7c94",
+    "external_baseline\\features.py": "b575c1ef3dabbe8312bfa6df30172944856e262875e9492b74e2750d6ef6d7f7",
+    "external_baseline\\prepare.py": "c8a3399d79deb255265b047a233600cd06877d131d03e2838489bb35fe0253cd",
+    "external_baseline\\robustness.py": "f3923def541bf31d98631e8f95cbea18b174cbbbc5ace8c28121e79a05f74d1a",
+    "external_baseline\\temporal.py": "e2388555ad219fa6016cd61eb13b7cd4242f0cccc84e0decabadd813c2ade5a0",
+    "external_baseline\\training.py": "51dd11c96d47a8dd9dc9e4956531d4e77b3c726c693a524655bf6bb57d38a6de"
+  },
+  "status": "ready",
+  "training_version": 1
+}

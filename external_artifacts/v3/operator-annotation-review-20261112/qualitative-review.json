@@ -1,0 +1,26 @@
+{
+  "source": "visual inspection of raw PNG crops at operator-reported coordinates, without altering annotations",
+  "reviewer": "assistant",
+  "reviewer_had_seen_previous_model_diagnostics": true,
+  "operator_reported_seen_predictions": false,
+  "frame": 7500,
+  "feature": "near_touchline_y68",
+  "points": [
+    {
+      "point": 1,
+      "status": "visually_consistent_with_painted_line; uncertainty_not_measured"
+    },
+    {
+      "point": 2,
+      "status": "visually_consistent_with_painted_line; uncertainty_not_measured"
+    },
+    {
+      "point": 3,
+      "status": "visually_consistent_with_painted_line; uncertainty_not_measured"
+    }
+  ],
+  "quantitative_error_measured": false,
+  "reference_ready_for_scoring": false,
+  "reason": "one frame and one feature only; repeatability and numerical gates pending",
+  "csv_sha256": "d25a9ac526e702f5825d62e741b00fae40e99ddbf68bdff0e050359e12c65049"
+}

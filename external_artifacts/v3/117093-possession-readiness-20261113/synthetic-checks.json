@@ -1,0 +1,60 @@
+{
+  "passed": 13,
+  "checks": [
+    {
+      "check": "finite_list_tuple_and_missing_coordinates",
+      "result": "passed"
+    },
+    {
+      "check": "code_expression",
+      "result": "rejected_as_expected"
+    },
+    {
+      "check": "boolean_coordinate",
+      "result": "rejected_as_expected"
+    },
+    {
+      "check": "wrong_length",
+      "result": "rejected_as_expected"
+    },
+    {
+      "check": "dict_coordinate",
+      "result": "rejected_as_expected"
+    },
+    {
+      "check": "nonfinite_coordinate",
+      "result": "rejected_as_expected"
+    },
+    {
+      "check": "streaming_xml_period_reset_and_frame_steps",
+      "result": "passed"
+    },
+    {
+      "check": "unknown_teams_invalid_missing_coordinates",
+      "result": "passed"
+    },
+    {
+      "check": "status_counts_do_not_imply_independent_target_or_alignment",
+      "result": "passed"
+    },
+    {
+      "check": "unexpected_root",
+      "result": "rejected_as_expected"
+    },
+    {
+      "check": "missing_period",
+      "result": "rejected_as_expected"
+    },
+    {
+      "check": "wrong_git_blob",
+      "result": "rejected_as_expected"
+    },
+    {
+      "check": "wrong_size",
+      "result": "rejected_as_expected"
+    }
+  ],
+  "source": "synthetic_byte_fixtures_only",
+  "official_data_read": false,
+  "publisher_code_executed": false
+}

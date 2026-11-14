@@ -1,0 +1,208 @@
+{
+  "checked_at": "2026-11-13T18:23:44.076571+07:00",
+  "dataset": "atomscott/soccertrack-v2",
+  "revision": "325bd4c57ee8e135ab652f3921d274526ada496b",
+  "match": "117093",
+  "publisher_split": "validation",
+  "project_role": "external_geometry_development; not untouched test after inspection",
+  "inventory": [
+    {
+      "path": "raw/117093/117093_keypoints.json",
+      "bytes": 3852,
+      "sha256": "bcc874620cfa1bcbd49b33a6132abf51f35525f25cafb677084e8ce3e803a94f",
+      "publisher_checksum": "match",
+      "evidence": "publisher_git_blob"
+    },
+    {
+      "path": "raw/117093/117093_camera_intrinsics.npz",
+      "bytes": 1996,
+      "sha256": "fe3f14a96495aa6706e6bf716490d599e0818ed0a48e7bf8e4387e7fe985c720",
+      "publisher_checksum": "match",
+      "evidence": {
+        "method": "operator_transcription_of_Hugging_Face_Git_LFS_Details",
+        "reported_date": "2026-11-13",
+        "page_url": "https://huggingface.co/datasets/atomscott/soccertrack-v2/blob/325bd4c57ee8e135ab652f3921d274526ada496b/raw/117093/117093_camera_intrinsics.npz",
+        "independently_fetched_by_agent": false
+      }
+    },
+    {
+      "path": "raw/117093/117093_homography.npy",
+      "bytes": 200,
+      "sha256": "deb667816e2b0a98c536cf65d08d03d0c5d300cc0027425eb1bcee8f0e0426f7",
+      "publisher_checksum": "match",
+      "evidence": {
+        "method": "operator_transcription_of_Hugging_Face_Git_LFS_Details",
+        "reported_date": "2026-11-13",
+        "page_url": "https://huggingface.co/datasets/atomscott/soccertrack-v2/blob/325bd4c57ee8e135ab652f3921d274526ada496b/raw/117093/117093_homography.npy",
+        "independently_fetched_by_agent": false
+      }
+    },
+    {
+      "path": "raw/117093/117093_padding_info.csv",
+      "bytes": 154,
+      "sha256": "0b7e73f40dad775807790860df61fcaada818fcbd634f105d454bb4fdd43ead5",
+      "publisher_checksum": "match",
+      "evidence": "publisher_git_blob"
+    },
+    {
+      "path": "raw/117093/117093_tracker_box_metadata.xml",
+      "bytes": 14079,
+      "sha256": "715d1699ba9a06326c30ddd05e149941ad7ef392043d4b3d88cd4ac40d59d9d5",
+      "publisher_checksum": "match",
+      "evidence": "publisher_git_blob"
+    },
+    {
+      "path": "bas/117093/117093_12_class_events.json",
+      "bytes": 479053,
+      "sha256": "3af71f3c1c30184a3deddb9485299dc2d4e6faa8c629e5966ca500e7eddf768f",
+      "publisher_checksum": "match",
+      "evidence": "publisher_git_blob"
+    },
+    {
+      "path": "videos/117093/117093_panorama_1st_half.mp4",
+      "bytes": 3346094631,
+      "sha256": "f50dfebc70743439a8c778abe06953885a50be8b47e3c9d3d1ce8d533fe315c8",
+      "publisher_checksum": "match",
+      "evidence": {
+        "method": "operator_transcription_of_Hugging_Face_Git_LFS_Details",
+        "reported_date": "2026-11-13",
+        "page_url": "https://huggingface.co/datasets/atomscott/soccertrack-v2/blob/325bd4c57ee8e135ab652f3921d274526ada496b/videos/117093/117093_panorama_1st_half.mp4",
+        "independently_fetched_by_agent": false
+      }
+    }
+  ],
+  "integrity_passed": true,
+  "stream": {
+    "fps": 25.0,
+    "container_frame_count": 67625.0,
+    "width": 4096.0,
+    "height": 1080.0
+  },
+  "samples": [
+    {
+      "frame_index_0_based": 0,
+      "sha256": "3ad677ee3b4725ab0307a57df8165cf4f7d9784b04d8ac35f718c585b26f6eb4",
+      "file": "external-117093-frame-0-raw.png",
+      "shape": [
+        1080,
+        4096,
+        3
+      ],
+      "backend_next_frame": 1.0,
+      "backend_position_ms": 0.0
+    },
+    {
+      "frame_index_0_based": 7500,
+      "sha256": "da03cfebd1c84fd6ccfa27d68be7aa7370aaa4dbe89cfaf0b72ed1b08ece5cda",
+      "file": "external-117093-frame-7500-raw.png",
+      "shape": [
+        1080,
+        4096,
+        3
+      ],
+      "backend_next_frame": 7501.0,
+      "backend_position_ms": 300000.0
+    },
+    {
+      "frame_index_0_based": 30000,
+      "sha256": "5da5ce43795a7ab9ef7c38782f3c6d4de155d47c244740a8e4cfcc0e72063e83",
+      "file": "external-117093-frame-30000-raw.png",
+      "shape": [
+        1080,
+        4096,
+        3
+      ],
+      "backend_next_frame": 30001.0,
+      "backend_position_ms": 1200000.0
+    },
+    {
+      "frame_index_0_based": 67624,
+      "sha256": "1ca34e77eed3d039a61e13779f67d7f9f55c050817d6f514fcceb123867f1787",
+      "file": "external-117093-frame-67624-raw.png",
+      "shape": [
+        1080,
+        4096,
+        3
+      ],
+      "backend_next_frame": 67625.0,
+      "backend_position_ms": 2704960.0
+    }
+  ],
+  "all_frames_decoded": false,
+  "absolute_stream_start_verified": false,
+  "geometry": {
+    "keypoints": 65,
+    "world_min": [
+      0.0,
+      0.0
+    ],
+    "world_max": [
+      105.0,
+      68.0
+    ],
+    "Knew_reconstruction_maxabs": 0.0,
+    "stored_rms_px": 8.637339003471189,
+    "direct_pose_fit_residual_px": {
+      "median": 8.163310018071497,
+      "p95": 13.034559121517136,
+      "max": 13.997150902444337,
+      "rms": 8.637342229505574
+    },
+    "supplied_H_fit_residual_px": {
+      "median": 6.3906283789610745,
+      "p95": 29.9782650191009,
+      "max": 34.96040657044877,
+      "rms": 16.510487914189394
+    },
+    "direct_pose_vs_algebra_H_maxabs": 4.547473508864641e-12,
+    "independent_evaluation": false,
+    "fitting_performed": false,
+    "parameters_changed": false
+  },
+  "BAS": {
+    "top_keys": [
+      "actions",
+      "clock",
+      "fps",
+      "match_id"
+    ],
+    "actions": 2252,
+    "halves": [
+      {
+        "half": 1,
+        "count": 1138,
+        "frame_out_of_range": 0,
+        "max_frame_time_error_ms": 20
+      },
+      {
+        "half": 2,
+        "count": 1114,
+        "frame_out_of_range": 0,
+        "max_frame_time_error_ms": 20
+      }
+    ],
+    "labels": {
+      "PASS": 951,
+      "HIGH PASS": 150,
+      "OUT": 80,
+      "THROW IN": 39,
+      "DRIVE": 889,
+      "SHOT": 23,
+      "CROSS": 45,
+      "HEADER": 3,
+      "BALL PLAYER BLOCK": 30,
+      "PLAYER SUCCESSFUL TACKLE": 20,
+      "FREE KICK": 17,
+      "GOAL": 5
+    },
+    "teams": {
+      "right": 964,
+      "left": 1288
+    },
+    "automatic_smart_tagging": false,
+    "independent_dense_possession_target": false
+  },
+  "predictions_overlaid_on_reference_images": false,
+  "official_data_access": false,
+  "status": "integrity_and_sample_decode_passed; independent_geometry_and_possession_pending"
+}

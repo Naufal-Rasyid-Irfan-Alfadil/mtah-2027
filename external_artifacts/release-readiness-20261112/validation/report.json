@@ -1,0 +1,29 @@
+{
+  "status": "ready_synthetic_only",
+  "official_data_access": false,
+  "packages": {
+    "joblib": "1.5.2",
+    "numpy": "2.4.6",
+    "pandas": "3.0.6",
+    "python-dateutil": "4.0.0",
+    "scikit-learn": "1.7.2",
+    "scipy": "1.17.1",
+    "threadpoolctl": "3.7.0",
+    "tzdata": "2026.6"
+  },
+  "bundle_manifest_sha256": "faad034cc3189422fa6fa389d4741eb5ef966e235c103a137fcf3befd6191940",
+  "model_sha256": "04e2510928af168c7cd1e3d9ebb698591b336f52a2344853dce1fd8acd0fa88f",
+  "decoder_sha256": "2aa5b5f1c777fe9c2c71b7bdb894082b22b967dae5b67664be9b5c7871bafa74",
+  "tests": {
+    "run": 26,
+    "failures": 0,
+    "errors": 0
+  },
+  "frozen_R_missing_observation_fallback": "identical_to_A",
+  "frozen_R_synthetic_rows": 8,
+  "zip_sha256": "b0d9c2dde0ff919f7893491a21fe86789029f51bc911ac4ed9c79451201fa1df",
+  "zip_members_verified": 49,
+  "moved_bundle_verified": true,
+  "actual_official_compatibility": "not_validated",
+  "DFL_dataset_fallback": "pending_external_data_acquisition"
+}

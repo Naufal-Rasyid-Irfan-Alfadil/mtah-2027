@@ -1,0 +1,88 @@
+{
+  "checked_at": "2026-11-13T20:26:16.184059+07:00",
+  "source_manifest": "external_artifacts/v3/117093-possession-source-20261113/manifest.json",
+  "code_revision": "a752d294df2a0e816e827b70f284980698f5a50e",
+  "source_fields": {
+    "Player": [
+      "id",
+      "loc",
+      "speed",
+      "name",
+      "nameEn",
+      "shirtNumber",
+      "position",
+      "teamId",
+      "teamName",
+      "teamNameEn"
+    ],
+    "Ball": [
+      "loc",
+      "speed"
+    ],
+    "Chunk": [
+      "period",
+      "matchTime",
+      "players"
+    ],
+    "Team": [
+      "id",
+      "name",
+      "nameEn",
+      "side"
+    ],
+    "Pitch": [
+      "width",
+      "height"
+    ],
+    "Period": [
+      "period",
+      "frameStart",
+      "frameEnd",
+      "matchTimeStart",
+      "matchTimeEnd",
+      "fps"
+    ],
+    "Match": [
+      "matchId",
+      "matchTitle",
+      "matchDatetime",
+      "matchDatetimeLocal",
+      "timezone",
+      "matchFullTime",
+      "matchExtraTime",
+      "periods"
+    ],
+    "MatchMetadata": [
+      "match",
+      "pitch",
+      "teams",
+      "players",
+      "activePlayers"
+    ],
+    "Frame": [
+      "matchTime",
+      "frameNumber",
+      "eventPeriod",
+      "ballStatus",
+      "players",
+      "ball"
+    ]
+  },
+  "publisher_eval_call_lines": [
+    20,
+    41
+  ],
+  "publisher_code_executed": false,
+  "confirmed_source_claim": "Frame declares ballStatus, matchTime, frameNumber, eventPeriod, players and ball",
+  "not_proved": [
+    "actual v1.2 XML fields and completeness",
+    "independent annotation origin of ballStatus",
+    "dense H/A possession labels",
+    "independent ball observations",
+    "alignment of raw tracker frames to released video"
+  ],
+  "local_input_report": "report.json",
+  "safe_research_auditor": "tools/audit_soccertrack_possession_inputs.py",
+  "automatic_label_generation": false,
+  "production_module_implemented": false
+}

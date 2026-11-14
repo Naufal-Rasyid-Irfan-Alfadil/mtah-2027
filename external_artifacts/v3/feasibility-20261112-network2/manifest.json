@@ -1,0 +1,52 @@
+{
+  "created_at": "2026-11-12T13:19:01.992578+00:00",
+  "authenticated": false,
+  "dataset_payloads_downloaded": false,
+  "max_bytes_per_response": 2097152,
+  "sources": [
+    {
+      "name": "dfl-catalog-v1",
+      "url": "https://api.figshare.com/v2/articles/28196177/versions/1",
+      "retrieved_at": "2026-11-12T13:18:59.163010+00:00",
+      "purpose": "public catalog or release documentation; no match payload",
+      "http_status": 200,
+      "final_url": "https://api.figshare.com/v2/articles/28196177/versions/1",
+      "content_type": "application/json",
+      "file": "dfl-catalog-v1.response",
+      "bytes": 11173,
+      "sha256": "d886c0d36c7cf241038b2b01dd1f9a37d6589fa1de1ab5b73529582e051371fa"
+    },
+    {
+      "name": "soccertrack-version",
+      "url": "https://huggingface.co/api/datasets/atomscott/soccertrack-v2/revision/v1.2",
+      "retrieved_at": "2026-11-12T13:19:00.353916+00:00",
+      "purpose": "public catalog or release documentation; no match payload",
+      "http_status": 200,
+      "final_url": "https://huggingface.co/api/datasets/atomscott/soccertrack-v2/revision/v1.2",
+      "content_type": "application/json; charset=utf-8",
+      "file": "soccertrack-version.response",
+      "bytes": 10912,
+      "sha256": "026acde6ef1b7671107f351e089b477943015a6d7b606408a70f57dec5579e88"
+    },
+    {
+      "name": "soccertrack-file-catalog",
+      "url": "https://huggingface.co/api/datasets/atomscott/soccertrack-v2/tree/v1.2?recursive=true&limit=1000",
+      "retrieved_at": "2026-11-12T13:19:00.970470+00:00",
+      "purpose": "public catalog or release documentation; no match payload",
+      "http_status": 200,
+      "final_url": "https://huggingface.co/api/datasets/atomscott/soccertrack-v2/tree/v1.2?recursive=true&limit=1000",
+      "content_type": "application/json; charset=utf-8",
+      "file": "soccertrack-file-catalog.response",
+      "bytes": 51428,
+      "sha256": "4124bcc266b2bfb8de0f2730e2736b68d06e05804c5ab674f19a75e38e6446ab"
+    },
+    {
+      "name": "soccertrack-changes",
+      "url": "https://huggingface.co/datasets/atomscott/soccertrack-v2/resolve/v1.2/CHANGES_v1_2.md",
+      "retrieved_at": "2026-11-12T13:19:01.518400+00:00",
+      "purpose": "public catalog or release documentation; no match payload",
+      "http_status": 401,
+      "error": "HTTP Error 401: Unauthorized"
+    }
+  ]
+}

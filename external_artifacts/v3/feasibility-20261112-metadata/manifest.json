@@ -1,0 +1,85 @@
+{
+  "created_at": "2026-11-12T13:22:30.736158+00:00",
+  "authenticated": false,
+  "tracking_or_video_downloaded": false,
+  "external_match_metadata_requested": true,
+  "max_bytes_per_response": 2097152,
+  "sources": [
+    {
+      "name": "dfl-catalog-v1",
+      "url": "https://api.figshare.com/v2/articles/28196177/versions/1",
+      "retrieved_at": "2026-11-12T13:22:23.300436+00:00",
+      "purpose": "public catalog or release documentation; no match payload",
+      "http_status": 200,
+      "final_url": "https://api.figshare.com/v2/articles/28196177/versions/1",
+      "content_type": "application/json",
+      "file": "dfl-catalog-v1.response",
+      "bytes": 11173,
+      "sha256": "d886c0d36c7cf241038b2b01dd1f9a37d6589fa1de1ab5b73529582e051371fa"
+    },
+    {
+      "name": "soccertrack-version",
+      "url": "https://huggingface.co/api/datasets/atomscott/soccertrack-v2/revision/v1.2",
+      "retrieved_at": "2026-11-12T13:22:25.163535+00:00",
+      "purpose": "public catalog or release documentation; no match payload",
+      "http_status": 200,
+      "final_url": "https://huggingface.co/api/datasets/atomscott/soccertrack-v2/revision/v1.2",
+      "content_type": "application/json; charset=utf-8",
+      "file": "soccertrack-version.response",
+      "bytes": 10912,
+      "sha256": "026acde6ef1b7671107f351e089b477943015a6d7b606408a70f57dec5579e88"
+    },
+    {
+      "name": "soccertrack-file-catalog",
+      "url": "https://huggingface.co/api/datasets/atomscott/soccertrack-v2/tree/v1.2?recursive=true&limit=1000",
+      "retrieved_at": "2026-11-12T13:22:26.392599+00:00",
+      "purpose": "public catalog or release documentation; no match payload",
+      "http_status": 200,
+      "final_url": "https://huggingface.co/api/datasets/atomscott/soccertrack-v2/tree/v1.2",
+      "content_type": "application/json; charset=utf-8",
+      "file": "soccertrack-file-catalog.response",
+      "bytes": 51428,
+      "sha256": "4124bcc266b2bfb8de0f2730e2736b68d06e05804c5ab674f19a75e38e6446ab"
+    },
+    {
+      "name": "soccertrack-changes",
+      "url": "https://huggingface.co/datasets/atomscott/soccertrack-v2/resolve/v1.2/CHANGES_v1_2.md",
+      "retrieved_at": "2026-11-12T13:22:26.943236+00:00",
+      "purpose": "public catalog or release documentation; no match payload",
+      "http_status": 401,
+      "error": "HTTP Error 401: Unauthorized"
+    },
+    {
+      "name": "dfl-J03WOH-metadata",
+      "url": "https://ndownloader.figshare.com/files/51643478",
+      "retrieved_at": "2026-11-12T13:22:27.315925+00:00",
+      "purpose": "external DFL matchinformation XML; no positional or possession records",
+      "catalog": "https://api.figshare.com/v2/articles/28196177/versions/1",
+      "license": "CC BY 4.0",
+      "expected_md5": "b9710781d400dd812f62b0a6e3d7bce8",
+      "expected_bytes": 11745,
+      "http_status": 200,
+      "final_url": "https://s3-eu-west-1.amazonaws.com/pstorage-npg-968563215/51643478/DFL_02_01_matchinformation_DFLCOM000002_DFLMATJ03WOH.xml",
+      "content_type": "application/xml",
+      "file": "dfl-J03WOH-metadata.response",
+      "bytes": 11745,
+      "sha256": "f23b3ee13b988b1ff9a0bce438c416dac47e71355bbc7ee1dab21aaf3e33c18c"
+    },
+    {
+      "name": "dfl-J03WQQ-metadata",
+      "url": "https://ndownloader.figshare.com/files/51643484",
+      "retrieved_at": "2026-11-12T13:22:29.166394+00:00",
+      "purpose": "external DFL matchinformation XML; no positional or possession records",
+      "catalog": "https://api.figshare.com/v2/articles/28196177/versions/1",
+      "license": "CC BY 4.0",
+      "expected_md5": "5979209af316a914ce57347d0633df6c",
+      "expected_bytes": 11932,
+      "http_status": 200,
+      "final_url": "https://s3-eu-west-1.amazonaws.com/pstorage-npg-968563215/51643484/DFL_02_01_matchinformation_DFLCOM000002_DFLMATJ03WQQ.xml",
+      "content_type": "application/xml",
+      "file": "dfl-J03WQQ-metadata.response",
+      "bytes": 11932,
+      "sha256": "e976aa0c5dba862cfa898ea57ec226efce9d1bc04b23b8d775908db86aa6fa41"
+    }
+  ]
+}

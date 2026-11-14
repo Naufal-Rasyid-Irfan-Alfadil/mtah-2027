@@ -1,0 +1,17 @@
+{
+  "status": "coordinate_recorded_exposure_pending",
+  "sample_id": "R01",
+  "pixel_x_local": 115,
+  "pixel_y_local": 64,
+  "crop_checksum_verified": true,
+  "source_image_checksum_verified": true,
+  "task_manifest_checksum_verified": true,
+  "snapshot_manifest_checksum_verified": true,
+  "fixed_slice_and_bounds_passed": true,
+  "operator_exposure_confirmed": false,
+  "completed_measurements": 1,
+  "expected_measurements": 18,
+  "pairwise_displacement_computed": false,
+  "geometry_scores_computed": false,
+  "used_for_fitting": false
+}

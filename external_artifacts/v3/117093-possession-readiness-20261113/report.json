@@ -1,0 +1,34 @@
+{
+  "match": "117093",
+  "dataset_revision": "325bd4c57ee8e135ab652f3921d274526ada496b",
+  "files": [
+    {
+      "path": "raw/117093/117093_player_nodes.csv",
+      "expected_bytes": 550228,
+      "status": "missing"
+    },
+    {
+      "path": "raw/117093/117093_12_class_events.json",
+      "expected_bytes": 383084,
+      "status": "missing"
+    },
+    {
+      "path": "raw/117093/117093_tracker_box_data.xml",
+      "expected_bytes": 216067470,
+      "status": "missing"
+    }
+  ],
+  "metadata_checksum_verified": true,
+  "roster_players": 41,
+  "team_side_by_id": {
+    "9701": "home",
+    "9834": "away"
+  },
+  "dense_independent_possession_targets_ready": false,
+  "source_claim_ballStatus": "publisher Frame model only; payload not inferred",
+  "production_eligible": false,
+  "trained": false,
+  "inference_run": false,
+  "official_data_read": false,
+  "action": "review actual payload schema/time/independent origin before any production implementation"
+}

@@ -823,3 +823,35 @@ membandingkan dengan provider. Pilot kecil belum mengesahkan seluruh label.
 
 Rincian docs/audit_target_possession_117093.md. Tidak ada training, inferensi
 model, scoring kandidat, atau akses resmi. V2/R r1 tetap kandidat pengumpulan.
+
+## 33. Serah terima artifact melalui Git pada 14 November
+
+Pengguna meminta commit seluruh pekerjaan agar teman pemilik repo bisa
+melanjutkan. Source sebelumnya sudah berada pada commit a174024; tetapi
+external_artifacts diabaikan sehingga laporan, referensi dan klip tidak ikut.
+Kini .gitignore mengizinkan direktori audit V3 yang diketahui provenance-nya
+dan release-readiness-20261112, termasuk keenam klip pilot Q01-Q06. Folder
+historis lain tetap diabaikan sampai provenance-nya diperiksa.
+
+external_artifacts/README.md menjelaskan isi dan cara melanjutkan.
+external_artifacts/handoff-inventory-20261114.json mengikat 498 file eksternal
+dengan ukuran/SHA256 (tidak memasukkan inventory itu sendiri), total 491919520
+byte, file terbesar 54719737 byte. Semua 136 anggota manifest source hasil
+pemulihan cocok checksum. Artifact lama tidak diubah; .gitattributes baru
+mempertahankan byte V3 dan release-readiness tanpa konversi line ending.
+
+Data resmi/GT/results, root bundle V1 yang memuat tactical, arsip/salinan repo
+belum diaudit dan tiga notebook starter belum diverifikasi dikeluarkan dari
+staging tanpa menghapus file lokal. Runtime serta payload mentah Soccertrack V2
+tetap lokal. Snapshot Git menyediakan klip pilot/ref/reports, sedangkan payload
+mentah diperoleh teman melalui akun sendiri menurut manifest docs.
+
+Ada token pada konfigurasi nama author dan metadata commit a174024 sebelumnya.
+Nilainya tidak dicatat di sini. Nama author lokal diperbaiki menjadi Tirta untuk
+commit berikutnya; email dipertahankan. Token perlu dicabut/diganti pemiliknya.
+Riwayat commit lama tidak ditulis ulang dalam pekerjaan ini. Jangan mencetak
+nilai konfigurasi author lama atau token ke log/dokumen.
+
+Status penelitian tidak berubah: review pilot masih 0/6, belum ada training
+atau kandidat possession V3. V2/R r1 tetap kandidat pengumpulan. Pekerjaan Git
+tidak mengesahkan target/komponen maupun mengubah batas akses resmi.

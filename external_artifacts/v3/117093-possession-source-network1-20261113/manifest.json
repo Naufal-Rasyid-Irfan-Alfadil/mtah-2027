@@ -1,0 +1,84 @@
+{
+  "created_at": "2026-11-13T13:20:29.417822+00:00",
+  "dataset_revision": "325bd4c57ee8e135ab652f3921d274526ada496b",
+  "code_revision": "a752d294df2a0e816e827b70f284980698f5a50e",
+  "authenticated": false,
+  "credentials_read": false,
+  "publisher_source_executed": false,
+  "large_files_downloaded": false,
+  "max_total_bytes": 1000000,
+  "requests": [
+    {
+      "kind": "external_match_audit_payload",
+      "path": "raw/117093/117093_player_nodes.csv",
+      "url": "https://huggingface.co/datasets/atomscott/soccertrack-v2/resolve/325bd4c57ee8e135ab652f3921d274526ada496b/raw/117093/117093_player_nodes.csv",
+      "git_oid": "8c50bd3984032ffc97040d775e53f586f46e33f8",
+      "bytes": 550228,
+      "license": "CC BY 4.0",
+      "requested_at": "2026-11-13T13:20:28.641926+00:00",
+      "status": "network_error",
+      "error_type": "URLError"
+    },
+    {
+      "kind": "external_match_audit_payload",
+      "path": "raw/117093/117093_12_class_events.json",
+      "url": "https://huggingface.co/datasets/atomscott/soccertrack-v2/resolve/325bd4c57ee8e135ab652f3921d274526ada496b/raw/117093/117093_12_class_events.json",
+      "git_oid": "b109069b1e83ced7c02dc18182a22e02b610cf69",
+      "bytes": 383084,
+      "license": "CC BY 4.0",
+      "requested_at": "2026-11-13T13:20:28.887165+00:00",
+      "status": "network_error",
+      "error_type": "URLError"
+    },
+    {
+      "kind": "publisher_static_source",
+      "path": "scripts/tracking_data_utils/io.py",
+      "url": "https://raw.githubusercontent.com/AtomScott/SoccerTrack-v2/a752d294df2a0e816e827b70f284980698f5a50e/scripts/tracking_data_utils/io.py",
+      "git_oid": "33d676040eeb01967c73b037b3206647dcad9f96",
+      "bytes": 2489,
+      "requested_at": "2026-11-13T13:20:29.012788+00:00",
+      "status": "network_error",
+      "error_type": "URLError"
+    },
+    {
+      "kind": "publisher_static_source",
+      "path": "scripts/tracking_data_utils/dataclass.py",
+      "url": "https://raw.githubusercontent.com/AtomScott/SoccerTrack-v2/a752d294df2a0e816e827b70f284980698f5a50e/scripts/tracking_data_utils/dataclass.py",
+      "git_oid": "8401e64ec22942842b9a1c1a45d7fa36cc11e59f",
+      "bytes": 5457,
+      "requested_at": "2026-11-13T13:20:29.135670+00:00",
+      "status": "network_error",
+      "error_type": "URLError"
+    },
+    {
+      "kind": "publisher_static_source",
+      "path": "src/data_utils/soccertrack_v2.py",
+      "url": "https://raw.githubusercontent.com/AtomScott/SoccerTrack-v2/a752d294df2a0e816e827b70f284980698f5a50e/src/data_utils/soccertrack_v2.py",
+      "git_oid": "83a81a895dc7dfc42caa276cfa4251acd095495e",
+      "bytes": 10720,
+      "requested_at": "2026-11-13T13:20:29.212959+00:00",
+      "status": "network_error",
+      "error_type": "URLError"
+    },
+    {
+      "kind": "publisher_static_source",
+      "path": "LICENSE-DATA",
+      "url": "https://raw.githubusercontent.com/AtomScott/SoccerTrack-v2/a752d294df2a0e816e827b70f284980698f5a50e/LICENSE-DATA",
+      "git_oid": "793e8656828cbccada93f418c720a71731cbe2fa",
+      "bytes": 1686,
+      "requested_at": "2026-11-13T13:20:29.276529+00:00",
+      "status": "network_error",
+      "error_type": "URLError"
+    },
+    {
+      "kind": "publisher_static_source",
+      "path": "LICENSE",
+      "url": "https://raw.githubusercontent.com/AtomScott/SoccerTrack-v2/a752d294df2a0e816e827b70f284980698f5a50e/LICENSE",
+      "git_oid": "2678d4ebe4cedee525359c723775cc5589b08f41",
+      "bytes": 1440,
+      "requested_at": "2026-11-13T13:20:29.339102+00:00",
+      "status": "network_error",
+      "error_type": "URLError"
+    }
+  ]
+}

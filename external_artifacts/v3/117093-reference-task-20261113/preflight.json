@@ -1,0 +1,17 @@
+{
+  "status": "annotation_preflight_passed",
+  "slots": 54,
+  "populated_points": 0,
+  "unavailable_slots": 0,
+  "unreviewed_slots": 54,
+  "frames_with_coordinates": [],
+  "features_with_coordinates": [],
+  "points": [],
+  "source_csv_sha256": "d8feb8d3fc88fb81caee9547bb9b7b0b8e9ff286d23d7cc1efaf8dc63b4db3cf",
+  "independently_verified_blinding": false,
+  "repeatability_measured": false,
+  "numerical_accuracy_gates_frozen": false,
+  "ready_for_geometry_scoring": false,
+  "ready_for_possession_evaluation": false,
+  "model_predictions_read": false
+}

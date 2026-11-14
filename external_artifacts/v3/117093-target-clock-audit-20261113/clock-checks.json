@@ -1,0 +1,14 @@
+{
+  "checks": [
+    "known_first_half_clock_offset",
+    "absolute_second_half_clock_origin",
+    "missing_actor_not_forced",
+    "shared_provider_not_independent_visual_proof",
+    "ambiguous_offset_not_selected",
+    "outside_identity_window_not_matched",
+    "interval_counts_equal_checksum_verified_payload"
+  ],
+  "passed": 7,
+  "fixtures": "synthetic event identities plus aggregate consistency of verified external XML",
+  "candidate_scores_computed": false
+}

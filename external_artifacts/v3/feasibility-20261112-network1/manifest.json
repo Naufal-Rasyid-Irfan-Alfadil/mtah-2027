@@ -1,0 +1,36 @@
+{
+  "created_at": "2026-11-12T13:18:35.782048+00:00",
+  "authenticated": false,
+  "dataset_payloads_downloaded": false,
+  "max_bytes_per_response": 2097152,
+  "sources": [
+    {
+      "name": "dfl-catalog-v1",
+      "url": "https://api.figshare.com/v2/articles/28196177/versions/1",
+      "retrieved_at": "2026-11-12T13:18:34.236491+00:00",
+      "purpose": "public catalog or release documentation; no match payload",
+      "error": "<urlopen error [WinError 10013] An attempt was made to access a socket in a way forbidden by its access permissions>"
+    },
+    {
+      "name": "soccertrack-version",
+      "url": "https://huggingface.co/api/datasets/atomscott/soccertrack-v2/revision/v1.2",
+      "retrieved_at": "2026-11-12T13:18:35.389947+00:00",
+      "purpose": "public catalog or release documentation; no match payload",
+      "error": "<urlopen error [WinError 10013] An attempt was made to access a socket in a way forbidden by its access permissions>"
+    },
+    {
+      "name": "soccertrack-file-catalog",
+      "url": "https://huggingface.co/api/datasets/atomscott/soccertrack-v2/tree/v1.2?recursive=true&limit=1000",
+      "retrieved_at": "2026-11-12T13:18:35.622925+00:00",
+      "purpose": "public catalog or release documentation; no match payload",
+      "error": "<urlopen error [WinError 10013] An attempt was made to access a socket in a way forbidden by its access permissions>"
+    },
+    {
+      "name": "soccertrack-changes",
+      "url": "https://huggingface.co/datasets/atomscott/soccertrack-v2/resolve/v1.2/CHANGES_v1_2.md",
+      "retrieved_at": "2026-11-12T13:18:35.702368+00:00",
+      "purpose": "public catalog or release documentation; no match payload",
+      "error": "<urlopen error [WinError 10013] An attempt was made to access a socket in a way forbidden by its access permissions>"
+    }
+  ]
+}
